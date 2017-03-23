@@ -31,18 +31,46 @@
     <EmbeddedResource Include="App.xaml">
       <LogicalName>App.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="rodriguezPage.xaml">
+    <EmbeddedResource Include="UI\rodriguezPage.xaml">
       <LogicalName>rodriguezPage.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BonosView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>BonosView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ComprasView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ComprasView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ConfigView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ConfigView.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="rodriguezPage.xaml.cs">
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Bono.cs" />
+    <Compile Include="Data\BonoManager.cs" />
+    <Compile Include="Data\cliente.cs" />
+    <Compile Include="Data\moneda.cs" />
+    <Compile Include="Data\estadobono.cs" />
+    <Compile Include="Data\historialbono.cs" />
+    <Compile Include="Data\listacompra.cs" />
+    <Compile Include="UI\rodriguezPage.xaml.cs">
       <DependentUpon>rodriguezPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\BonosView.xaml.cs">
+      <DependentUpon>BonosView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ComprasView.xaml.cs">
+      <DependentUpon>ComprasView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ConfigView.xaml.cs">
+      <DependentUpon>ConfigView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -57,6 +85,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="UI\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
