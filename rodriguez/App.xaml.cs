@@ -8,7 +8,8 @@ namespace rodriguez
 		{
 			InitializeComponent();
 
-			MainPage = new rodriguezPage();
+			MainPage = new NavigationPage(new rodriguezPage());
+			//MainPage = new NavigationPage(new BonosView());
 		}
 
 		protected override void OnStart()

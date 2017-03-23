@@ -4,4 +4,6 @@
 	xmlns:local="clr-namespace:rodriguez" 
 	x:Class="rodriguez.rodriguezPage"
 	Title="SM Rodríguez">
+
+	
 </TabbedPage>

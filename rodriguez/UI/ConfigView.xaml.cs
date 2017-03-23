@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Diagnostics;
 using Xamarin.Forms;
 
 namespace rodriguez
@@ -10,6 +10,10 @@ namespace rodriguez
 		public ConfigView()
 		{
 			InitializeComponent();
+			ToolbarItems.Add(new ToolbarItem("Click", null, () =>
+			{
+				Debug.WriteLine("Clicked");
+			}));
 		}
 	}
 }
