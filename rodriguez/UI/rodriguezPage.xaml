@@ -3,7 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	xmlns:local="clr-namespace:rodriguez" 
 	x:Class="rodriguez.rodriguezPage"
-	Title="SM Rodríguez">
+	Title="Supermercado Rodríguez">
 
 	
 </TabbedPage>

@@ -5,6 +5,13 @@
 	<ContentPage.Padding>
 	    <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
     </ContentPage.Padding>
-	
+
+	<ListView x:Name="BonosList">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <TextCell Text="{Binding nombreCompleto}" Detail="{Binding Monto}"/>>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
 	
 </ContentPage>

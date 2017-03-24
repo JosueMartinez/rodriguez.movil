@@ -21,5 +21,17 @@ namespace rodriguez
 		public moneda moneda { get; set; }
 		public estadobono estadobono { get; set; }
 		public ICollection<historialbono> historialbonoes { get; set; }
+
+		#region custom
+		public string nombreCompleto
+		{
+			get { return nombreDestino + " " + apellidoDestino; }
+		}
+
+		public string Monto
+		{
+			get { return moneda.simbolo + "$ " + monto; }
+		}
+		#endregion
 	}
 }
