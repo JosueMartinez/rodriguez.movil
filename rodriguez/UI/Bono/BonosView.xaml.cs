@@ -16,29 +16,46 @@ namespace rodriguez
 		public BonosView()
 		{
 			InitializeComponent();
-			//Setting toolba
+
+			#region toolbar
 			ToolbarItems.Add(new ToolbarItem("Click", null, () =>
 			{
 				Debug.WriteLine("Clicked");
 			}));
+			#endregion
 
-			//Populating ListView
-			//BindingContext = bonos;
-			refresh();
-			BonosList.SeparatorColor = Color.Red;
-			BonosList.ItemsSource = bonos;
+			refreshData();
+
+			BindingContext = bonos;
 		}
 
-		async void refresh()
+		async void refreshData()
 		{
 			this.IsBusy = true;
 			var bonosLista = await manager.GetAll();  //obtaining bonos from Server
-			foreach (Bono bono in bonosLista)
+
+			if (bonosLista.Count() > 1)
 			{
-				if (bonos.All(b => b.id != bono.id))
-					bonos.Add(bono);
+				foreach (Bono bono in bonosLista)
+				{
+					if (bonos.All(b => b.id != bono.id))
+						bonos.Add(bono);
+				}
 			}
+			else
+			{
+				BonosList.IsVisible = false;
+				BonosListMessage.IsVisible = true;
+			}
+
+
 			this.IsBusy = false;
+		}
+
+		async void ViewDetails(object sender, ItemTappedEventArgs e)
+		{
+			Bono b = (Bono)e.Item;
+			await Navigation.PushModalAsync(new BonoDetail(b));
 		}
 	}
 }

@@ -16,10 +16,12 @@ namespace rodriguez
 		public string nombreDestino { get; set; }
 		public string apellidoDestino { get; set; }
 		public string cedulaDestino { get; set; }
+		public string telefonoDestino { get; set; }
 		public DateTime fechaCompra { get; set; }
 		public cliente cliente { get; set; }
 		public moneda moneda { get; set; }
 		public estadobono estadobono { get; set; }
+
 		public ICollection<historialbono> historialbonoes { get; set; }
 
 		#region custom
@@ -31,6 +33,16 @@ namespace rodriguez
 		public string Monto
 		{
 			get { return moneda.simbolo + "$ " + monto; }
+		}
+
+		public string destinoCompleto
+		{
+			get
+			{
+				return nombreCompleto + "\n" +
+					cedulaDestino + "\n" +  //TODO: Mask cedula
+					telefonoDestino;  //TODO: Mask telefono
+			}
 		}
 		#endregion
 	}

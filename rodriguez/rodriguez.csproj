@@ -5,12 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F0C621BB-EA60-46B5-8626-229E18784C12}</ProjectGuid>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <UseMSBuildEngine>true</UseMSBuildEngine>
     <OutputType>Library</OutputType>
     <RootNamespace>rodriguez</RootNamespace>
     <AssemblyName>rodriguez</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,10 +33,6 @@
     <EmbeddedResource Include="UI\rodriguezPage.xaml">
       <LogicalName>rodriguezPage.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\BonosView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>BonosView.xaml</LogicalName>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\ComprasView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ComprasView.xaml</LogicalName>
@@ -45,6 +40,14 @@
     <EmbeddedResource Include="UI\ConfigView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ConfigView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Bono\BonosView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>BonosView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Bono\BonoDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>BonoDetail.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -62,9 +65,6 @@
     <Compile Include="UI\rodriguezPage.xaml.cs">
       <DependentUpon>rodriguezPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\BonosView.xaml.cs">
-      <DependentUpon>BonosView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UI\ComprasView.xaml.cs">
       <DependentUpon>ComprasView.xaml</DependentUpon>
     </Compile>
@@ -73,6 +73,13 @@
     </Compile>
     <Compile Include="Classes\Constants.cs" />
     <Compile Include="UI\Notifications.cs" />
+    <Compile Include="UI\Bono\BonosView.xaml.cs">
+      <DependentUpon>BonosView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Bono\BonoDetail.xaml.cs">
+      <DependentUpon>BonoDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Book.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -87,6 +94,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -95,6 +108,7 @@
     <Folder Include="Data\" />
     <Folder Include="UI\" />
     <Folder Include="Classes\" />
+    <Folder Include="UI\Bono\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
