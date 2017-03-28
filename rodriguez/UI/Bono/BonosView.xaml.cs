@@ -20,7 +20,7 @@ namespace rodriguez
 			#region toolbar
 			ToolbarItems.Add(new ToolbarItem("Add", null, () =>
 			{
-				Debug.WriteLine("Clicked");
+				addBono();
 			}));
 			#endregion
 
@@ -54,7 +54,13 @@ namespace rodriguez
 		async void ViewDetails(object sender, ItemTappedEventArgs e)
 		{
 			Bono b = (Bono)e.Item;
-			await Navigation.PushModalAsync(new BonoDetail(b));
+			await Navigation.PushAsync(new BonoDetail(b));
+		}
+
+		async void addBono()
+		{
+			Debug.WriteLine("Agregar Bono");
+			await Navigation.PushAsync(new AddBono());
 		}
 	}
 }

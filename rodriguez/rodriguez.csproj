@@ -49,6 +49,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>BonoDetail.xaml</LogicalName>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Bono\AddBono.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>AddBono.xaml</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -80,6 +84,9 @@
       <DependentUpon>BonoDetail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data\Book.cs" />
+    <Compile Include="UI\Bono\AddBono.xaml.cs">
+      <DependentUpon>AddBono.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
