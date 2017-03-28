@@ -9,13 +9,37 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<Label x:Name="BonosListMessage" IsVisible="false" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="No exixten bonos para mostrar"/>
-			<ListView x:Name="BonosList" ItemsSource="{Binding}" ItemTapped="ViewDetails" SeparatorVisibility="Default" SeparatorColor="Red">
+
+			<ListView x:Name="BonosList" ItemsSource="{Binding}" ItemTapped="ViewDetails" SeparatorVisibility="Default" 
+				SeparatorColor="Red" RowHeight="70">
 			    <ListView.ItemTemplate>
 			      <DataTemplate>
-			        <TextCell Text="{Binding nombreCompleto}" Detail="{Binding Monto}"/>>
+						<ViewCell>
+							<Grid>
+								<Grid.Padding>
+									<OnPlatform x:TypeArguments="Thickness" iOS="10,5" Android="10,5"/>
+								</Grid.Padding>
+								<Grid.RowDefinitions>
+									<RowDefinition Height="*"/>
+									<RowDefinition Height="*"/>
+									<RowDefinition Height="*"/>
+								</Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="Auto"/>
+									<ColumnDefinition Width="*"/>
+								</Grid.ColumnDefinitions>
+
+								<Label x:Name="monto" Text="{Binding Monto}" Style="{DynamicResource TitleListBono}" Grid.Row="0" Grid.ColumnSpan="2" LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+								<Label x:Name="nombre" Text="{Binding nombreCompleto}" FontSize="Small" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
+								<Label x:Name="estado" Text="Cobrado" FontSize="Small" Grid.Row="1" Grid.Column="1" HorizontalOptions="End"/>
+								<Label x:Name="montoRD" Text="RD$ 2,500" FontSize="Small" Grid.Row="2" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
+								<Label x:Name="fecha" Text="03-Mar-2017" FontSize="Small" Grid.Row="2" Grid.Column="1" HorizontalOptions="End"/>
+							</Grid>
+						</ViewCell>
 			      </DataTemplate>
 			    </ListView.ItemTemplate>
 			  </ListView>
+			
 		</StackLayout>
 	</ContentPage.Content>
 	
