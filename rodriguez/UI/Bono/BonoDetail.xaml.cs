@@ -14,10 +14,10 @@ namespace rodriguez
 			InitializeComponent();
 			inicializarComponentes(bono);
 			//Setting toolbar
-			ToolbarItems.Add(new ToolbarItem("Go Back", null, () =>
-			{
-				Debug.WriteLine("Go Back");
-			}));
+			//ToolbarItems.Add(new ToolbarItem("Go Back", null, () =>
+			//{
+			//	Debug.WriteLine("Go Back");
+			//}));
 
 		}
 

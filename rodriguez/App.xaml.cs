@@ -7,9 +7,11 @@ namespace rodriguez
 		public App()
 		{
 			InitializeComponent();
-
-			MainPage = new NavigationPage(new rodriguezPage());
-			//MainPage = new NavigationPage(new BonosView());
+			MainPage = new NavigationPage(new rodriguezPage())
+			{
+				BarBackgroundColor = Color.Red,
+				BarTextColor = Color.White,
+			};
 		}
 
 		protected override void OnStart()

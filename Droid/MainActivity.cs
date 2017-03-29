@@ -20,7 +20,11 @@ namespace rodriguez.Droid
 
 			base.OnCreate(bundle);
 
+			//adding iconize package
+			Plugin.Iconize.Iconize.With(new Plugin.Iconize.Fonts.FontAwesomeModule());
+
 			global::Xamarin.Forms.Forms.Init(this, bundle);
+			FormsPlugin.Iconize.Droid.IconControls.Init(Resource.Id.toolbar, Resource.Id.tabMode);
 
 			LoadApplication(new App());
 		}
