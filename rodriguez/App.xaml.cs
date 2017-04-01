@@ -7,16 +7,19 @@ namespace rodriguez
 		public App()
 		{
 			InitializeComponent();
-			MainPage = new NavigationPage(new rodriguezPage())
+
+			NavigationPage nav = new NavigationPage(new rodriguezPage())
 			{
 				BarBackgroundColor = Color.Red,
 				BarTextColor = Color.White,
+
 			};
+			MainPage = nav;
 		}
 
 		protected override void OnStart()
 		{
-			// Handle when your app starts
+
 		}
 
 		protected override void OnSleep()

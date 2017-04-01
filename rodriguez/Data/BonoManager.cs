@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using rodriguez.Data;
 
 namespace rodriguez
 {

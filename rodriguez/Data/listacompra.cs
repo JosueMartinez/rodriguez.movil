@@ -1,4 +1,4 @@
-namespace rodriguez
+namespace rodriguez.Data
 {
 	public class listacompra
 	{

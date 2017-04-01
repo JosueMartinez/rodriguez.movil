@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace rodriguez
+namespace rodriguez.Data
 {
 	public class estadobono
 	{

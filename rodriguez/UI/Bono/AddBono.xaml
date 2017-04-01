@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns ="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
-	x:Class="rodriguez.AddBono">
+<ContentPage xmlns ="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
+	xmlns:userControls="clr-namespace:rodriguez.Views.Controls;assembly=rodriguez"
+	xmlns:local="clr-namespace:rodriguez.Data;assembly=rodriguez"
+	xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+	x:Class="rodriguez.AddBono" Title="Comprar Bono">
 
 
 	
 	<ContentPage.Content>
-		<Label Text="Agregar Bono" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-		
+		<Grid x:Name ="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
+
+		        <Grid.ColumnDefinitions>
+		            <ColumnDefinition Width="*" />
+		            <ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+		        </Grid.ColumnDefinitions>
+
+		        <Grid.RowDefinitions>
+		            <RowDefinition Height="Auto" />
+		            <RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+		            <RowDefinition Height="Auto" />
+		            <RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+		        </Grid.RowDefinitions>
+
+				<Label Text="Destinatario" Grid.Row="0" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+				<Label Text="Cédula" Grid.Row="1" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
+				<Label Text="Celular" Grid.Row="2" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
+				<Label Text="Monto" Grid.Row="3" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
+
+				<Entry x:Name="txtDestinatario" Placeholder="Nombre de quien recibe" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+				<Entry x:Name="txtCedula" Keyboard="Numeric" Placeholder="Su Cédula" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+				<Entry x:Name="txtCelular" Keyboard="Numeric" Placeholder="Un número para comunicarnos" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
+				<Entry x:Name="txtMonto" TextChanged="OnMontoChange" Text="{Binding monto, Mode=TwoWay}" Keyboard="Numeric" Placeholder="¿Cuánto?" Grid.Row="3" Grid.Column="1"/>
+				<controls:ExtendedPicker x:Name="cbMoneda" DisplayProperty="simbolo" ItemsSource="{Binding MonedasList}" SelectedItem="{Binding MonedaSeleccionada}" Grid.Row="3" Grid.Column="2"/>
+				<Label x:Name="lbTasaDia" TextColor="Gray" FontSize="Small" FontAttributes="Bold" Text="{Binding TasaDia}" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand"/>
+				<Label x:Name="lbMontoRD" Style="{StaticResource lbMontoRDStyle}" Text="{Binding MontoRD}" Grid.Row="5" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
+			    <Button x:Name="btnComprar" Clicked="comprarBono" Text="Comprar Bono" Grid.Row="7" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
+		</Grid>
+
+
+
 	</ContentPage.Content>
 </ContentPage>

@@ -12,6 +12,11 @@
 				<Setter Property="FontAttributes" Value   ="Bold" />
 				<Setter Property="TextColor" Value   ="Navy" />
 			</Style>
+			<Style x:Key     ="lbMontoRDStyle" TargetType="Label">
+				<Setter Property="FontAttributes" Value   ="Bold" />
+				<Setter Property="FontSize" Value   ="22" />
+				<Setter Property="TextColor" Value   ="Green" />
+			</Style>
 		</ResourceDictionary>
 	</Application.Resources>
 </Application>

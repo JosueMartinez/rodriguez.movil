@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using System.Linq;
 using System.Threading.Tasks;
 using Plugin.Iconize;
+using rodriguez.Data;
 
 namespace rodriguez
 {

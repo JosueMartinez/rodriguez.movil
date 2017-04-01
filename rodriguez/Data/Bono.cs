@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace rodriguez
+namespace rodriguez.Data
 {
 	public class Bono
 	{
@@ -42,6 +42,10 @@ namespace rodriguez
 				return nombreCompleto + "\n" +
 					cedulaDestino + "\n" +  //TODO: Mask cedula
 					telefonoDestino;  //TODO: Mask telefono
+			}
+			set
+			{
+				destinoCompleto = value;
 			}
 		}
 		#endregion

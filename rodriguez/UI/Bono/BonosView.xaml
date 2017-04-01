@@ -9,8 +9,7 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<Label x:Name="BonosListMessage" IsVisible="false" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="No exixten bonos para mostrar"/>
-			<ListView x:Name="BonosList" ItemsSource="{Binding}" ItemTapped="ViewDetails" SeparatorVisibility="Default" 
-				SeparatorColor="Red" RowHeight="70">
+			<ListView x:Name="BonosList" ItemsSource="{Binding}" ItemTapped="ViewDetails" RowHeight="70">
 			    <ListView.ItemTemplate>
 			      <DataTemplate>
 						<ViewCell>

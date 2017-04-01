@@ -1,6 +1,6 @@
 using System;
 
-namespace rodriguez
+namespace rodriguez.Data
 {
 	public class historialbono
 	{

@@ -5,7 +5,7 @@
 	Title="Detalle Bono">
 
 	<Label Text="Detall Bono"/>
-	<Grid x:Name ="GridDetalleBono" Padding="10" Margin="20">
+	<Grid x:Name ="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*" />
