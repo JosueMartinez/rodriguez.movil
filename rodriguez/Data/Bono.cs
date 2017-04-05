@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 
 namespace rodriguez.Data
 {
@@ -30,24 +32,43 @@ namespace rodriguez.Data
 			get { return nombreDestino + " " + apellidoDestino; }
 		}
 
+		[JsonIgnoreAttribute]
 		public string Monto
 		{
-			get { return moneda.simbolo + "$ " + monto; }
+			get { return String.Format("{0}$ {1:##,##0.00}", moneda.simbolo, monto); }
 		}
 
+		[JsonIgnoreAttribute]
+		public string MontoRD
+		{
+			get { return String.Format("RD$ {0:##,##0.00}", monto * moneda.tasaActual); }
+		}
+
+		[JsonIgnoreAttribute]
 		public string destinoCompleto
 		{
 			get
 			{
 				return nombreCompleto + "\n" +
-					cedulaDestino + "\n" +  //TODO: Mask cedula
-					telefonoDestino;  //TODO: Mask telefono
+					Utils.formatCedula(cedulaDestino) + "\n" +
+						 Utils.formaTel(telefonoDestino);
+
 			}
 			set
 			{
 				destinoCompleto = value;
 			}
 		}
+
+		[JsonIgnoreAttribute]
+		public string MetodoPago
+		{
+			get
+			{
+				return "**** - 1756"; //TODO: obtener pago
+			}
+		}
+
 		#endregion
 	}
 }

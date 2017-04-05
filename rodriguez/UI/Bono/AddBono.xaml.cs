@@ -14,7 +14,8 @@ namespace rodriguez
 	public partial class AddBono : ContentPage
 	{
 		ObservableCollection<moneda> monedas;
-		readonly MonedaManager manager = new MonedaManager();
+		readonly MonedaManager monedaManager = new MonedaManager();
+		readonly BonosManager bonoManager = new BonosManager();
 
 
 		public AddBono()
@@ -41,7 +42,7 @@ namespace rodriguez
 
 		async void getMonedas()
 		{
-			var monedasLista = await manager.GetAll();  //obtaining bonos from Server
+			var monedasLista = await monedaManager.GetAll();  //obtaining bonos from Server
 
 			foreach (moneda m in monedasLista)
 			{
@@ -52,35 +53,64 @@ namespace rodriguez
 
 		async void comprarBono(object sender, System.EventArgs e)
 		{
-
-			Bono b = new Bono()
+			var loading = new ActivityIndicator()
 			{
-				//nombreDestino = txtDestinatario.Text,
-				//cedulaDestino = txtCedula.Text,
-				//telefonoDestino = txtCelular.Text
+				Color = Color.Red,
+				IsVisible = true,
+				IsEnabled = true,
+				IsRunning = true
 			};
-			b.monedaId = 1;  //  TODO get selected moneda ID ----- cbMoneda.SelectedIndex ;
-			b.clienteId = 1; //TODO get logged user
-			b.fechaCompra = DateTime.Now;
 
-			//TODO comprar bono
-			if (validarBono(b))
+
+			try
 			{
-				Debug.WriteLine("Listo para comprar");
+				Bono b = new Bono()
+				{
+					nombreDestino = txtNombreDestinatario.Text,
+					apellidoDestino = txtApellidoDestinatario.Text,
+					cedulaDestino = txtCedula.Text,
+					telefonoDestino = txtCelular.Text,
+					monto = int.Parse(txtMonto.Text)
+				};
+				b.monedaId = 1;  //  TODO get selected moneda ID ----- cbMoneda.SelectedIndex ;
+				b.clienteId = 1; //TODO get logged user
+				b.fechaCompra = DateTime.Now;
+
+
+				//TODO comprar bono
+				if (validarBono(b))
+				{
+					if (bonoManager.buyBono(b) != null)
+					{
+						await Navigation.PushAsync(new BonosView());
+					}
+					else
+					{
+						await DisplayAlert("Error!", "Ha ocurrido un error. Por favor intente de nuevo", "OK");
+					}
+				}
+				else
+				{
+					Debug.WriteLine("Hay errores en los datos introducidos");
+				}
 			}
-			else
+			catch (Exception ex)
 			{
-				Debug.WriteLine("Hay errores en los datos introducidos");
+				Debug.WriteLine(ex.ToString());
+				await DisplayAlert("", "Hay errores en los datos introducidos", "OK");
 			}
+
 		}
 
 		bool validarBono(Bono b)
 		{
-			return (Utils.WordsCount(b.nombreCompleto) > 0 &&
+			return (b.nombreDestino.Length > 0 && b.apellidoDestino.Length > 0 &&
 					Utils.IsValidCedula(b.cedulaDestino) &&
 					Utils.IsValidPhone(b.telefonoDestino.Trim()));
 
 		}
+
+
 
 		void OnMontoChange(object sender, Xamarin.Forms.TextChangedEventArgs e)
 		{

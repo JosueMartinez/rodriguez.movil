@@ -14,6 +14,7 @@ namespace rodriguez
 		{
 			InitializeComponent();
 			inicializarComponentes(bono);
+			BindingContext = bono;
 			//Setting toolbar
 			//ToolbarItems.Add(new ToolbarItem("Go Back", null, () =>
 			//{
@@ -24,11 +25,10 @@ namespace rodriguez
 
 		private void inicializarComponentes(Bono b)
 		{
-			bonoIdDetail.Text = b.id.ToString();
-			montoDetail.Text = b.Monto;
-			emitidoADetail.Text = b.destinoCompleto;
+
+			//emitidoADetail.Text = b.destinoCompleto;
 			metodoPagoDetail.Text = "**** - 1756"; //TODO: obtener pago
-			montoRdDetail.Text = 25.50.ToString();
+												   //montoRdDetail.Text = 25.50.ToString();
 
 		}
 	}

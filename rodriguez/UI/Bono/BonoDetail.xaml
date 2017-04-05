@@ -34,11 +34,11 @@
 <!--		Fin Columnas-->
 
 <!--	Details	-->
-		<Label x:Name="bonoIdDetail"  Style="{StaticResource GridDetail}" Grid.Row="0" Grid.Column="1"/>
-		<Label x:Name="montoDetail" Style="{StaticResource GridDetail}" Grid.Row="1" Grid.Column="1"/>
-		<Label x:Name="emitidoADetail" Style="{StaticResource GridDetail}" Grid.Row="2" Grid.Column="1"/>
+		<Label Text="{Binding id}" x:Name="bonoIdDetail"  Style="{StaticResource GridDetail}" Grid.Row="0" Grid.Column="1"/>
+		<Label Text="{Binding Monto}" Style="{StaticResource GridDetail}" Grid.Row="1" Grid.Column="1"/>
+		<Label Text="{Binding destinoCompleto}" x:Name="emitidoADetail" Style="{StaticResource GridDetail}" Grid.Row="2" Grid.Column="1"/>
 		<Label x:Name="metodoPagoDetail"  Style="{StaticResource GridDetail}" Grid.Row="3" Grid.Column="1"/>
-		<Label x:Name="montoRdDetail"  Style="{StaticResource GridDetail}" Grid.Row="4" Grid.Column="1"/>
+		<Label Text="{Binding MontoRD}" x:Name="montoRDDetail"  Style="{StaticResource GridDetail}" Grid.Row="4" Grid.Column="1"/>
 		<Label x:Name="costoCompraDetail" Style="{StaticResource GridDetail}" Grid.Row="5" Grid.Column="1"/>
 		<Label x:Name="totalCobradoDetail" Style="{StaticResource GridDetail}" Grid.Row="6" Grid.Column="1"/>
 		<Label x:Name="estadoDetail" Style="{StaticResource GridDetail}" Grid.Row="7" Grid.Column="1"/>

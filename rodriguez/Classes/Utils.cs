@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -50,6 +50,17 @@ namespace rodriguez
 			int dig = ((10 - sum % 10) % 10);
 
 			return dig == (int)Char.GetNumericValue(str[10]);
+		}
+
+		internal static string formatCedula(string cedulaDestino)
+		{
+			return Regex.Replace(cedulaDestino, @"^(...)(.......)(.)$", "$1-$2-$3");
+
+		}
+
+		internal static string formaTel(string telefonoDestino)
+		{
+			return Regex.Replace("8099801767", @"^(...)(...)(....)$", "$1-$2-$3");
 		}
 
 		#region Cédulas that do not fill the criteria of the algorithm

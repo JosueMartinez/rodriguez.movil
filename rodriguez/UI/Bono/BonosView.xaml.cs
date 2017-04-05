@@ -35,22 +35,31 @@ namespace rodriguez
 			this.IsBusy = true;
 			var bonosLista = await manager.GetAll();  //obtaining bonos from Server
 
-			if (bonosLista.Count() > 0)
+			if (bonosLista != null)
 			{
-				foreach (Bono bono in bonosLista)
+				if (bonosLista.Count() > 0)
 				{
-					if (bonos.All(b => b.id != bono.id))
-						bonos.Add(bono);
+					foreach (Bono bono in bonosLista)
+					{
+						if (bonos.All(b => b.id != bono.id))
+							bonos.Add(bono);
+					}
+				}
+				else
+				{
+					BonosList.IsVisible = false;
+					BonosListMessage.IsVisible = true;
 				}
 			}
 			else
 			{
-				BonosList.IsVisible = false;
-				BonosListMessage.IsVisible = true;
+				await DisplayAlert("Error!", "Se ha producido un error en la conexión", "OK");
 			}
 
 
+
 			this.IsBusy = false;
+			//await DisplayAlert("Subject?", "Text", "Yes", "No");
 		}
 
 		async void ViewDetails(object sender, ItemTappedEventArgs e)
@@ -61,7 +70,6 @@ namespace rodriguez
 
 		async void addBono()
 		{
-			Debug.WriteLine("Agregar Bono");
 			await Navigation.PushAsync(new AddBono());
 		}
 	}

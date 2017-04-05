@@ -26,21 +26,24 @@
 					<RowDefinition Height="Auto" />
 					<RowDefinition Height="Auto" />
 					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
 		        </Grid.RowDefinitions>
 
-				<Label Text="Destinatario" Grid.Row="0" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
-				<Label Text="Cédula" Grid.Row="1" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
-				<Label Text="Celular" Grid.Row="2" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
-				<Label Text="Monto" Grid.Row="3" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
+				<Label Text="Nombre Destino" Grid.Row="0" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+				<Label Text="Apellido Destino" Grid.Row="1" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+				<Label Text="Cédula" Grid.Row="2" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
+				<Label Text="Celular" Grid.Row="3" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
+				<Label Text="Monto" Grid.Row="4" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
 
-				<Entry x:Name="txtDestinatario" Placeholder="Nombre de quien recibe" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
-				<Entry x:Name="txtCedula" Keyboard="Numeric" Placeholder="Su Cédula" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
-				<Entry x:Name="txtCelular" Keyboard="Numeric" Placeholder="Un número para comunicarnos" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
-				<Entry x:Name="txtMonto" TextChanged="OnMontoChange" Text="{Binding monto, Mode=TwoWay}" Keyboard="Numeric" Placeholder="¿Cuánto?" Grid.Row="3" Grid.Column="1"/>
-				<controls:ExtendedPicker x:Name="cbMoneda" DisplayProperty="simbolo" ItemsSource="{Binding MonedasList}" SelectedItem="{Binding MonedaSeleccionada}" Grid.Row="3" Grid.Column="2"/>
-				<Label x:Name="lbTasaDia" TextColor="Gray" FontSize="Small" FontAttributes="Bold" Text="{Binding TasaDia}" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand"/>
-				<Label x:Name="lbMontoRD" Style="{StaticResource lbMontoRDStyle}" Text="{Binding MontoRD}" Grid.Row="5" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
-			    <Button x:Name="btnComprar" Clicked="comprarBono" Text="Comprar Bono" Grid.Row="7" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
+				<Entry x:Name="txtNombreDestinatario" Placeholder="Nombres de quien recibe" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+			    <Entry x:Name="txtApellidoDestinatario" Placeholder="Apellidos de quien recibe" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>  
+				<Entry x:Name="txtCedula" Keyboard="Numeric" Placeholder="Su Cédula" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
+				<Entry x:Name="txtCelular" Keyboard="Numeric" Placeholder="Un número para comunicarnos" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"/>
+				<Entry x:Name="txtMonto" TextChanged="OnMontoChange" Text="{Binding monto, Mode=TwoWay}" Keyboard="Numeric" Placeholder="¿Cuánto?" Grid.Row="4" Grid.Column="1"/>
+				<controls:ExtendedPicker x:Name="cbMoneda" DisplayProperty="simbolo" ItemsSource="{Binding MonedasList}" SelectedItem="{Binding MonedaSeleccionada}" Grid.Row="4" Grid.Column="2"/>
+				<Label x:Name="lbTasaDia" TextColor="Gray" FontSize="Small" FontAttributes="Bold" Text="{Binding TasaDia}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand"/>
+				<Label x:Name="lbMontoRD" Style="{StaticResource lbMontoRDStyle}" Text="{Binding MontoRD}" Grid.Row="6" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
+			    <Button x:Name="btnComprar" Clicked="comprarBono" Text="Comprar Bono" Grid.Row="8" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
 		</Grid>
 
 

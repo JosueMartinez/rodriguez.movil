@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using rodriguez.Data;
+using XLabs.Forms.Controls;
+using System.Text;
 
 namespace rodriguez
 {
@@ -42,6 +44,32 @@ namespace rodriguez
 			}
 
 			return null;
+		}
+
+		public async Task<Bono> buyBono(Bono b)
+		{
+			try
+			{
+				HttpClient cliente = new HttpClient();
+				var response = await cliente.PostAsync(Url,
+								new StringContent(
+									JsonConvert.SerializeObject(b),
+									Encoding.UTF8, "application/json"));
+
+				if (response.IsSuccessStatusCode)
+				{
+					return JsonConvert.DeserializeObject<Bono>(
+						await response.Content.ReadAsStringAsync());
+				}
+			}
+			catch (Exception e)
+			{
+				Debug.WriteLine(e.ToString());
+				return null;
+			}
+
+			return null;
+
 		}
 	}
 }
