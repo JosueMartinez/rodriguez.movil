@@ -27,7 +27,8 @@ namespace rodriguez
 			#endregion
 
 			refreshData();
-			BindingContext = bonos;
+			BonosList.ItemsSource = bonos;
+			//BindingContext = bonos;
 		}
 
 		async void refreshData()
