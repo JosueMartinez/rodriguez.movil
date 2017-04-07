@@ -14,6 +14,7 @@ namespace rodriguez
 	{
 		readonly IList<Bono> bonos = new ObservableCollection<Bono>();
 		readonly BonosManager manager = new BonosManager();
+		readonly MonedaManager monedaManager = new MonedaManager();
 
 		public BonosView()
 		{
@@ -42,6 +43,7 @@ namespace rodriguez
 				{
 					foreach (Bono bono in bonosLista)
 					{
+						bono.tasa.moneda = await monedaManager.GetByID(bono.tasa.monedaId);
 						if (bonos.All(b => b.id != bono.id))
 							bonos.Add(bono);
 					}

@@ -27,5 +27,19 @@ namespace rodriguez.Data
 
 			return null;
 		}
+
+		public async Task<moneda> GetByID(int id)
+		{
+			HttpClient cliente = new HttpClient();
+			var response = await cliente.GetAsync(Constants.baseUrl + String.Format("monedas/{0}", id));
+			if (response.IsSuccessStatusCode)
+			{
+				var content = await response.Content.ReadAsStringAsync();
+				return JsonConvert.DeserializeObject<moneda>(
+								await response.Content.ReadAsStringAsync());
+			}
+
+			return null;
+		}
 	}
 }

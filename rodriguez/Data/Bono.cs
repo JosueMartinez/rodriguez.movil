@@ -13,7 +13,7 @@ namespace rodriguez.Data
 
 		public int id { get; set; }
 		public double monto { get; set; }
-		public int monedaId { get; set; }
+		public int tasaId { get; set; }
 		public int clienteId { get; set; }
 		public string nombreDestino { get; set; }
 		public string apellidoDestino { get; set; }
@@ -21,7 +21,7 @@ namespace rodriguez.Data
 		public string telefonoDestino { get; set; }
 		public DateTime fechaCompra { get; set; }
 		public cliente cliente { get; set; }
-		public moneda moneda { get; set; }
+		public tasa tasa { get; set; }
 		public estadobono estadobono { get; set; }
 
 		public ICollection<historialbono> historialbonoes { get; set; }
@@ -35,13 +35,13 @@ namespace rodriguez.Data
 		[JsonIgnoreAttribute]
 		public string Monto
 		{
-			get { return String.Format("{0}$ {1:##,##0.00}", moneda.simbolo, monto); }
+			get { return String.Format("{0}$ {1:##,##0.00}", tasa.moneda.simbolo, monto); }
 		}
 
 		[JsonIgnoreAttribute]
 		public string MontoRD
 		{
-			get { return String.Format("RD$ {0:##,##0.00}", monto * moneda.tasaActual); }
+			get { return String.Format("RD$ {0:##,##0.00}", monto * tasa.valor); }
 		}
 
 		[JsonIgnoreAttribute]

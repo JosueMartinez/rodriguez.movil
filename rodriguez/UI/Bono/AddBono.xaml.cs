@@ -23,21 +23,17 @@ namespace rodriguez
 			tasaDia = 45.90; //TODO obtener tasa diaria con respecto a la moneda seleccionada
 			getMonedas();
 
+			MonedaSeleccionada = new moneda() { descripcion = "Dolar Estadounidense", simbolo = "USD" };
+
 			MonedasList = new ObservableCollection<moneda>() {
 				new moneda(){ descripcion= "Peso Dominicano", simbolo = "RD$" },
-				new moneda(){ descripcion= "Dolar Estadounidense", simbolo = "USD" },
+				MonedaSeleccionada,
 				new moneda(){ descripcion= "Euro", simbolo = "EUR" }
 			};
-			MonedaSeleccionada = MonedasList.Where(x => x.simbolo == "USD");
+			//MonedaSeleccionada = MonedasList.Where(x => x.simbolo == "USD");
 
 			InitializeComponent();
-
-
 			BindingContext = this;
-
-
-
-
 		}
 
 		async void getMonedas()
@@ -72,7 +68,7 @@ namespace rodriguez
 					telefonoDestino = txtCelular.Text,
 					monto = int.Parse(txtMonto.Text)
 				};
-				b.monedaId = 1;  //  TODO get selected moneda ID ----- cbMoneda.SelectedIndex ;
+				b.tasaId = 11;  //  TODO get selected moneda ID ----- cbMoneda.SelectedIndex ;
 				b.clienteId = 1; //TODO get logged user
 				b.fechaCompra = DateTime.Now;
 
@@ -120,8 +116,8 @@ namespace rodriguez
 			lbMontoRD.Text = MontoRD;
 		}
 
-		private object monedaSeleccionada;
-		public object MonedaSeleccionada
+		private moneda monedaSeleccionada;
+		public moneda MonedaSeleccionada
 		{
 			get
 			{
