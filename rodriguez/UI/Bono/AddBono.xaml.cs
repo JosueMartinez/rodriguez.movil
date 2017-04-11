@@ -15,58 +15,41 @@ namespace rodriguez
 {
 	public partial class AddBono : ContentPage
 	{
-		ObservableCollection<moneda> monedas;
+		IEnumerable<moneda> monedas;
 		readonly MonedaManager monedaManager = new MonedaManager();
 		readonly TasaManager tasaManager = new TasaManager();
 		readonly BonosManager bonoManager = new BonosManager();
-		tasa tasaActual;
-
+		private tasa tasa {get;set;}
+		private moneda monedaSeleccionada { get; set; }
+		private double tasaDia { get; set; }
+		private double montoRD { get; set; }
 
 		public AddBono()
 		{
 
 			getMonedas();
-
-			MonedaSeleccionada = new moneda() { descripcion = "Dolar Estadounidense", simbolo = "USD" };
-
-			MonedasList = new ObservableCollection<moneda>() {
-				new moneda(){ descripcion= "Peso Dominicano", simbolo = "RD" },
-				MonedaSeleccionada,
-				new moneda(){ descripcion= "Euro", simbolo = "EUR" }
-			};
-
-			GetTasaActual(MonedaSeleccionada);
 			InitializeComponent();
 			BindingContext = this;
 		}
 
 		async void getMonedas()
 		{
-			var monedasLista = await monedaManager.GetAll();  //obtaining bonos from Server
 
-			foreach (moneda m in monedasLista)
-			{
-				monedas.Add(m);
-			}
-
-		}
-
-		async void GetTasaActual(moneda moneda)
-		{
-			tasaActual = await tasaManager.GetBySimbolo(moneda.simbolo);
-			tasaDia = tasaActual.valor;
+			Task<IEnumerable<moneda>> monedasTask = monedaManager.GetAll();
+			monedas = await monedasTask;
+			cbMoneda.ItemsSource = (System.Collections.IList)monedas;
 
 		}
 
 		async void comprarBono(object sender, System.EventArgs e)
 		{
-			var loading = new ActivityIndicator()
-			{
-				Color = Color.Red,
-				IsVisible = true,
-				IsEnabled = true,
-				IsRunning = true
-			};
+			//var loading = new ActivityIndicator()
+			//{
+			//	Color = Color.Red,
+			//	IsVisible = true,
+			//	IsEnabled = true,
+			//	IsRunning = true
+			//};
 
 
 			try
@@ -77,12 +60,11 @@ namespace rodriguez
 					apellidoDestino = txtApellidoDestinatario.Text,
 					cedulaDestino = txtCedula.Text,
 					telefonoDestino = txtCelular.Text,
-					monto = int.Parse(txtMonto.Text)
+					monto = int.Parse(txtMonto.Text),
+					fechaCompra = DateTime.Now,
+					tasaId = tasa.id
 				};
-				b.tasaId = 11;  //  TODO get selected moneda ID ----- cbMoneda.SelectedIndex ;
 				b.clienteId = 1; //TODO get logged user
-				b.fechaCompra = DateTime.Now;
-
 
 				//TODO comprar bono
 				if (validarBono(b))
@@ -113,11 +95,10 @@ namespace rodriguez
 		{
 			return (b.nombreDestino.Length > 0 && b.apellidoDestino.Length > 0 &&
 					Utils.IsValidCedula(b.cedulaDestino) &&
-					Utils.IsValidPhone(b.telefonoDestino.Trim()));
+					Utils.IsValidPhone(b.telefonoDestino.Trim()) &&
+				        monedaSeleccionada != null);
 
 		}
-
-
 
 		void OnMontoChange(object sender, Xamarin.Forms.TextChangedEventArgs e)
 		{
@@ -127,31 +108,21 @@ namespace rodriguez
 			lbMontoRD.Text = MontoRD;
 		}
 
-		private moneda monedaSeleccionada;
-		public moneda MonedaSeleccionada
+		async void OnMonedaChange(object sender, System.EventArgs e)
 		{
-			get
+			if (cbMoneda.SelectedIndex != -1)
 			{
-				return monedaSeleccionada;
-			}
-			set
-			{
-				monedaSeleccionada = value;
-				OnPropertyChanged("MonedaSeleccionada");
+				moneda mon = cbMoneda.SelectedItem as moneda;
+				Task<tasa> tasaTask = tasaManager.GetBySimbolo(mon.simbolo);
+				tasa = await tasaTask;
+				tasaDia = tasa.valor;
+				lbTasaDia.Text = TasaDia;
+				montoRD = double.Parse(txtMonto.Text != null? txtMonto.Text: "0.00") * tasaDia;
+				lbMontoRD.Text = MontoRD;
+				monedaSeleccionada = mon;
 			}
 		}
 
-		public ObservableCollection<moneda> MonedasList
-		{
-			get { return monedas; }
-			set
-			{
-				monedas = value;
-				OnPropertyChanged("MonedasList");
-			}
-		}
-
-		private double tasaDia { get; set; }
 		public string TasaDia
 		{
 			get
@@ -160,24 +131,12 @@ namespace rodriguez
 			}
 		}
 
-		private double montoRD { get; set; }
+
 		public string MontoRD
 		{
 			get
 			{
 				return String.Format("RD$ {0:#,##0.00}", montoRD);
-			}
-		}
-
-		async void OnMonedaChange(object sender, System.EventArgs e)
-		{
-			if (cbMoneda.SelectedIndex != -1)
-			{
-				moneda mon = cbMoneda.SelectedItem as moneda;
-				Task<tasa> tasaTask = tasaManager.GetBySimbolo(mon.simbolo);
-				tasa tasa = await tasaTask;
-				tasaDia = tasa.valor;
-				lbTasaDia.Text = TasaDia;
 			}
 		}
 

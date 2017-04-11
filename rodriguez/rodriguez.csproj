@@ -30,9 +30,6 @@
     <EmbeddedResource Include="App.xaml">
       <LogicalName>App.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\rodriguezPage.xaml">
-      <LogicalName>rodriguezPage.xaml</LogicalName>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\ComprasView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ComprasView.xaml</LogicalName>
@@ -65,9 +62,6 @@
     <Compile Include="Data\estadobono.cs" />
     <Compile Include="Data\historialbono.cs" />
     <Compile Include="Data\listacompra.cs" />
-    <Compile Include="UI\rodriguezPage.xaml.cs">
-      <DependentUpon>rodriguezPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UI\ComprasView.xaml.cs">
       <DependentUpon>ComprasView.xaml</DependentUpon>
     </Compile>
