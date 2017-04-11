@@ -90,7 +90,7 @@
     <Compile Include="Classes\BindablePicker.cs" />
     <Compile Include="Data\moneda.cs" />
     <Compile Include="Data\tasa.cs" />
-    <Compile Include="Data\tasaManager.cs" />
+    <Compile Include="Data\TasaManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">

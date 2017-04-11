@@ -69,6 +69,12 @@ namespace rodriguez.Data
 			}
 		}
 
+		[JsonIgnoreAttribute]
+		public string Estado
+		{
+			get { return estadobono.descripcion; }
+		}
+
 		#endregion
 	}
 }

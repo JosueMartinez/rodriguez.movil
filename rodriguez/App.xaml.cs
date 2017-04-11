@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using System.Linq;
+using FormsPlugin.Iconize;
+using Xamarin.Forms;
 
 namespace rodriguez
 {
@@ -7,14 +9,27 @@ namespace rodriguez
 		public App()
 		{
 			InitializeComponent();
+			var tabbedPage = new IconTabbedPage { Title = "Supermercado Rodriguez", BarTextColor = Color.White, BarBackgroundColor = Color.Red };
 
-			NavigationPage nav = new NavigationPage(new rodriguezPage())
+
+			tabbedPage.Children.Add(new BonosView
 			{
-				BarBackgroundColor = Color.Red,
-				BarTextColor = Color.White,
+				Icon = "fa-money"
+			});
 
-			};
-			MainPage = nav;
+			tabbedPage.Children.Add(new ComprasView
+			{
+				Icon = "fa-shopping-cart"
+			});
+
+			tabbedPage.Children.Add(new ConfigView
+			{
+				Icon = "fa-cogs"
+			});
+
+
+			MainPage = new IconNavigationPage(tabbedPage) { BarTextColor = Color.White, BarBackgroundColor = Color.Red };
+
 		}
 
 		protected override void OnStart()

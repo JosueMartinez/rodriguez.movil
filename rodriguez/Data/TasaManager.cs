@@ -10,7 +10,7 @@ using System.Text;
 
 namespace rodriguez
 {
-	public class tasaManager
+	public class TasaManager
 	{
 		//Obtener todos los tasas
 		const string Url = "http://smrodriguez.azurewebsites.net/api/tasas";
@@ -30,7 +30,7 @@ namespace rodriguez
 			return client;
 		}
 
-		private async Task<tasa> GetByID(int id)
+		public async Task<tasa> GetByID(int id)
 		{
 			HttpClient cliente = new HttpClient();
 			var response = await cliente.GetAsync(Constants.baseUrl + String.Format("monedas/{0}/tasa", id));
@@ -44,7 +44,7 @@ namespace rodriguez
 			return null;
 		}
 
-		private async Task<tasa> GetBySimbolo(string simbolo)
+		public async Task<tasa> GetBySimbolo(string simbolo)
 		{
 			HttpClient cliente = new HttpClient();
 			var response = await cliente.GetAsync(Constants.baseUrl + String.Format("monedas/{0}/tasa", simbolo));
@@ -57,5 +57,6 @@ namespace rodriguez
 
 			return null;
 		}
+
 	}
 }

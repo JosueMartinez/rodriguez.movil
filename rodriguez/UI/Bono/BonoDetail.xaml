@@ -20,6 +20,7 @@
             <RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
 <!--		Columnas-->
@@ -27,10 +28,11 @@
 		<Label x:Name="montoLabel" Text="Monto" Style="{StaticResource GridDetailLabel}" Grid.Row="1" Grid.Column="0"/>
 		<Label x:Name="emitidoALabel" Text="Emitido A" Style="{StaticResource GridDetailLabel}" Grid.Row="2" Grid.Column="0"/>
 		<Label x:Name="metodoPagoLabel" Text="Método Pago" Style="{StaticResource GridDetailLabel}" Grid.Row="3" Grid.Column="0"/>
-		<Label x:Name="montoRdLabel" Text="Monto RD$" Style="{StaticResource GridDetailLabel}" Grid.Row="4" Grid.Column="0"/>
-		<Label x:Name="costoCompraLabel" Text="Costo Compra" Style="{StaticResource GridDetailLabel}" Grid.Row="5" Grid.Column="0"/>
-		<Label x:Name="totalCobradoLabel" Text="Total Cobrado" Style="{StaticResource GridDetailLabel}" Grid.Row="6" Grid.Column="0"/>
-		<Label x:Name="estadoLabel" Text="Estado" Style="{StaticResource GridDetailLabel}" Grid.Row="7" Grid.Column="0"/>
+		<Label x:Name="tasaLabel" Text="Tasa" Style="{StaticResource GridDetailLabel}" Grid.Row="4" Grid.Column="0"/>
+		<Label x:Name="montoRdLabel" Text="Monto RD$" Style="{StaticResource GridDetailLabel}" Grid.Row="5" Grid.Column="0"/>
+		<Label x:Name="costoCompraLabel" Text="Costo Compra" Style="{StaticResource GridDetailLabel}" Grid.Row="6" Grid.Column="0"/>
+		<Label x:Name="totalCobradoLabel" Text="Total Cobrado" Style="{StaticResource GridDetailLabel}" Grid.Row="7" Grid.Column="0"/>
+		<Label x:Name="estadoLabel" Text="Estado" Style="{StaticResource GridDetailLabel}" Grid.Row="8" Grid.Column="0"/>
 <!--		Fin Columnas-->
 
 <!--	Details	-->
@@ -38,10 +40,11 @@
 		<Label Text="{Binding Monto}" Style="{StaticResource GridDetail}" Grid.Row="1" Grid.Column="1"/>
 		<Label Text="{Binding destinoCompleto}" x:Name="emitidoADetail" Style="{StaticResource GridDetail}" Grid.Row="2" Grid.Column="1"/>
 		<Label x:Name="metodoPagoDetail"  Style="{StaticResource GridDetail}" Grid.Row="3" Grid.Column="1"/>
-		<Label Text="{Binding MontoRD}" x:Name="montoRDDetail"  Style="{StaticResource GridDetail}" Grid.Row="4" Grid.Column="1"/>
-		<Label x:Name="costoCompraDetail" Style="{StaticResource GridDetail}" Grid.Row="5" Grid.Column="1"/>
-		<Label x:Name="totalCobradoDetail" Style="{StaticResource GridDetail}" Grid.Row="6" Grid.Column="1"/>
-		<Label x:Name="estadoDetail" Style="{StaticResource GridDetail}" Grid.Row="7" Grid.Column="1"/>
+		<Label Text="{Binding tasa.valor}" x:Name="tasaDetail"  Style="{StaticResource GridDetail}" Grid.Row="4" Grid.Column="1"/>
+		<Label Text="{Binding MontoRD}" x:Name="montoRDDetail"  Style="{StaticResource GridDetail}" Grid.Row="5" Grid.Column="1"/>
+		<Label x:Name="costoCompraDetail" Style="{StaticResource GridDetail}" Grid.Row="6" Grid.Column="1"/>
+		<Label x:Name="totalCobradoDetail" Style="{StaticResource GridDetail}" Grid.Row="7" Grid.Column="1"/>
+		<Label Text="{Binding Estado}"  x:Name="estadoDetail" Style="{StaticResource GridDetail}" Grid.Row="8" Grid.Column="1"/>
 <!--	Fin Details	-->
 	</Grid>
 </ContentPage>

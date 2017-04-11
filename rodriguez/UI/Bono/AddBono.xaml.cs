@@ -8,6 +8,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Collections.ObjectModel;
 using rodriguez.Data;
 using System.Linq;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace rodriguez
 {
@@ -15,23 +17,25 @@ namespace rodriguez
 	{
 		ObservableCollection<moneda> monedas;
 		readonly MonedaManager monedaManager = new MonedaManager();
+		readonly TasaManager tasaManager = new TasaManager();
 		readonly BonosManager bonoManager = new BonosManager();
+		tasa tasaActual;
 
 
 		public AddBono()
 		{
-			tasaDia = 45.90; //TODO obtener tasa diaria con respecto a la moneda seleccionada
+
 			getMonedas();
 
 			MonedaSeleccionada = new moneda() { descripcion = "Dolar Estadounidense", simbolo = "USD" };
 
 			MonedasList = new ObservableCollection<moneda>() {
-				new moneda(){ descripcion= "Peso Dominicano", simbolo = "RD$" },
+				new moneda(){ descripcion= "Peso Dominicano", simbolo = "RD" },
 				MonedaSeleccionada,
 				new moneda(){ descripcion= "Euro", simbolo = "EUR" }
 			};
-			//MonedaSeleccionada = MonedasList.Where(x => x.simbolo == "USD");
 
+			GetTasaActual(MonedaSeleccionada);
 			InitializeComponent();
 			BindingContext = this;
 		}
@@ -44,6 +48,13 @@ namespace rodriguez
 			{
 				monedas.Add(m);
 			}
+
+		}
+
+		async void GetTasaActual(moneda moneda)
+		{
+			tasaActual = await tasaManager.GetBySimbolo(moneda.simbolo);
+			tasaDia = tasaActual.valor;
 
 		}
 
@@ -155,6 +166,18 @@ namespace rodriguez
 			get
 			{
 				return String.Format("RD$ {0:#,##0.00}", montoRD);
+			}
+		}
+
+		async void OnMonedaChange(object sender, System.EventArgs e)
+		{
+			if (cbMoneda.SelectedIndex != -1)
+			{
+				moneda mon = cbMoneda.SelectedItem as moneda;
+				Task<tasa> tasaTask = tasaManager.GetBySimbolo(mon.simbolo);
+				tasa tasa = await tasaTask;
+				tasaDia = tasa.valor;
+				lbTasaDia.Text = TasaDia;
 			}
 		}
 

@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System;
 using System.Collections.ObjectModel;
 
@@ -11,10 +11,12 @@ namespace rodriguez.Data
 		public string descripcion { get; set; }
 		public string simbolo { get; set; }
 
-		public double tasaActual
-		{
-			get { return 45.50; }  // TODO obtener de historial de cambio
-		}
+		//public double tasaActual
+		//{
+		//	get { 
+		//		return 45.50; 
+		//	}  // TODO obtener de historial de cambio
+		//}
 
 	}
 }

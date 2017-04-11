@@ -20,12 +20,12 @@ namespace rodriguez
 		{
 			InitializeComponent();
 
-			#region toolbar
-			ToolbarItems.Add(new ToolbarItem("Add", null, () =>
-			{
-				addBono();
-			}));
-			#endregion
+			//#region toolbar
+			//ToolbarItems.Add(new ToolbarItem("Add", null, () =>
+			//{
+			//	addBono();
+			//}));
+			//#endregion
 
 			refreshData();
 			BonosList.ItemsSource = bonos;
@@ -71,9 +71,9 @@ namespace rodriguez
 			await Navigation.PushAsync(new BonoDetail(b));
 		}
 
-		async void addBono()
+		void addBono(object sender, System.EventArgs e)
 		{
-			await Navigation.PushAsync(new AddBono());
+			Navigation.PushAsync(new AddBono());
 		}
 	}
 }
