@@ -43,13 +43,13 @@ namespace rodriguez
 
 		async void comprarBono(object sender, System.EventArgs e)
 		{
-			//var loading = new ActivityIndicator()
-			//{
-			//	Color = Color.Red,
-			//	IsVisible = true,
-			//	IsEnabled = true,
-			//	IsRunning = true
-			//};
+			var loading = new ActivityIndicator()
+			{
+				Color = Color.Red,
+				IsVisible = true,
+				IsEnabled = true,
+				IsRunning = true
+			};
 
 
 			try
@@ -71,7 +71,8 @@ namespace rodriguez
 				{
 					if (bonoManager.buyBono(b) != null)
 					{
-						await Navigation.PushAsync(new BonosView());
+						
+						await Navigation.PopAsync();//.PushAsync(new BonosView());
 					}
 					else
 					{

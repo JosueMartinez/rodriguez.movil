@@ -36,7 +36,7 @@
 								<Label x:Name="nombre" Text="{Binding nombreCompleto}" FontSize="Small" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
 								<Label x:Name="estado" Text="{Binding Estado}" FontSize="Small" Grid.Row="1" Grid.Column="1" HorizontalOptions="End" TextColor="Green"/>
 								<Label x:Name="montoRD" Text="{Binding MontoRD}" FontSize="Small" Grid.Row="2" Grid.Column="0" HorizontalOptions="StartAndExpand"/>
-								<Label x:Name="fecha" Text="03-Mar-2017" FontSize="Small" Grid.Row="2" Grid.Column="1" HorizontalOptions="End"/>
+								<Label x:Name="fecha" Text="{Binding fechaCompra, StringFormat='{0:dd-MMM-yyyy}'}" FontSize="Small" Grid.Row="2" Grid.Column="1" HorizontalOptions="End"/>
 							</Grid>
 						</ViewCell>
 			      </DataTemplate>

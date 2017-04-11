@@ -18,30 +18,29 @@ namespace rodriguez
 
 		public BonosView()
 		{
+			this.Appearing += (object sender, EventArgs e) => {
+				//InitializeComponent();
+				refreshData();
+				BonosList.ItemsSource = bonos;
+			};
+
 			InitializeComponent();
-
-			//#region toolbar
-			//ToolbarItems.Add(new ToolbarItem("Add", null, () =>
-			//{
-			//	addBono();
-			//}));
-			//#endregion
-
-			refreshData();
-			BonosList.ItemsSource = bonos;
-			//BindingContext = bonos;
+			//refreshData();
+			//BonosList.ItemsSource = bonos;
 		}
 
 		async void refreshData()
 		{
 			this.IsBusy = true;
+			bonos.Clear();
 			var bonosLista = await manager.GetAll();  //obtaining bonos from Server
 
 			if (bonosLista != null)
 			{
 				if (bonosLista.Count() > 0)
 				{
-					foreach (Bono bono in bonosLista)
+					
+					foreach (Bono bono in bonosLista.OrderByDescending(x => x.fechaCompra))
 					{
 						bono.tasa.moneda = await monedaManager.GetByID(bono.tasa.monedaId);
 						if (bonos.All(b => b.id != bono.id))
@@ -74,6 +73,30 @@ namespace rodriguez
 		void addBono(object sender, System.EventArgs e)
 		{
 			Navigation.PushAsync(new AddBono());
+		}
+
+		async void OnAppearing(object sender, EventArgs args)
+		{
+			var bonosLista = await manager.GetAll();  //obtaining bonos from Server
+
+			if (bonosLista != null)
+			{
+				if (bonosLista.Count() > 0)
+				{
+
+					foreach (Bono bono in bonosLista.OrderByDescending(x => x.fechaCompra))
+					{
+						bono.tasa.moneda = await monedaManager.GetByID(bono.tasa.monedaId);
+						if (bonos.All(b => b.id != bono.id))
+							bonos.Add(bono);
+					}
+				}
+				else
+				{
+					BonosList.IsVisible = false;
+					BonosListMessage.IsVisible = true;
+				}
+			}
 		}
 	}
 }

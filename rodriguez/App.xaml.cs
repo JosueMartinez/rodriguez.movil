@@ -6,10 +6,12 @@ namespace rodriguez
 {
 	public partial class App : Application
 	{
+		public IconTabbedPage tabbedPage { get; set; }
+
 		public App()
 		{
 			InitializeComponent();
-			var tabbedPage = new IconTabbedPage { Title = "Supermercado Rodriguez", BarTextColor = Color.White, BarBackgroundColor = Color.Red };
+			tabbedPage = new IconTabbedPage { Title = "Supermercado Rodriguez", BarTextColor = Color.White, BarBackgroundColor = Color.Red };
 
 
 			tabbedPage.Children.Add(new BonosView
