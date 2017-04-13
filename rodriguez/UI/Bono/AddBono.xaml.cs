@@ -3,13 +3,8 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using System.Diagnostics;
-using Xamarin.Forms.Internals;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Collections.ObjectModel;
 using rodriguez.Data;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Threading;
 
 namespace rodriguez
 {
@@ -72,7 +67,7 @@ namespace rodriguez
 					if (bonoManager.buyBono(b) != null)
 					{
 						
-						await Navigation.PopAsync();//.PushAsync(new BonosView());
+						await Navigation.PopAsync();
 					}
 					else
 					{

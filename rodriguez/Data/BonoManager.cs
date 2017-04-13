@@ -13,7 +13,7 @@ namespace rodriguez
 	public class BonosManager
 	{
 		//Obtener todos los bonos
-		const string Url = "http://smrodriguez.azurewebsites.net/api/bonos";
+		//const string Url = "http://smrodriguez.azurewebsites.net/api/bonos";
 		private string authorizationKey;
 
 		private async Task<HttpClient> GetClient()
@@ -21,7 +21,7 @@ namespace rodriguez
 			HttpClient client = new HttpClient();
 			if (string.IsNullOrEmpty(authorizationKey))
 			{
-				authorizationKey = await client.GetStringAsync(Url + "login");
+				authorizationKey = await client.GetStringAsync(Constants.baseUrl + "login");
 				authorizationKey = JsonConvert.DeserializeObject<string>(authorizationKey);
 			}
 
@@ -51,7 +51,7 @@ namespace rodriguez
 			try
 			{
 				HttpClient cliente = new HttpClient();
-				var response = await cliente.PostAsync(Url,
+				var response = await cliente.PostAsync(Constants.baseUrl + "bonos",
 								new StringContent(
 									JsonConvert.SerializeObject(b),
 									Encoding.UTF8, "application/json"));

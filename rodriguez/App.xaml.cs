@@ -16,19 +16,21 @@ namespace rodriguez
 
 			tabbedPage.Children.Add(new BonosView
 			{
+				Title = "Bonos",
 				Icon = "fa-money"
 			});
 
 			tabbedPage.Children.Add(new ComprasView
 			{
+				Title = "Compras",
 				Icon = "fa-shopping-cart"
 			});
 
 			tabbedPage.Children.Add(new ConfigView
 			{
+				Title = "Configuración",
 				Icon = "fa-cogs"
 			});
-
 
 			MainPage = new IconNavigationPage(tabbedPage) { BarTextColor = Color.White, BarBackgroundColor = Color.Red };
 
