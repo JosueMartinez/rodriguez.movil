@@ -53,6 +53,9 @@
     <EmbeddedResource Include="UI\Compras\AddLista.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Compras\ListaDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -81,7 +84,6 @@
     </Compile>
     <Compile Include="Classes\Utils.cs" />
     <Compile Include="Data\MonedaManager.cs" />
-    <Compile Include="Classes\BindablePicker.cs" />
     <Compile Include="Data\moneda.cs" />
     <Compile Include="Data\tasa.cs" />
     <Compile Include="Data\TasaManager.cs" />
@@ -95,6 +97,10 @@
     <Compile Include="UI\Compras\AddLista.xaml.cs">
       <DependentUpon>AddLista.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Compras\ListaDetail.xaml.cs">
+      <DependentUpon>ListaDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AccordionView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">

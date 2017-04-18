@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	Title="{Binding nombre}"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.ListaDetail">
+	<ContentPage.Content>
+		
+	</ContentPage.Content>
+</ContentPage>

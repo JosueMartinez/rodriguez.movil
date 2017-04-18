@@ -61,8 +61,8 @@ namespace rodriguez
 
 		async void ViewDetails(object sender, ItemTappedEventArgs e)
 		{
-			Bono b = (Bono)e.Item;
-			await Navigation.PushAsync(new BonoDetail(b));
+			listacompra l = (listacompra)e.Item;
+			await Navigation.PushAsync(new ListaDetail(l));
 		}
 
 		void addLista(object sender, System.EventArgs e)
