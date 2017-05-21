@@ -26,6 +26,1642 @@ namespace rodriguez.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PayPal.Forms.Android.Resource.Animation.abc_fade_in = global::rodriguez.Droid.Resource.Animation.abc_fade_in;
+			global::PayPal.Forms.Android.Resource.Animation.abc_fade_out = global::rodriguez.Droid.Resource.Animation.abc_fade_out;
+			global::PayPal.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::rodriguez.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_popup_enter = global::rodriguez.Droid.Resource.Animation.abc_popup_enter;
+			global::PayPal.Forms.Android.Resource.Animation.abc_popup_exit = global::rodriguez.Droid.Resource.Animation.abc_popup_exit;
+			global::PayPal.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::rodriguez.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::rodriguez.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_in_top = global::rodriguez.Droid.Resource.Animation.abc_slide_in_top;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::rodriguez.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_out_top = global::rodriguez.Droid.Resource.Animation.abc_slide_out_top;
+			global::PayPal.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::rodriguez.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::rodriguez.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::PayPal.Forms.Android.Resource.Animation.design_fab_in = global::rodriguez.Droid.Resource.Animation.design_fab_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_fab_out = global::rodriguez.Droid.Resource.Animation.design_fab_out;
+			global::PayPal.Forms.Android.Resource.Animation.design_snackbar_in = global::rodriguez.Droid.Resource.Animation.design_snackbar_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_snackbar_out = global::rodriguez.Droid.Resource.Animation.design_snackbar_out;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarDivider = global::rodriguez.Droid.Resource.Attribute.actionBarDivider;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarItemBackground = global::rodriguez.Droid.Resource.Attribute.actionBarItemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::rodriguez.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarSize = global::rodriguez.Droid.Resource.Attribute.actionBarSize;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::rodriguez.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarStyle = global::rodriguez.Droid.Resource.Attribute.actionBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::rodriguez.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabStyle = global::rodriguez.Droid.Resource.Attribute.actionBarTabStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::rodriguez.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTheme = global::rodriguez.Droid.Resource.Attribute.actionBarTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::rodriguez.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionButtonStyle = global::rodriguez.Droid.Resource.Attribute.actionButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionDropDownStyle = global::rodriguez.Droid.Resource.Attribute.actionDropDownStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionLayout = global::rodriguez.Droid.Resource.Attribute.actionLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::rodriguez.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.actionMenuTextColor = global::rodriguez.Droid.Resource.Attribute.actionMenuTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeBackground = global::rodriguez.Droid.Resource.Attribute.actionModeBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::rodriguez.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::rodriguez.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::rodriguez.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::rodriguez.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeStyle = global::rodriguez.Droid.Resource.Attribute.actionModeStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::rodriguez.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::rodriguez.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::rodriguez.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionProviderClass = global::rodriguez.Droid.Resource.Attribute.actionProviderClass;
+			global::PayPal.Forms.Android.Resource.Attribute.actionViewClass = global::rodriguez.Droid.Resource.Attribute.actionViewClass;
+			global::PayPal.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::rodriguez.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::rodriguez.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::rodriguez.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogStyle = global::rodriguez.Droid.Resource.Attribute.alertDialogStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogTheme = global::rodriguez.Droid.Resource.Attribute.alertDialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.allowStacking = global::rodriguez.Droid.Resource.Attribute.allowStacking;
+			global::PayPal.Forms.Android.Resource.Attribute.arrowHeadLength = global::rodriguez.Droid.Resource.Attribute.arrowHeadLength;
+			global::PayPal.Forms.Android.Resource.Attribute.arrowShaftLength = global::rodriguez.Droid.Resource.Attribute.arrowShaftLength;
+			global::PayPal.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::rodriguez.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.background = global::rodriguez.Droid.Resource.Attribute.background;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundSplit = global::rodriguez.Droid.Resource.Attribute.backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundStacked = global::rodriguez.Droid.Resource.Attribute.backgroundStacked;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundTint = global::rodriguez.Droid.Resource.Attribute.backgroundTint;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundTintMode = global::rodriguez.Droid.Resource.Attribute.backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.barLength = global::rodriguez.Droid.Resource.Attribute.barLength;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_hideable = global::rodriguez.Droid.Resource.Attribute.behavior_hideable;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_overlapTop = global::rodriguez.Droid.Resource.Attribute.behavior_overlapTop;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_peekHeight = global::rodriguez.Droid.Resource.Attribute.behavior_peekHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.borderWidth = global::rodriguez.Droid.Resource.Attribute.borderWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::rodriguez.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::rodriguez.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.bottomSheetStyle = global::rodriguez.Droid.Resource.Attribute.bottomSheetStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::rodriguez.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::rodriguez.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::rodriguez.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::rodriguez.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarStyle = global::rodriguez.Droid.Resource.Attribute.buttonBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::rodriguez.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonStyle = global::rodriguez.Droid.Resource.Attribute.buttonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonStyleSmall = global::rodriguez.Droid.Resource.Attribute.buttonStyleSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonTint = global::rodriguez.Droid.Resource.Attribute.buttonTint;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonTintMode = global::rodriguez.Droid.Resource.Attribute.buttonTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.cardBackgroundColor = global::rodriguez.Droid.Resource.Attribute.cardBackgroundColor;
+			global::PayPal.Forms.Android.Resource.Attribute.cardCornerRadius = global::rodriguez.Droid.Resource.Attribute.cardCornerRadius;
+			global::PayPal.Forms.Android.Resource.Attribute.cardElevation = global::rodriguez.Droid.Resource.Attribute.cardElevation;
+			global::PayPal.Forms.Android.Resource.Attribute.cardMaxElevation = global::rodriguez.Droid.Resource.Attribute.cardMaxElevation;
+			global::PayPal.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::rodriguez.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::PayPal.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::rodriguez.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.checkboxStyle = global::rodriguez.Droid.Resource.Attribute.checkboxStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::rodriguez.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.closeIcon = global::rodriguez.Droid.Resource.Attribute.closeIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.closeItemLayout = global::rodriguez.Droid.Resource.Attribute.closeItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.collapseContentDescription = global::rodriguez.Droid.Resource.Attribute.collapseContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.collapseIcon = global::rodriguez.Droid.Resource.Attribute.collapseIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::rodriguez.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::rodriguez.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.color = global::rodriguez.Droid.Resource.Attribute.color;
+			global::PayPal.Forms.Android.Resource.Attribute.colorAccent = global::rodriguez.Droid.Resource.Attribute.colorAccent;
+			global::PayPal.Forms.Android.Resource.Attribute.colorButtonNormal = global::rodriguez.Droid.Resource.Attribute.colorButtonNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlActivated = global::rodriguez.Droid.Resource.Attribute.colorControlActivated;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlHighlight = global::rodriguez.Droid.Resource.Attribute.colorControlHighlight;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlNormal = global::rodriguez.Droid.Resource.Attribute.colorControlNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.colorPrimary = global::rodriguez.Droid.Resource.Attribute.colorPrimary;
+			global::PayPal.Forms.Android.Resource.Attribute.colorPrimaryDark = global::rodriguez.Droid.Resource.Attribute.colorPrimaryDark;
+			global::PayPal.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::rodriguez.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.commitIcon = global::rodriguez.Droid.Resource.Attribute.commitIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetEnd = global::rodriguez.Droid.Resource.Attribute.contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetLeft = global::rodriguez.Droid.Resource.Attribute.contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetRight = global::rodriguez.Droid.Resource.Attribute.contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetStart = global::rodriguez.Droid.Resource.Attribute.contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPadding = global::rodriguez.Droid.Resource.Attribute.contentPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingBottom = global::rodriguez.Droid.Resource.Attribute.contentPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingLeft = global::rodriguez.Droid.Resource.Attribute.contentPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingRight = global::rodriguez.Droid.Resource.Attribute.contentPaddingRight;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingTop = global::rodriguez.Droid.Resource.Attribute.contentPaddingTop;
+			global::PayPal.Forms.Android.Resource.Attribute.contentScrim = global::rodriguez.Droid.Resource.Attribute.contentScrim;
+			global::PayPal.Forms.Android.Resource.Attribute.controlBackground = global::rodriguez.Droid.Resource.Attribute.controlBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.counterEnabled = global::rodriguez.Droid.Resource.Attribute.counterEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.counterMaxLength = global::rodriguez.Droid.Resource.Attribute.counterMaxLength;
+			global::PayPal.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::rodriguez.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.counterTextAppearance = global::rodriguez.Droid.Resource.Attribute.counterTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.customNavigationLayout = global::rodriguez.Droid.Resource.Attribute.customNavigationLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.defaultQueryHint = global::rodriguez.Droid.Resource.Attribute.defaultQueryHint;
+			global::PayPal.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::rodriguez.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.dialogTheme = global::rodriguez.Droid.Resource.Attribute.dialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.displayOptions = global::rodriguez.Droid.Resource.Attribute.displayOptions;
+			global::PayPal.Forms.Android.Resource.Attribute.divider = global::rodriguez.Droid.Resource.Attribute.divider;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerHorizontal = global::rodriguez.Droid.Resource.Attribute.dividerHorizontal;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerPadding = global::rodriguez.Droid.Resource.Attribute.dividerPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerVertical = global::rodriguez.Droid.Resource.Attribute.dividerVertical;
+			global::PayPal.Forms.Android.Resource.Attribute.drawableSize = global::rodriguez.Droid.Resource.Attribute.drawableSize;
+			global::PayPal.Forms.Android.Resource.Attribute.drawerArrowStyle = global::rodriguez.Droid.Resource.Attribute.drawerArrowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::rodriguez.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::rodriguez.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextBackground = global::rodriguez.Droid.Resource.Attribute.editTextBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextColor = global::rodriguez.Droid.Resource.Attribute.editTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextStyle = global::rodriguez.Droid.Resource.Attribute.editTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.elevation = global::rodriguez.Droid.Resource.Attribute.elevation;
+			global::PayPal.Forms.Android.Resource.Attribute.errorEnabled = global::rodriguez.Droid.Resource.Attribute.errorEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.errorTextAppearance = global::rodriguez.Droid.Resource.Attribute.errorTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::rodriguez.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.expanded = global::rodriguez.Droid.Resource.Attribute.expanded;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleGravity = global::rodriguez.Droid.Resource.Attribute.expandedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMargin = global::rodriguez.Droid.Resource.Attribute.expandedTitleMargin;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::rodriguez.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::rodriguez.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::rodriguez.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::rodriguez.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::rodriguez.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::rodriguez.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.fabSize = global::rodriguez.Droid.Resource.Attribute.fabSize;
+			global::PayPal.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::rodriguez.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::PayPal.Forms.Android.Resource.Attribute.gapBetweenBars = global::rodriguez.Droid.Resource.Attribute.gapBetweenBars;
+			global::PayPal.Forms.Android.Resource.Attribute.goIcon = global::rodriguez.Droid.Resource.Attribute.goIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.headerLayout = global::rodriguez.Droid.Resource.Attribute.headerLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.height = global::rodriguez.Droid.Resource.Attribute.height;
+			global::PayPal.Forms.Android.Resource.Attribute.hideOnContentScroll = global::rodriguez.Droid.Resource.Attribute.hideOnContentScroll;
+			global::PayPal.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::rodriguez.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.hintEnabled = global::rodriguez.Droid.Resource.Attribute.hintEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.hintTextAppearance = global::rodriguez.Droid.Resource.Attribute.hintTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::rodriguez.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.homeLayout = global::rodriguez.Droid.Resource.Attribute.homeLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.icon = global::rodriguez.Droid.Resource.Attribute.icon;
+			global::PayPal.Forms.Android.Resource.Attribute.iconifiedByDefault = global::rodriguez.Droid.Resource.Attribute.iconifiedByDefault;
+			global::PayPal.Forms.Android.Resource.Attribute.imageButtonStyle = global::rodriguez.Droid.Resource.Attribute.imageButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::rodriguez.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.initialActivityCount = global::rodriguez.Droid.Resource.Attribute.initialActivityCount;
+			global::PayPal.Forms.Android.Resource.Attribute.insetForeground = global::rodriguez.Droid.Resource.Attribute.insetForeground;
+			global::PayPal.Forms.Android.Resource.Attribute.isLightTheme = global::rodriguez.Droid.Resource.Attribute.isLightTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.itemBackground = global::rodriguez.Droid.Resource.Attribute.itemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.itemIconTint = global::rodriguez.Droid.Resource.Attribute.itemIconTint;
+			global::PayPal.Forms.Android.Resource.Attribute.itemPadding = global::rodriguez.Droid.Resource.Attribute.itemPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.itemTextAppearance = global::rodriguez.Droid.Resource.Attribute.itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.itemTextColor = global::rodriguez.Droid.Resource.Attribute.itemTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.keylines = global::rodriguez.Droid.Resource.Attribute.keylines;
+			global::PayPal.Forms.Android.Resource.Attribute.layout = global::rodriguez.Droid.Resource.Attribute.layout;
+			global::PayPal.Forms.Android.Resource.Attribute.layoutManager = global::rodriguez.Droid.Resource.Attribute.layoutManager;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_anchor = global::rodriguez.Droid.Resource.Attribute.layout_anchor;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_anchorGravity = global::rodriguez.Droid.Resource.Attribute.layout_anchorGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_behavior = global::rodriguez.Droid.Resource.Attribute.layout_behavior;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_collapseMode = global::rodriguez.Droid.Resource.Attribute.layout_collapseMode;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::rodriguez.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_keyline = global::rodriguez.Droid.Resource.Attribute.layout_keyline;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_scrollFlags = global::rodriguez.Droid.Resource.Attribute.layout_scrollFlags;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::rodriguez.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::PayPal.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::rodriguez.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::rodriguez.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::PayPal.Forms.Android.Resource.Attribute.listItemLayout = global::rodriguez.Droid.Resource.Attribute.listItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.listLayout = global::rodriguez.Droid.Resource.Attribute.listLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::rodriguez.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::rodriguez.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::rodriguez.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::rodriguez.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::rodriguez.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::rodriguez.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::PayPal.Forms.Android.Resource.Attribute.logo = global::rodriguez.Droid.Resource.Attribute.logo;
+			global::PayPal.Forms.Android.Resource.Attribute.logoDescription = global::rodriguez.Droid.Resource.Attribute.logoDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::rodriguez.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.maxButtonHeight = global::rodriguez.Droid.Resource.Attribute.maxButtonHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.measureWithLargestChild = global::rodriguez.Droid.Resource.Attribute.measureWithLargestChild;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::rodriguez.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::rodriguez.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.menu = global::rodriguez.Droid.Resource.Attribute.menu;
+			global::PayPal.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::rodriguez.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationContentDescription = global::rodriguez.Droid.Resource.Attribute.navigationContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationIcon = global::rodriguez.Droid.Resource.Attribute.navigationIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationMode = global::rodriguez.Droid.Resource.Attribute.navigationMode;
+			global::PayPal.Forms.Android.Resource.Attribute.overlapAnchor = global::rodriguez.Droid.Resource.Attribute.overlapAnchor;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingEnd = global::rodriguez.Droid.Resource.Attribute.paddingEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingStart = global::rodriguez.Droid.Resource.Attribute.paddingStart;
+			global::PayPal.Forms.Android.Resource.Attribute.panelBackground = global::rodriguez.Droid.Resource.Attribute.panelBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.panelMenuListTheme = global::rodriguez.Droid.Resource.Attribute.panelMenuListTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.panelMenuListWidth = global::rodriguez.Droid.Resource.Attribute.panelMenuListWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.popupMenuStyle = global::rodriguez.Droid.Resource.Attribute.popupMenuStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.popupTheme = global::rodriguez.Droid.Resource.Attribute.popupTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.popupWindowStyle = global::rodriguez.Droid.Resource.Attribute.popupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.preserveIconSpacing = global::rodriguez.Droid.Resource.Attribute.preserveIconSpacing;
+			global::PayPal.Forms.Android.Resource.Attribute.pressedTranslationZ = global::rodriguez.Droid.Resource.Attribute.pressedTranslationZ;
+			global::PayPal.Forms.Android.Resource.Attribute.progressBarPadding = global::rodriguez.Droid.Resource.Attribute.progressBarPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.progressBarStyle = global::rodriguez.Droid.Resource.Attribute.progressBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.queryBackground = global::rodriguez.Droid.Resource.Attribute.queryBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.queryHint = global::rodriguez.Droid.Resource.Attribute.queryHint;
+			global::PayPal.Forms.Android.Resource.Attribute.radioButtonStyle = global::rodriguez.Droid.Resource.Attribute.radioButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyle = global::rodriguez.Droid.Resource.Attribute.ratingBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::rodriguez.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::rodriguez.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.reverseLayout = global::rodriguez.Droid.Resource.Attribute.reverseLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.rippleColor = global::rodriguez.Droid.Resource.Attribute.rippleColor;
+			global::PayPal.Forms.Android.Resource.Attribute.searchHintIcon = global::rodriguez.Droid.Resource.Attribute.searchHintIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.searchIcon = global::rodriguez.Droid.Resource.Attribute.searchIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.searchViewStyle = global::rodriguez.Droid.Resource.Attribute.searchViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.seekBarStyle = global::rodriguez.Droid.Resource.Attribute.seekBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.selectableItemBackground = global::rodriguez.Droid.Resource.Attribute.selectableItemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::rodriguez.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::PayPal.Forms.Android.Resource.Attribute.showAsAction = global::rodriguez.Droid.Resource.Attribute.showAsAction;
+			global::PayPal.Forms.Android.Resource.Attribute.showDividers = global::rodriguez.Droid.Resource.Attribute.showDividers;
+			global::PayPal.Forms.Android.Resource.Attribute.showText = global::rodriguez.Droid.Resource.Attribute.showText;
+			global::PayPal.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::rodriguez.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.spanCount = global::rodriguez.Droid.Resource.Attribute.spanCount;
+			global::PayPal.Forms.Android.Resource.Attribute.spinBars = global::rodriguez.Droid.Resource.Attribute.spinBars;
+			global::PayPal.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::rodriguez.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.spinnerStyle = global::rodriguez.Droid.Resource.Attribute.spinnerStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.splitTrack = global::rodriguez.Droid.Resource.Attribute.splitTrack;
+			global::PayPal.Forms.Android.Resource.Attribute.srcCompat = global::rodriguez.Droid.Resource.Attribute.srcCompat;
+			global::PayPal.Forms.Android.Resource.Attribute.stackFromEnd = global::rodriguez.Droid.Resource.Attribute.stackFromEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.state_above_anchor = global::rodriguez.Droid.Resource.Attribute.state_above_anchor;
+			global::PayPal.Forms.Android.Resource.Attribute.statusBarBackground = global::rodriguez.Droid.Resource.Attribute.statusBarBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.statusBarScrim = global::rodriguez.Droid.Resource.Attribute.statusBarScrim;
+			global::PayPal.Forms.Android.Resource.Attribute.submitBackground = global::rodriguez.Droid.Resource.Attribute.submitBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitle = global::rodriguez.Droid.Resource.Attribute.subtitle;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::rodriguez.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextColor = global::rodriguez.Droid.Resource.Attribute.subtitleTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextStyle = global::rodriguez.Droid.Resource.Attribute.subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.suggestionRowLayout = global::rodriguez.Droid.Resource.Attribute.suggestionRowLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.switchMinWidth = global::rodriguez.Droid.Resource.Attribute.switchMinWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.switchPadding = global::rodriguez.Droid.Resource.Attribute.switchPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.switchStyle = global::rodriguez.Droid.Resource.Attribute.switchStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.switchTextAppearance = global::rodriguez.Droid.Resource.Attribute.switchTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.tabBackground = global::rodriguez.Droid.Resource.Attribute.tabBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.tabContentStart = global::rodriguez.Droid.Resource.Attribute.tabContentStart;
+			global::PayPal.Forms.Android.Resource.Attribute.tabGravity = global::rodriguez.Droid.Resource.Attribute.tabGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.tabIndicatorColor = global::rodriguez.Droid.Resource.Attribute.tabIndicatorColor;
+			global::PayPal.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::rodriguez.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMaxWidth = global::rodriguez.Droid.Resource.Attribute.tabMaxWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMinWidth = global::rodriguez.Droid.Resource.Attribute.tabMinWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMode = global::rodriguez.Droid.Resource.Attribute.tabMode;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPadding = global::rodriguez.Droid.Resource.Attribute.tabPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingBottom = global::rodriguez.Droid.Resource.Attribute.tabPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingEnd = global::rodriguez.Droid.Resource.Attribute.tabPaddingEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingStart = global::rodriguez.Droid.Resource.Attribute.tabPaddingStart;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingTop = global::rodriguez.Droid.Resource.Attribute.tabPaddingTop;
+			global::PayPal.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::rodriguez.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.tabTextAppearance = global::rodriguez.Droid.Resource.Attribute.tabTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.tabTextColor = global::rodriguez.Droid.Resource.Attribute.tabTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.textAllCaps = global::rodriguez.Droid.Resource.Attribute.textAllCaps;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::rodriguez.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItem = global::rodriguez.Droid.Resource.Attribute.textAppearanceListItem;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::rodriguez.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::rodriguez.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::rodriguez.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::rodriguez.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::rodriguez.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorError = global::rodriguez.Droid.Resource.Attribute.textColorError;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorSearchUrl = global::rodriguez.Droid.Resource.Attribute.textColorSearchUrl;
+			global::PayPal.Forms.Android.Resource.Attribute.theme = global::rodriguez.Droid.Resource.Attribute.theme;
+			global::PayPal.Forms.Android.Resource.Attribute.thickness = global::rodriguez.Droid.Resource.Attribute.thickness;
+			global::PayPal.Forms.Android.Resource.Attribute.thumbTextPadding = global::rodriguez.Droid.Resource.Attribute.thumbTextPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.title = global::rodriguez.Droid.Resource.Attribute.title;
+			global::PayPal.Forms.Android.Resource.Attribute.titleEnabled = global::rodriguez.Droid.Resource.Attribute.titleEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginBottom = global::rodriguez.Droid.Resource.Attribute.titleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginEnd = global::rodriguez.Droid.Resource.Attribute.titleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginStart = global::rodriguez.Droid.Resource.Attribute.titleMarginStart;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginTop = global::rodriguez.Droid.Resource.Attribute.titleMarginTop;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMargins = global::rodriguez.Droid.Resource.Attribute.titleMargins;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextAppearance = global::rodriguez.Droid.Resource.Attribute.titleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextColor = global::rodriguez.Droid.Resource.Attribute.titleTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextStyle = global::rodriguez.Droid.Resource.Attribute.titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarId = global::rodriguez.Droid.Resource.Attribute.toolbarId;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::rodriguez.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarStyle = global::rodriguez.Droid.Resource.Attribute.toolbarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.track = global::rodriguez.Droid.Resource.Attribute.track;
+			global::PayPal.Forms.Android.Resource.Attribute.useCompatPadding = global::rodriguez.Droid.Resource.Attribute.useCompatPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.voiceIcon = global::rodriguez.Droid.Resource.Attribute.voiceIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionBar = global::rodriguez.Droid.Resource.Attribute.windowActionBar;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::rodriguez.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::rodriguez.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::rodriguez.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::rodriguez.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::rodriguez.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::rodriguez.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::rodriguez.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::rodriguez.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowNoTitle = global::rodriguez.Droid.Resource.Attribute.windowNoTitle;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::rodriguez.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::rodriguez.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::rodriguez.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::rodriguez.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::rodriguez.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::PayPal.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::rodriguez.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::rodriguez.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_color_highlight_material = global::rodriguez.Droid.Resource.Color.abc_color_highlight_material;
+			global::PayPal.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::rodriguez.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::rodriguez.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::rodriguez.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::rodriguez.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_material_light = global::rodriguez.Droid.Resource.Color.abc_primary_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text = global::rodriguez.Droid.Resource.Color.abc_search_url_text;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_normal = global::rodriguez.Droid.Resource.Color.abc_search_url_text_normal;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::rodriguez.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_selected = global::rodriguez.Droid.Resource.Color.abc_search_url_text_selected;
+			global::PayPal.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::rodriguez.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::rodriguez.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.accent_material_dark = global::rodriguez.Droid.Resource.Color.accent_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.accent_material_light = global::rodriguez.Droid.Resource.Color.accent_material_light;
+			global::PayPal.Forms.Android.Resource.Color.background_floating_material_dark = global::rodriguez.Droid.Resource.Color.background_floating_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.background_floating_material_light = global::rodriguez.Droid.Resource.Color.background_floating_material_light;
+			global::PayPal.Forms.Android.Resource.Color.background_material_dark = global::rodriguez.Droid.Resource.Color.background_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.background_material_light = global::rodriguez.Droid.Resource.Color.background_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::rodriguez.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::rodriguez.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::rodriguez.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::rodriguez.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_material_dark = global::rodriguez.Droid.Resource.Color.bright_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_material_light = global::rodriguez.Droid.Resource.Color.bright_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.button_material_dark = global::rodriguez.Droid.Resource.Color.button_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.button_material_light = global::rodriguez.Droid.Resource.Color.button_material_light;
+			global::PayPal.Forms.Android.Resource.Color.cardview_dark_background = global::rodriguez.Droid.Resource.Color.cardview_dark_background;
+			global::PayPal.Forms.Android.Resource.Color.cardview_light_background = global::rodriguez.Droid.Resource.Color.cardview_light_background;
+			global::PayPal.Forms.Android.Resource.Color.cardview_shadow_end_color = global::rodriguez.Droid.Resource.Color.cardview_shadow_end_color;
+			global::PayPal.Forms.Android.Resource.Color.cardview_shadow_start_color = global::rodriguez.Droid.Resource.Color.cardview_shadow_start_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::rodriguez.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::rodriguez.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::rodriguez.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::rodriguez.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::rodriguez.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::rodriguez.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::rodriguez.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::PayPal.Forms.Android.Resource.Color.design_snackbar_background_color = global::rodriguez.Droid.Resource.Color.design_snackbar_background_color;
+			global::PayPal.Forms.Android.Resource.Color.design_textinput_error_color_dark = global::rodriguez.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::PayPal.Forms.Android.Resource.Color.design_textinput_error_color_light = global::rodriguez.Droid.Resource.Color.design_textinput_error_color_light;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::rodriguez.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::rodriguez.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_material_dark = global::rodriguez.Droid.Resource.Color.dim_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_material_light = global::rodriguez.Droid.Resource.Color.dim_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.foreground_material_dark = global::rodriguez.Droid.Resource.Color.foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.foreground_material_light = global::rodriguez.Droid.Resource.Color.foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.highlighted_text_material_dark = global::rodriguez.Droid.Resource.Color.highlighted_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.highlighted_text_material_light = global::rodriguez.Droid.Resource.Color.highlighted_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_800 = global::rodriguez.Droid.Resource.Color.material_blue_grey_800;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_900 = global::rodriguez.Droid.Resource.Color.material_blue_grey_900;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_950 = global::rodriguez.Droid.Resource.Color.material_blue_grey_950;
+			global::PayPal.Forms.Android.Resource.Color.material_deep_teal_200 = global::rodriguez.Droid.Resource.Color.material_deep_teal_200;
+			global::PayPal.Forms.Android.Resource.Color.material_deep_teal_500 = global::rodriguez.Droid.Resource.Color.material_deep_teal_500;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_100 = global::rodriguez.Droid.Resource.Color.material_grey_100;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_300 = global::rodriguez.Droid.Resource.Color.material_grey_300;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_50 = global::rodriguez.Droid.Resource.Color.material_grey_50;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_600 = global::rodriguez.Droid.Resource.Color.material_grey_600;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_800 = global::rodriguez.Droid.Resource.Color.material_grey_800;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_850 = global::rodriguez.Droid.Resource.Color.material_grey_850;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_900 = global::rodriguez.Droid.Resource.Color.material_grey_900;
+			global::PayPal.Forms.Android.Resource.Color.primary_dark_material_dark = global::rodriguez.Droid.Resource.Color.primary_dark_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_dark_material_light = global::rodriguez.Droid.Resource.Color.primary_dark_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_material_dark = global::rodriguez.Droid.Resource.Color.primary_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_material_light = global::rodriguez.Droid.Resource.Color.primary_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_default_material_dark = global::rodriguez.Droid.Resource.Color.primary_text_default_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_default_material_light = global::rodriguez.Droid.Resource.Color.primary_text_default_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::rodriguez.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::rodriguez.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.ripple_material_dark = global::rodriguez.Droid.Resource.Color.ripple_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.ripple_material_light = global::rodriguez.Droid.Resource.Color.ripple_material_light;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::rodriguez.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_default_material_light = global::rodriguez.Droid.Resource.Color.secondary_text_default_material_light;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::rodriguez.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::rodriguez.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::rodriguez.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::rodriguez.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_material_dark = global::rodriguez.Droid.Resource.Color.switch_thumb_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_material_light = global::rodriguez.Droid.Resource.Color.switch_thumb_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::rodriguez.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::rodriguez.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::rodriguez.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::rodriguez.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::rodriguez.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::rodriguez.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::rodriguez.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::rodriguez.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::rodriguez.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::rodriguez.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::rodriguez.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::rodriguez.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_corner_material = global::rodriguez.Droid.Resource.Dimension.abc_control_corner_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_inset_material = global::rodriguez.Droid.Resource.Dimension.abc_control_inset_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_padding_material = global::rodriguez.Droid.Resource.Dimension.abc_control_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::rodriguez.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::rodriguez.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::rodriguez.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::rodriguez.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::rodriguez.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::rodriguez.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::rodriguez.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::rodriguez.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::rodriguez.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::rodriguez.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::rodriguez.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::rodriguez.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::rodriguez.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::rodriguez.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::rodriguez.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::rodriguez.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_floating_window_z = global::rodriguez.Droid.Resource.Dimension.abc_floating_window_z;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::rodriguez.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::rodriguez.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::rodriguez.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::rodriguez.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::rodriguez.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::rodriguez.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_switch_padding = global::rodriguez.Droid.Resource.Dimension.abc_switch_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::rodriguez.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::rodriguez.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::rodriguez.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::rodriguez.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_default_elevation = global::rodriguez.Droid.Resource.Dimension.cardview_default_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_default_radius = global::rodriguez.Droid.Resource.Dimension.cardview_default_radius;
+			global::PayPal.Forms.Android.Resource.Dimension.design_appbar_elevation = global::rodriguez.Droid.Resource.Dimension.design_appbar_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::rodriguez.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_border_width = global::rodriguez.Droid.Resource.Dimension.design_fab_border_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_elevation = global::rodriguez.Droid.Resource.Dimension.design_fab_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_image_size = global::rodriguez.Droid.Resource.Dimension.design_fab_image_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_size_mini = global::rodriguez.Droid.Resource.Dimension.design_fab_size_mini;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_size_normal = global::rodriguez.Droid.Resource.Dimension.design_fab_size_normal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::rodriguez.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_elevation = global::rodriguez.Droid.Resource.Dimension.design_navigation_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::rodriguez.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::rodriguez.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_max_width = global::rodriguez.Droid.Resource.Dimension.design_navigation_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::rodriguez.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::rodriguez.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::rodriguez.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::rodriguez.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::rodriguez.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::rodriguez.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::rodriguez.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::rodriguez.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::rodriguez.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::rodriguez.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::rodriguez.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::rodriguez.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_max_width = global::rodriguez.Droid.Resource.Dimension.design_tab_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::rodriguez.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_text_size = global::rodriguez.Droid.Resource.Dimension.design_tab_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::rodriguez.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::PayPal.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::rodriguez.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::rodriguez.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::rodriguez.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::rodriguez.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::rodriguez.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::rodriguez.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::rodriguez.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::rodriguez.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::rodriguez.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::rodriguez.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::rodriguez.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::rodriguez.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::rodriguez.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::rodriguez.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_large_icon_height = global::rodriguez.Droid.Resource.Dimension.notification_large_icon_height;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_large_icon_width = global::rodriguez.Droid.Resource.Dimension.notification_large_icon_width;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_subtext_size = global::rodriguez.Droid.Resource.Dimension.notification_subtext_size;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::rodriguez.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::rodriguez.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_material = global::rodriguez.Droid.Resource.Drawable.abc_btn_check_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::rodriguez.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::rodriguez.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::rodriguez.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::rodriguez.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::rodriguez.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::rodriguez.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::rodriguez.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::rodriguez.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::rodriguez.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::rodriguez.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::rodriguez.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_control_background_material = global::rodriguez.Droid.Resource.Drawable.abc_control_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_edit_text_material = global::rodriguez.Droid.Resource.Drawable.abc_edit_text_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::rodriguez.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::rodriguez.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::rodriguez.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::rodriguez.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::rodriguez.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::rodriguez.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::rodriguez.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::rodriguez.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::rodriguez.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::rodriguez.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::rodriguez.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::rodriguez.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::rodriguez.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::rodriguez.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::rodriguez.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::rodriguez.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::rodriguez.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::rodriguez.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::rodriguez.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::rodriguez.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::rodriguez.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::rodriguez.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::rodriguez.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::rodriguez.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::rodriguez.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::rodriguez.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::rodriguez.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::rodriguez.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::rodriguez.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::rodriguez.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::rodriguez.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::PayPal.Forms.Android.Resource.Drawable.design_fab_background = global::rodriguez.Droid.Resource.Drawable.design_fab_background;
+			global::PayPal.Forms.Android.Resource.Drawable.design_snackbar_background = global::rodriguez.Droid.Resource.Drawable.design_snackbar_background;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::rodriguez.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::rodriguez.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::rodriguez.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::rodriguez.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::PayPal.Forms.Android.Resource.Id.action0 = global::rodriguez.Droid.Resource.Id.action0;
+			global::PayPal.Forms.Android.Resource.Id.action_bar = global::rodriguez.Droid.Resource.Id.action_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_activity_content = global::rodriguez.Droid.Resource.Id.action_bar_activity_content;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_container = global::rodriguez.Droid.Resource.Id.action_bar_container;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_root = global::rodriguez.Droid.Resource.Id.action_bar_root;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_spinner = global::rodriguez.Droid.Resource.Id.action_bar_spinner;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_subtitle = global::rodriguez.Droid.Resource.Id.action_bar_subtitle;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_title = global::rodriguez.Droid.Resource.Id.action_bar_title;
+			global::PayPal.Forms.Android.Resource.Id.action_context_bar = global::rodriguez.Droid.Resource.Id.action_context_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_divider = global::rodriguez.Droid.Resource.Id.action_divider;
+			global::PayPal.Forms.Android.Resource.Id.action_menu_divider = global::rodriguez.Droid.Resource.Id.action_menu_divider;
+			global::PayPal.Forms.Android.Resource.Id.action_menu_presenter = global::rodriguez.Droid.Resource.Id.action_menu_presenter;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_bar = global::rodriguez.Droid.Resource.Id.action_mode_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_bar_stub = global::rodriguez.Droid.Resource.Id.action_mode_bar_stub;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_close_button = global::rodriguez.Droid.Resource.Id.action_mode_close_button;
+			global::PayPal.Forms.Android.Resource.Id.activity_chooser_view_content = global::rodriguez.Droid.Resource.Id.activity_chooser_view_content;
+			global::PayPal.Forms.Android.Resource.Id.alertTitle = global::rodriguez.Droid.Resource.Id.alertTitle;
+			global::PayPal.Forms.Android.Resource.Id.always = global::rodriguez.Droid.Resource.Id.always;
+			global::PayPal.Forms.Android.Resource.Id.beginning = global::rodriguez.Droid.Resource.Id.beginning;
+			global::PayPal.Forms.Android.Resource.Id.bottom = global::rodriguez.Droid.Resource.Id.bottom;
+			global::PayPal.Forms.Android.Resource.Id.buttonPanel = global::rodriguez.Droid.Resource.Id.buttonPanel;
+			global::PayPal.Forms.Android.Resource.Id.cancel_action = global::rodriguez.Droid.Resource.Id.cancel_action;
+			global::PayPal.Forms.Android.Resource.Id.center = global::rodriguez.Droid.Resource.Id.center;
+			global::PayPal.Forms.Android.Resource.Id.center_horizontal = global::rodriguez.Droid.Resource.Id.center_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.center_vertical = global::rodriguez.Droid.Resource.Id.center_vertical;
+			global::PayPal.Forms.Android.Resource.Id.checkbox = global::rodriguez.Droid.Resource.Id.checkbox;
+			global::PayPal.Forms.Android.Resource.Id.chronometer = global::rodriguez.Droid.Resource.Id.chronometer;
+			global::PayPal.Forms.Android.Resource.Id.clip_horizontal = global::rodriguez.Droid.Resource.Id.clip_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.clip_vertical = global::rodriguez.Droid.Resource.Id.clip_vertical;
+			global::PayPal.Forms.Android.Resource.Id.collapseActionView = global::rodriguez.Droid.Resource.Id.collapseActionView;
+			global::PayPal.Forms.Android.Resource.Id.contentPanel = global::rodriguez.Droid.Resource.Id.contentPanel;
+			global::PayPal.Forms.Android.Resource.Id.custom = global::rodriguez.Droid.Resource.Id.custom;
+			global::PayPal.Forms.Android.Resource.Id.customPanel = global::rodriguez.Droid.Resource.Id.customPanel;
+			global::PayPal.Forms.Android.Resource.Id.decor_content_parent = global::rodriguez.Droid.Resource.Id.decor_content_parent;
+			global::PayPal.Forms.Android.Resource.Id.default_activity_button = global::rodriguez.Droid.Resource.Id.default_activity_button;
+			global::PayPal.Forms.Android.Resource.Id.design_bottom_sheet = global::rodriguez.Droid.Resource.Id.design_bottom_sheet;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_action_area = global::rodriguez.Droid.Resource.Id.design_menu_item_action_area;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::rodriguez.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_text = global::rodriguez.Droid.Resource.Id.design_menu_item_text;
+			global::PayPal.Forms.Android.Resource.Id.design_navigation_view = global::rodriguez.Droid.Resource.Id.design_navigation_view;
+			global::PayPal.Forms.Android.Resource.Id.disableHome = global::rodriguez.Droid.Resource.Id.disableHome;
+			global::PayPal.Forms.Android.Resource.Id.edit_query = global::rodriguez.Droid.Resource.Id.edit_query;
+			global::PayPal.Forms.Android.Resource.Id.end = global::rodriguez.Droid.Resource.Id.end;
+			global::PayPal.Forms.Android.Resource.Id.end_padder = global::rodriguez.Droid.Resource.Id.end_padder;
+			global::PayPal.Forms.Android.Resource.Id.enterAlways = global::rodriguez.Droid.Resource.Id.enterAlways;
+			global::PayPal.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::rodriguez.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::PayPal.Forms.Android.Resource.Id.exitUntilCollapsed = global::rodriguez.Droid.Resource.Id.exitUntilCollapsed;
+			global::PayPal.Forms.Android.Resource.Id.expand_activities_button = global::rodriguez.Droid.Resource.Id.expand_activities_button;
+			global::PayPal.Forms.Android.Resource.Id.expanded_menu = global::rodriguez.Droid.Resource.Id.expanded_menu;
+			global::PayPal.Forms.Android.Resource.Id.fill = global::rodriguez.Droid.Resource.Id.fill;
+			global::PayPal.Forms.Android.Resource.Id.fill_horizontal = global::rodriguez.Droid.Resource.Id.fill_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.fill_vertical = global::rodriguez.Droid.Resource.Id.fill_vertical;
+			global::PayPal.Forms.Android.Resource.Id.@fixed = global::rodriguez.Droid.Resource.Id.@fixed;
+			global::PayPal.Forms.Android.Resource.Id.home = global::rodriguez.Droid.Resource.Id.home;
+			global::PayPal.Forms.Android.Resource.Id.homeAsUp = global::rodriguez.Droid.Resource.Id.homeAsUp;
+			global::PayPal.Forms.Android.Resource.Id.icon = global::rodriguez.Droid.Resource.Id.icon;
+			global::PayPal.Forms.Android.Resource.Id.ifRoom = global::rodriguez.Droid.Resource.Id.ifRoom;
+			global::PayPal.Forms.Android.Resource.Id.image = global::rodriguez.Droid.Resource.Id.image;
+			global::PayPal.Forms.Android.Resource.Id.info = global::rodriguez.Droid.Resource.Id.info;
+			global::PayPal.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::rodriguez.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::PayPal.Forms.Android.Resource.Id.left = global::rodriguez.Droid.Resource.Id.left;
+			global::PayPal.Forms.Android.Resource.Id.line1 = global::rodriguez.Droid.Resource.Id.line1;
+			global::PayPal.Forms.Android.Resource.Id.line3 = global::rodriguez.Droid.Resource.Id.line3;
+			global::PayPal.Forms.Android.Resource.Id.listMode = global::rodriguez.Droid.Resource.Id.listMode;
+			global::PayPal.Forms.Android.Resource.Id.list_item = global::rodriguez.Droid.Resource.Id.list_item;
+			global::PayPal.Forms.Android.Resource.Id.media_actions = global::rodriguez.Droid.Resource.Id.media_actions;
+			global::PayPal.Forms.Android.Resource.Id.middle = global::rodriguez.Droid.Resource.Id.middle;
+			global::PayPal.Forms.Android.Resource.Id.mini = global::rodriguez.Droid.Resource.Id.mini;
+			global::PayPal.Forms.Android.Resource.Id.mr_art = global::rodriguez.Droid.Resource.Id.mr_art;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_list = global::rodriguez.Droid.Resource.Id.mr_chooser_list;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_desc = global::rodriguez.Droid.Resource.Id.mr_chooser_route_desc;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_icon = global::rodriguez.Droid.Resource.Id.mr_chooser_route_icon;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_name = global::rodriguez.Droid.Resource.Id.mr_chooser_route_name;
+			global::PayPal.Forms.Android.Resource.Id.mr_close = global::rodriguez.Droid.Resource.Id.mr_close;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_divider = global::rodriguez.Droid.Resource.Id.mr_control_divider;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_subtitle = global::rodriguez.Droid.Resource.Id.mr_control_subtitle;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_title = global::rodriguez.Droid.Resource.Id.mr_control_title;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_title_container = global::rodriguez.Droid.Resource.Id.mr_control_title_container;
+			global::PayPal.Forms.Android.Resource.Id.mr_custom_control = global::rodriguez.Droid.Resource.Id.mr_custom_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_default_control = global::rodriguez.Droid.Resource.Id.mr_default_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_dialog_area = global::rodriguez.Droid.Resource.Id.mr_dialog_area;
+			global::PayPal.Forms.Android.Resource.Id.mr_expandable_area = global::rodriguez.Droid.Resource.Id.mr_expandable_area;
+			global::PayPal.Forms.Android.Resource.Id.mr_group_expand_collapse = global::rodriguez.Droid.Resource.Id.mr_group_expand_collapse;
+			global::PayPal.Forms.Android.Resource.Id.mr_media_main_control = global::rodriguez.Droid.Resource.Id.mr_media_main_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_name = global::rodriguez.Droid.Resource.Id.mr_name;
+			global::PayPal.Forms.Android.Resource.Id.mr_playback_control = global::rodriguez.Droid.Resource.Id.mr_playback_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_title_bar = global::rodriguez.Droid.Resource.Id.mr_title_bar;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_control = global::rodriguez.Droid.Resource.Id.mr_volume_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_group_list = global::rodriguez.Droid.Resource.Id.mr_volume_group_list;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_item_icon = global::rodriguez.Droid.Resource.Id.mr_volume_item_icon;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_slider = global::rodriguez.Droid.Resource.Id.mr_volume_slider;
+			global::PayPal.Forms.Android.Resource.Id.multiply = global::rodriguez.Droid.Resource.Id.multiply;
+			global::PayPal.Forms.Android.Resource.Id.navigation_header_container = global::rodriguez.Droid.Resource.Id.navigation_header_container;
+			global::PayPal.Forms.Android.Resource.Id.never = global::rodriguez.Droid.Resource.Id.never;
+			global::PayPal.Forms.Android.Resource.Id.none = global::rodriguez.Droid.Resource.Id.none;
+			global::PayPal.Forms.Android.Resource.Id.normal = global::rodriguez.Droid.Resource.Id.normal;
+			global::PayPal.Forms.Android.Resource.Id.parallax = global::rodriguez.Droid.Resource.Id.parallax;
+			global::PayPal.Forms.Android.Resource.Id.parentPanel = global::rodriguez.Droid.Resource.Id.parentPanel;
+			global::PayPal.Forms.Android.Resource.Id.pin = global::rodriguez.Droid.Resource.Id.pin;
+			global::PayPal.Forms.Android.Resource.Id.progress_circular = global::rodriguez.Droid.Resource.Id.progress_circular;
+			global::PayPal.Forms.Android.Resource.Id.progress_horizontal = global::rodriguez.Droid.Resource.Id.progress_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.radio = global::rodriguez.Droid.Resource.Id.radio;
+			global::PayPal.Forms.Android.Resource.Id.right = global::rodriguez.Droid.Resource.Id.right;
+			global::PayPal.Forms.Android.Resource.Id.screen = global::rodriguez.Droid.Resource.Id.screen;
+			global::PayPal.Forms.Android.Resource.Id.scroll = global::rodriguez.Droid.Resource.Id.scroll;
+			global::PayPal.Forms.Android.Resource.Id.scrollIndicatorDown = global::rodriguez.Droid.Resource.Id.scrollIndicatorDown;
+			global::PayPal.Forms.Android.Resource.Id.scrollIndicatorUp = global::rodriguez.Droid.Resource.Id.scrollIndicatorUp;
+			global::PayPal.Forms.Android.Resource.Id.scrollView = global::rodriguez.Droid.Resource.Id.scrollView;
+			global::PayPal.Forms.Android.Resource.Id.scrollable = global::rodriguez.Droid.Resource.Id.scrollable;
+			global::PayPal.Forms.Android.Resource.Id.search_badge = global::rodriguez.Droid.Resource.Id.search_badge;
+			global::PayPal.Forms.Android.Resource.Id.search_bar = global::rodriguez.Droid.Resource.Id.search_bar;
+			global::PayPal.Forms.Android.Resource.Id.search_button = global::rodriguez.Droid.Resource.Id.search_button;
+			global::PayPal.Forms.Android.Resource.Id.search_close_btn = global::rodriguez.Droid.Resource.Id.search_close_btn;
+			global::PayPal.Forms.Android.Resource.Id.search_edit_frame = global::rodriguez.Droid.Resource.Id.search_edit_frame;
+			global::PayPal.Forms.Android.Resource.Id.search_go_btn = global::rodriguez.Droid.Resource.Id.search_go_btn;
+			global::PayPal.Forms.Android.Resource.Id.search_mag_icon = global::rodriguez.Droid.Resource.Id.search_mag_icon;
+			global::PayPal.Forms.Android.Resource.Id.search_plate = global::rodriguez.Droid.Resource.Id.search_plate;
+			global::PayPal.Forms.Android.Resource.Id.search_src_text = global::rodriguez.Droid.Resource.Id.search_src_text;
+			global::PayPal.Forms.Android.Resource.Id.search_voice_btn = global::rodriguez.Droid.Resource.Id.search_voice_btn;
+			global::PayPal.Forms.Android.Resource.Id.select_dialog_listview = global::rodriguez.Droid.Resource.Id.select_dialog_listview;
+			global::PayPal.Forms.Android.Resource.Id.shortcut = global::rodriguez.Droid.Resource.Id.shortcut;
+			global::PayPal.Forms.Android.Resource.Id.showCustom = global::rodriguez.Droid.Resource.Id.showCustom;
+			global::PayPal.Forms.Android.Resource.Id.showHome = global::rodriguez.Droid.Resource.Id.showHome;
+			global::PayPal.Forms.Android.Resource.Id.showTitle = global::rodriguez.Droid.Resource.Id.showTitle;
+			global::PayPal.Forms.Android.Resource.Id.snackbar_action = global::rodriguez.Droid.Resource.Id.snackbar_action;
+			global::PayPal.Forms.Android.Resource.Id.snackbar_text = global::rodriguez.Droid.Resource.Id.snackbar_text;
+			global::PayPal.Forms.Android.Resource.Id.snap = global::rodriguez.Droid.Resource.Id.snap;
+			global::PayPal.Forms.Android.Resource.Id.spacer = global::rodriguez.Droid.Resource.Id.spacer;
+			global::PayPal.Forms.Android.Resource.Id.split_action_bar = global::rodriguez.Droid.Resource.Id.split_action_bar;
+			global::PayPal.Forms.Android.Resource.Id.src_atop = global::rodriguez.Droid.Resource.Id.src_atop;
+			global::PayPal.Forms.Android.Resource.Id.src_in = global::rodriguez.Droid.Resource.Id.src_in;
+			global::PayPal.Forms.Android.Resource.Id.src_over = global::rodriguez.Droid.Resource.Id.src_over;
+			global::PayPal.Forms.Android.Resource.Id.start = global::rodriguez.Droid.Resource.Id.start;
+			global::PayPal.Forms.Android.Resource.Id.status_bar_latest_event_content = global::rodriguez.Droid.Resource.Id.status_bar_latest_event_content;
+			global::PayPal.Forms.Android.Resource.Id.submit_area = global::rodriguez.Droid.Resource.Id.submit_area;
+			global::PayPal.Forms.Android.Resource.Id.tabMode = global::rodriguez.Droid.Resource.Id.tabMode;
+			global::PayPal.Forms.Android.Resource.Id.text = global::rodriguez.Droid.Resource.Id.text;
+			global::PayPal.Forms.Android.Resource.Id.text2 = global::rodriguez.Droid.Resource.Id.text2;
+			global::PayPal.Forms.Android.Resource.Id.textSpacerNoButtons = global::rodriguez.Droid.Resource.Id.textSpacerNoButtons;
+			global::PayPal.Forms.Android.Resource.Id.time = global::rodriguez.Droid.Resource.Id.time;
+			global::PayPal.Forms.Android.Resource.Id.title = global::rodriguez.Droid.Resource.Id.title;
+			global::PayPal.Forms.Android.Resource.Id.title_template = global::rodriguez.Droid.Resource.Id.title_template;
+			global::PayPal.Forms.Android.Resource.Id.top = global::rodriguez.Droid.Resource.Id.top;
+			global::PayPal.Forms.Android.Resource.Id.topPanel = global::rodriguez.Droid.Resource.Id.topPanel;
+			global::PayPal.Forms.Android.Resource.Id.touch_outside = global::rodriguez.Droid.Resource.Id.touch_outside;
+			global::PayPal.Forms.Android.Resource.Id.up = global::rodriguez.Droid.Resource.Id.up;
+			global::PayPal.Forms.Android.Resource.Id.useLogo = global::rodriguez.Droid.Resource.Id.useLogo;
+			global::PayPal.Forms.Android.Resource.Id.view_offset_helper = global::rodriguez.Droid.Resource.Id.view_offset_helper;
+			global::PayPal.Forms.Android.Resource.Id.volume_item_container = global::rodriguez.Droid.Resource.Id.volume_item_container;
+			global::PayPal.Forms.Android.Resource.Id.withText = global::rodriguez.Droid.Resource.Id.withText;
+			global::PayPal.Forms.Android.Resource.Id.wrap_content = global::rodriguez.Droid.Resource.Id.wrap_content;
+			global::PayPal.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::rodriguez.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::PayPal.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::rodriguez.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::PayPal.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::rodriguez.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::PayPal.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::rodriguez.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::PayPal.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::rodriguez.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::rodriguez.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::rodriguez.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::rodriguez.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::rodriguez.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::PayPal.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::rodriguez.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::PayPal.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::rodriguez.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::rodriguez.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::rodriguez.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::rodriguez.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::rodriguez.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_menu_layout = global::rodriguez.Droid.Resource.Layout.abc_action_menu_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_mode_bar = global::rodriguez.Droid.Resource.Layout.abc_action_mode_bar;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::rodriguez.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::rodriguez.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::PayPal.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::rodriguez.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::rodriguez.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::rodriguez.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_dialog_title_material = global::rodriguez.Droid.Resource.Layout.abc_dialog_title_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::rodriguez.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::rodriguez.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::rodriguez.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::rodriguez.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::rodriguez.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::PayPal.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::rodriguez.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_content_include = global::rodriguez.Droid.Resource.Layout.abc_screen_content_include;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_simple = global::rodriguez.Droid.Resource.Layout.abc_screen_simple;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::rodriguez.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_toolbar = global::rodriguez.Droid.Resource.Layout.abc_screen_toolbar;
+			global::PayPal.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::rodriguez.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::PayPal.Forms.Android.Resource.Layout.abc_search_view = global::rodriguez.Droid.Resource.Layout.abc_search_view;
+			global::PayPal.Forms.Android.Resource.Layout.abc_select_dialog_material = global::rodriguez.Droid.Resource.Layout.abc_select_dialog_material;
+			global::PayPal.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::rodriguez.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_snackbar = global::rodriguez.Droid.Resource.Layout.design_layout_snackbar;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::rodriguez.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_tab_icon = global::rodriguez.Droid.Resource.Layout.design_layout_tab_icon;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_tab_text = global::rodriguez.Droid.Resource.Layout.design_layout_tab_text;
+			global::PayPal.Forms.Android.Resource.Layout.design_menu_item_action_area = global::rodriguez.Droid.Resource.Layout.design_menu_item_action_area;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item = global::rodriguez.Droid.Resource.Layout.design_navigation_item;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_header = global::rodriguez.Droid.Resource.Layout.design_navigation_item_header;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_separator = global::rodriguez.Droid.Resource.Layout.design_navigation_item_separator;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::rodriguez.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_menu = global::rodriguez.Droid.Resource.Layout.design_navigation_menu;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_menu_item = global::rodriguez.Droid.Resource.Layout.design_navigation_menu_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_chooser_dialog = global::rodriguez.Droid.Resource.Layout.mr_chooser_dialog;
+			global::PayPal.Forms.Android.Resource.Layout.mr_chooser_list_item = global::rodriguez.Droid.Resource.Layout.mr_chooser_list_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::rodriguez.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::PayPal.Forms.Android.Resource.Layout.mr_controller_volume_item = global::rodriguez.Droid.Resource.Layout.mr_controller_volume_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_playback_control = global::rodriguez.Droid.Resource.Layout.mr_playback_control;
+			global::PayPal.Forms.Android.Resource.Layout.mr_volume_control = global::rodriguez.Droid.Resource.Layout.mr_volume_control;
+			global::PayPal.Forms.Android.Resource.Layout.notification_media_action = global::rodriguez.Droid.Resource.Layout.notification_media_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_media_cancel_action = global::rodriguez.Droid.Resource.Layout.notification_media_cancel_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media = global::rodriguez.Droid.Resource.Layout.notification_template_big_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::rodriguez.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_media = global::rodriguez.Droid.Resource.Layout.notification_template_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::rodriguez.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_part_time = global::rodriguez.Droid.Resource.Layout.notification_template_part_time;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_item_material = global::rodriguez.Droid.Resource.Layout.select_dialog_item_material;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::rodriguez.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::rodriguez.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::PayPal.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::rodriguez.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_description = global::rodriguez.Droid.Resource.String.abc_action_bar_home_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_description_format = global::rodriguez.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::rodriguez.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_up_description = global::rodriguez.Droid.Resource.String.abc_action_bar_up_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::rodriguez.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_mode_done = global::rodriguez.Droid.Resource.String.abc_action_mode_done;
+			global::PayPal.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::rodriguez.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::PayPal.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::rodriguez.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::PayPal.Forms.Android.Resource.String.abc_capital_off = global::rodriguez.Droid.Resource.String.abc_capital_off;
+			global::PayPal.Forms.Android.Resource.String.abc_capital_on = global::rodriguez.Droid.Resource.String.abc_capital_on;
+			global::PayPal.Forms.Android.Resource.String.abc_search_hint = global::rodriguez.Droid.Resource.String.abc_search_hint;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_clear = global::rodriguez.Droid.Resource.String.abc_searchview_description_clear;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_query = global::rodriguez.Droid.Resource.String.abc_searchview_description_query;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_search = global::rodriguez.Droid.Resource.String.abc_searchview_description_search;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_submit = global::rodriguez.Droid.Resource.String.abc_searchview_description_submit;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_voice = global::rodriguez.Droid.Resource.String.abc_searchview_description_voice;
+			global::PayPal.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::rodriguez.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::PayPal.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::rodriguez.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::PayPal.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::rodriguez.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::PayPal.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::rodriguez.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::PayPal.Forms.Android.Resource.String.bottom_sheet_behavior = global::rodriguez.Droid.Resource.String.bottom_sheet_behavior;
+			global::PayPal.Forms.Android.Resource.String.character_counter_pattern = global::rodriguez.Droid.Resource.String.character_counter_pattern;
+			global::PayPal.Forms.Android.Resource.String.library_name = global::rodriguez.Droid.Resource.String.library_name;
+			global::PayPal.Forms.Android.Resource.String.mr_button_content_description = global::rodriguez.Droid.Resource.String.mr_button_content_description;
+			global::PayPal.Forms.Android.Resource.String.mr_chooser_searching = global::rodriguez.Droid.Resource.String.mr_chooser_searching;
+			global::PayPal.Forms.Android.Resource.String.mr_chooser_title = global::rodriguez.Droid.Resource.String.mr_chooser_title;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_casting_screen = global::rodriguez.Droid.Resource.String.mr_controller_casting_screen;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_close_description = global::rodriguez.Droid.Resource.String.mr_controller_close_description;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_collapse_group = global::rodriguez.Droid.Resource.String.mr_controller_collapse_group;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_disconnect = global::rodriguez.Droid.Resource.String.mr_controller_disconnect;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_expand_group = global::rodriguez.Droid.Resource.String.mr_controller_expand_group;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_no_info_available = global::rodriguez.Droid.Resource.String.mr_controller_no_info_available;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_no_media_selected = global::rodriguez.Droid.Resource.String.mr_controller_no_media_selected;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_pause = global::rodriguez.Droid.Resource.String.mr_controller_pause;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_play = global::rodriguez.Droid.Resource.String.mr_controller_play;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_stop = global::rodriguez.Droid.Resource.String.mr_controller_stop;
+			global::PayPal.Forms.Android.Resource.String.mr_system_route_name = global::rodriguez.Droid.Resource.String.mr_system_route_name;
+			global::PayPal.Forms.Android.Resource.String.mr_user_route_category_name = global::rodriguez.Droid.Resource.String.mr_user_route_category_name;
+			global::PayPal.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::rodriguez.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::PayPal.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::rodriguez.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::rodriguez.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::rodriguez.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::PayPal.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::rodriguez.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::rodriguez.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::rodriguez.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::PayPal.Forms.Android.Resource.Style.Base_CardView = global::rodriguez.Droid.Resource.Style.Base_CardView;
+			global::PayPal.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::rodriguez.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::rodriguez.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::rodriguez.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::rodriguez.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::rodriguez.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::rodriguez.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::rodriguez.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::rodriguez.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::rodriguez.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::rodriguez.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::rodriguez.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::rodriguez.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::rodriguez.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::rodriguez.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::rodriguez.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::rodriguez.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::rodriguez.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::rodriguez.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::rodriguez.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::rodriguez.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::rodriguez.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PayPal.Forms.Android.Resource.Style.CardView = global::rodriguez.Droid.Resource.Style.CardView;
+			global::PayPal.Forms.Android.Resource.Style.CardView_Dark = global::rodriguez.Droid.Resource.Style.CardView_Dark;
+			global::PayPal.Forms.Android.Resource.Style.CardView_Light = global::rodriguez.Droid.Resource.Style.CardView_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_AppCompat = global::rodriguez.Droid.Resource.Style.Platform_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::rodriguez.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::rodriguez.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::rodriguez.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::rodriguez.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::rodriguez.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::rodriguez.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::rodriguez.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::PayPal.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::rodriguez.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::rodriguez.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::rodriguez.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::rodriguez.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::rodriguez.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::rodriguez.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::rodriguez.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::rodriguez.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::rodriguez.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::rodriguez.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::rodriguez.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat = global::rodriguez.Droid.Resource.Style.Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::rodriguez.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design = global::rodriguez.Droid.Resource.Style.Theme_Design;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::rodriguez.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light = global::rodriguez.Droid.Resource.Style.Theme_Design_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::rodriguez.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::rodriguez.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::rodriguez.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter = global::rodriguez.Droid.Resource.Style.Theme_MediaRouter;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::rodriguez.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::rodriguez.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::rodriguez.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::rodriguez.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::rodriguez.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::rodriguez.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::rodriguez.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::rodriguez.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::rodriguez.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::rodriguez.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::rodriguez.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::rodriguez.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::rodriguez.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::rodriguez.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::rodriguez.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::rodriguez.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::rodriguez.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::rodriguez.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::rodriguez.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::rodriguez.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::rodriguez.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar = global::rodriguez.Droid.Resource.Styleable.ActionBar;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_background = global::rodriguez.Droid.Resource.Styleable.ActionBar_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::rodriguez.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::rodriguez.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::rodriguez.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::rodriguez.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::rodriguez.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::rodriguez.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::rodriguez.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::rodriguez.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_divider = global::rodriguez.Droid.Resource.Styleable.ActionBar_divider;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_elevation = global::rodriguez.Droid.Resource.Styleable.ActionBar_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_height = global::rodriguez.Droid.Resource.Styleable.ActionBar_height;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::rodriguez.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::rodriguez.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::rodriguez.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_icon = global::rodriguez.Droid.Resource.Styleable.ActionBar_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::rodriguez.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::rodriguez.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_logo = global::rodriguez.Droid.Resource.Styleable.ActionBar_logo;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::rodriguez.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::rodriguez.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::rodriguez.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::rodriguez.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::rodriguez.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::rodriguez.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_title = global::rodriguez.Droid.Resource.Styleable.ActionBar_title;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::rodriguez.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBarLayout = global::rodriguez.Droid.Resource.Styleable.ActionBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::rodriguez.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuItemView = global::rodriguez.Droid.Resource.Styleable.ActionMenuItemView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::rodriguez.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuView = global::rodriguez.Droid.Resource.Styleable.ActionMenuView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode = global::rodriguez.Droid.Resource.Styleable.ActionMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_background = global::rodriguez.Droid.Resource.Styleable.ActionMode_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::rodriguez.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::rodriguez.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_height = global::rodriguez.Droid.Resource.Styleable.ActionMode_height;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::rodriguez.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::rodriguez.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView = global::rodriguez.Droid.Resource.Styleable.ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::rodriguez.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::rodriguez.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog = global::rodriguez.Droid.Resource.Styleable.AlertDialog;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::rodriguez.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::rodriguez.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::rodriguez.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::rodriguez.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::rodriguez.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::rodriguez.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout = global::rodriguez.Droid.Resource.Styleable.AppBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::rodriguez.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::rodriguez.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::rodriguez.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView = global::rodriguez.Droid.Resource.Styleable.AppCompatImageView;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::rodriguez.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::rodriguez.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView = global::rodriguez.Droid.Resource.Styleable.AppCompatTextView;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::rodriguez.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::rodriguez.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::rodriguez.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.ButtonBarLayout = global::rodriguez.Droid.Resource.Styleable.ButtonBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::rodriguez.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView = global::rodriguez.Droid.Resource.Styleable.CardView;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::rodriguez.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::rodriguez.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::rodriguez.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::rodriguez.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardElevation = global::rodriguez.Droid.Resource.Styleable.CardView_cardElevation;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::rodriguez.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::rodriguez.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::rodriguez.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPadding = global::rodriguez.Droid.Resource.Styleable.CardView_contentPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::rodriguez.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::rodriguez.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::rodriguez.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::rodriguez.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::rodriguez.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton = global::rodriguez.Droid.Resource.Styleable.CompoundButton;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::rodriguez.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::rodriguez.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::rodriguez.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout = global::rodriguez.Droid.Resource.Styleable.CoordinatorLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::rodriguez.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::rodriguez.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme = global::rodriguez.Droid.Resource.Styleable.DesignTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::rodriguez.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::rodriguez.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_textColorError = global::rodriguez.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::rodriguez.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::rodriguez.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::rodriguez.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::rodriguez.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::rodriguez.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::rodriguez.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::rodriguez.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow = global::rodriguez.Droid.Resource.Styleable.ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::rodriguez.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::rodriguez.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton = global::rodriguez.Droid.Resource.Styleable.MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::rodriguez.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::rodriguez.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::rodriguez.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup = global::rodriguez.Droid.Resource.Styleable.MenuGroup;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::rodriguez.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::rodriguez.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::rodriguez.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::rodriguez.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::rodriguez.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::rodriguez.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem = global::rodriguez.Droid.Resource.Styleable.MenuItem;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::rodriguez.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::rodriguez.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::rodriguez.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_id = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_title = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_title;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::rodriguez.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::rodriguez.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView = global::rodriguez.Droid.Resource.Styleable.MenuView;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::rodriguez.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::rodriguez.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::rodriguez.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::rodriguez.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::rodriguez.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::rodriguez.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::rodriguez.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::rodriguez.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView = global::rodriguez.Droid.Resource.Styleable.NavigationView;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_background = global::rodriguez.Droid.Resource.Styleable.NavigationView_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::rodriguez.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::rodriguez.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_elevation = global::rodriguez.Droid.Resource.Styleable.NavigationView_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::rodriguez.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::rodriguez.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::rodriguez.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::rodriguez.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::rodriguez.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_menu = global::rodriguez.Droid.Resource.Styleable.NavigationView_menu;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow = global::rodriguez.Droid.Resource.Styleable.PopupWindow;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::rodriguez.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::rodriguez.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::rodriguez.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::rodriguez.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView = global::rodriguez.Droid.Resource.Styleable.RecyclerView;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::rodriguez.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::rodriguez.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::rodriguez.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::rodriguez.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::rodriguez.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::rodriguez.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::rodriguez.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView = global::rodriguez.Droid.Resource.Styleable.SearchView;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::rodriguez.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::rodriguez.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::rodriguez.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::rodriguez.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::rodriguez.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::rodriguez.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::rodriguez.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_goIcon = global::rodriguez.Droid.Resource.Styleable.SearchView_goIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::rodriguez.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_layout = global::rodriguez.Droid.Resource.Styleable.SearchView_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::rodriguez.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_queryHint = global::rodriguez.Droid.Resource.Styleable.SearchView_queryHint;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::rodriguez.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::rodriguez.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::rodriguez.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::rodriguez.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::rodriguez.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout = global::rodriguez.Droid.Resource.Styleable.SnackbarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::rodriguez.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::rodriguez.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::rodriguez.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner = global::rodriguez.Droid.Resource.Styleable.Spinner;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::rodriguez.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_entries = global::rodriguez.Droid.Resource.Styleable.Spinner_android_entries;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::rodriguez.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::rodriguez.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::rodriguez.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat = global::rodriguez.Droid.Resource.Styleable.SwitchCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_track = global::rodriguez.Droid.Resource.Styleable.SwitchCompat_track;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem = global::rodriguez.Droid.Resource.Styleable.TabItem;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_icon = global::rodriguez.Droid.Resource.Styleable.TabItem_android_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_layout = global::rodriguez.Droid.Resource.Styleable.TabItem_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_text = global::rodriguez.Droid.Resource.Styleable.TabItem_android_text;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout = global::rodriguez.Droid.Resource.Styleable.TabLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::rodriguez.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance = global::rodriguez.Droid.Resource.Styleable.TextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::rodriguez.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::rodriguez.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout = global::rodriguez.Droid.Resource.Styleable.TextInputLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::rodriguez.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar = global::rodriguez.Droid.Resource.Styleable.Toolbar;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::rodriguez.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::rodriguez.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::rodriguez.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::rodriguez.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::rodriguez.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::rodriguez.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::rodriguez.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::rodriguez.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_logo = global::rodriguez.Droid.Resource.Styleable.Toolbar_logo;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::rodriguez.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::rodriguez.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::rodriguez.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::rodriguez.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::rodriguez.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::rodriguez.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::rodriguez.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::rodriguez.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_title = global::rodriguez.Droid.Resource.Styleable.Toolbar_title;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::rodriguez.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.View = global::rodriguez.Droid.Resource.Styleable.View;
+			global::PayPal.Forms.Android.Resource.Styleable.View_android_focusable = global::rodriguez.Droid.Resource.Styleable.View_android_focusable;
+			global::PayPal.Forms.Android.Resource.Styleable.View_android_theme = global::rodriguez.Droid.Resource.Styleable.View_android_theme;
+			global::PayPal.Forms.Android.Resource.Styleable.View_paddingEnd = global::rodriguez.Droid.Resource.Styleable.View_paddingEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.View_paddingStart = global::rodriguez.Droid.Resource.Styleable.View_paddingStart;
+			global::PayPal.Forms.Android.Resource.Styleable.View_theme = global::rodriguez.Droid.Resource.Styleable.View_theme;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::rodriguez.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::rodriguez.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::rodriguez.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::rodriguez.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat = global::rodriguez.Droid.Resource.Styleable.ViewStubCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::rodriguez.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::rodriguez.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::rodriguez.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::rodriguez.Droid.Resource.Attribute.actionBarSize;
 			global::XLabs.Forms.Resource.Animation.abc_fade_in = global::rodriguez.Droid.Resource.Animation.abc_fade_in;
 			global::XLabs.Forms.Resource.Animation.abc_fade_out = global::rodriguez.Droid.Resource.Animation.abc_fade_out;
@@ -1467,584 +3103,584 @@ namespace rodriguez.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f01005c
-			public const int actionBarDivider = 2130772060;
-			
 			// aapt resource value: 0x7f01005d
-			public const int actionBarItemBackground = 2130772061;
-			
-			// aapt resource value: 0x7f010056
-			public const int actionBarPopupTheme = 2130772054;
-			
-			// aapt resource value: 0x7f01005b
-			public const int actionBarSize = 2130772059;
-			
-			// aapt resource value: 0x7f010058
-			public const int actionBarSplitStyle = 2130772056;
-			
-			// aapt resource value: 0x7f010057
-			public const int actionBarStyle = 2130772055;
-			
-			// aapt resource value: 0x7f010052
-			public const int actionBarTabBarStyle = 2130772050;
-			
-			// aapt resource value: 0x7f010051
-			public const int actionBarTabStyle = 2130772049;
-			
-			// aapt resource value: 0x7f010053
-			public const int actionBarTabTextStyle = 2130772051;
-			
-			// aapt resource value: 0x7f010059
-			public const int actionBarTheme = 2130772057;
-			
-			// aapt resource value: 0x7f01005a
-			public const int actionBarWidgetTheme = 2130772058;
-			
-			// aapt resource value: 0x7f010077
-			public const int actionButtonStyle = 2130772087;
-			
-			// aapt resource value: 0x7f010073
-			public const int actionDropDownStyle = 2130772083;
-			
-			// aapt resource value: 0x7f0100c8
-			public const int actionLayout = 2130772168;
+			public const int actionBarDivider = 2130772061;
 			
 			// aapt resource value: 0x7f01005e
-			public const int actionMenuTextAppearance = 2130772062;
+			public const int actionBarItemBackground = 2130772062;
 			
-			// aapt resource value: 0x7f01005f
-			public const int actionMenuTextColor = 2130772063;
+			// aapt resource value: 0x7f010057
+			public const int actionBarPopupTheme = 2130772055;
 			
-			// aapt resource value: 0x7f010062
-			public const int actionModeBackground = 2130772066;
+			// aapt resource value: 0x7f01005c
+			public const int actionBarSize = 2130772060;
 			
-			// aapt resource value: 0x7f010061
-			public const int actionModeCloseButtonStyle = 2130772065;
+			// aapt resource value: 0x7f010059
+			public const int actionBarSplitStyle = 2130772057;
 			
-			// aapt resource value: 0x7f010064
-			public const int actionModeCloseDrawable = 2130772068;
+			// aapt resource value: 0x7f010058
+			public const int actionBarStyle = 2130772056;
 			
-			// aapt resource value: 0x7f010066
-			public const int actionModeCopyDrawable = 2130772070;
+			// aapt resource value: 0x7f010053
+			public const int actionBarTabBarStyle = 2130772051;
 			
-			// aapt resource value: 0x7f010065
-			public const int actionModeCutDrawable = 2130772069;
-			
-			// aapt resource value: 0x7f01006a
-			public const int actionModeFindDrawable = 2130772074;
-			
-			// aapt resource value: 0x7f010067
-			public const int actionModePasteDrawable = 2130772071;
-			
-			// aapt resource value: 0x7f01006c
-			public const int actionModePopupWindowStyle = 2130772076;
-			
-			// aapt resource value: 0x7f010068
-			public const int actionModeSelectAllDrawable = 2130772072;
-			
-			// aapt resource value: 0x7f010069
-			public const int actionModeShareDrawable = 2130772073;
-			
-			// aapt resource value: 0x7f010063
-			public const int actionModeSplitBackground = 2130772067;
-			
-			// aapt resource value: 0x7f010060
-			public const int actionModeStyle = 2130772064;
-			
-			// aapt resource value: 0x7f01006b
-			public const int actionModeWebSearchDrawable = 2130772075;
+			// aapt resource value: 0x7f010052
+			public const int actionBarTabStyle = 2130772050;
 			
 			// aapt resource value: 0x7f010054
-			public const int actionOverflowButtonStyle = 2130772052;
+			public const int actionBarTabTextStyle = 2130772052;
 			
-			// aapt resource value: 0x7f010055
-			public const int actionOverflowMenuStyle = 2130772053;
+			// aapt resource value: 0x7f01005a
+			public const int actionBarTheme = 2130772058;
 			
-			// aapt resource value: 0x7f0100ca
-			public const int actionProviderClass = 2130772170;
-			
-			// aapt resource value: 0x7f0100c9
-			public const int actionViewClass = 2130772169;
-			
-			// aapt resource value: 0x7f01007f
-			public const int activityChooserViewStyle = 2130772095;
-			
-			// aapt resource value: 0x7f0100a3
-			public const int alertDialogButtonGroupStyle = 2130772131;
-			
-			// aapt resource value: 0x7f0100a4
-			public const int alertDialogCenterButtons = 2130772132;
-			
-			// aapt resource value: 0x7f0100a2
-			public const int alertDialogStyle = 2130772130;
-			
-			// aapt resource value: 0x7f0100a5
-			public const int alertDialogTheme = 2130772133;
-			
-			// aapt resource value: 0x7f0100b8
-			public const int allowStacking = 2130772152;
-			
-			// aapt resource value: 0x7f0100b9
-			public const int alpha = 2130772153;
-			
-			// aapt resource value: 0x7f0100c0
-			public const int arrowHeadLength = 2130772160;
-			
-			// aapt resource value: 0x7f0100c1
-			public const int arrowShaftLength = 2130772161;
-			
-			// aapt resource value: 0x7f0100aa
-			public const int autoCompleteTextViewStyle = 2130772138;
-			
-			// aapt resource value: 0x7f010027
-			public const int background = 2130772007;
-			
-			// aapt resource value: 0x7f010029
-			public const int backgroundSplit = 2130772009;
-			
-			// aapt resource value: 0x7f010028
-			public const int backgroundStacked = 2130772008;
-			
-			// aapt resource value: 0x7f0100fd
-			public const int backgroundTint = 2130772221;
-			
-			// aapt resource value: 0x7f0100fe
-			public const int backgroundTintMode = 2130772222;
-			
-			// aapt resource value: 0x7f0100c2
-			public const int barLength = 2130772162;
-			
-			// aapt resource value: 0x7f010128
-			public const int behavior_autoHide = 2130772264;
-			
-			// aapt resource value: 0x7f010105
-			public const int behavior_hideable = 2130772229;
-			
-			// aapt resource value: 0x7f010131
-			public const int behavior_overlapTop = 2130772273;
-			
-			// aapt resource value: 0x7f010104
-			public const int behavior_peekHeight = 2130772228;
-			
-			// aapt resource value: 0x7f010106
-			public const int behavior_skipCollapsed = 2130772230;
-			
-			// aapt resource value: 0x7f010126
-			public const int borderWidth = 2130772262;
-			
-			// aapt resource value: 0x7f01007c
-			public const int borderlessButtonStyle = 2130772092;
-			
-			// aapt resource value: 0x7f010120
-			public const int bottomSheetDialogTheme = 2130772256;
-			
-			// aapt resource value: 0x7f010121
-			public const int bottomSheetStyle = 2130772257;
-			
-			// aapt resource value: 0x7f010079
-			public const int buttonBarButtonStyle = 2130772089;
-			
-			// aapt resource value: 0x7f0100a8
-			public const int buttonBarNegativeButtonStyle = 2130772136;
-			
-			// aapt resource value: 0x7f0100a9
-			public const int buttonBarNeutralButtonStyle = 2130772137;
-			
-			// aapt resource value: 0x7f0100a7
-			public const int buttonBarPositiveButtonStyle = 2130772135;
+			// aapt resource value: 0x7f01005b
+			public const int actionBarWidgetTheme = 2130772059;
 			
 			// aapt resource value: 0x7f010078
-			public const int buttonBarStyle = 2130772088;
-			
-			// aapt resource value: 0x7f0100f2
-			public const int buttonGravity = 2130772210;
-			
-			// aapt resource value: 0x7f01003c
-			public const int buttonPanelSideLayout = 2130772028;
-			
-			// aapt resource value: 0x7f0100ab
-			public const int buttonStyle = 2130772139;
-			
-			// aapt resource value: 0x7f0100ac
-			public const int buttonStyleSmall = 2130772140;
-			
-			// aapt resource value: 0x7f0100ba
-			public const int buttonTint = 2130772154;
-			
-			// aapt resource value: 0x7f0100bb
-			public const int buttonTintMode = 2130772155;
-			
-			// aapt resource value: 0x7f010010
-			public const int cardBackgroundColor = 2130771984;
-			
-			// aapt resource value: 0x7f010011
-			public const int cardCornerRadius = 2130771985;
-			
-			// aapt resource value: 0x7f010012
-			public const int cardElevation = 2130771986;
-			
-			// aapt resource value: 0x7f010013
-			public const int cardMaxElevation = 2130771987;
-			
-			// aapt resource value: 0x7f010015
-			public const int cardPreventCornerOverlap = 2130771989;
-			
-			// aapt resource value: 0x7f010014
-			public const int cardUseCompatPadding = 2130771988;
-			
-			// aapt resource value: 0x7f0100ad
-			public const int checkboxStyle = 2130772141;
-			
-			// aapt resource value: 0x7f0100ae
-			public const int checkedTextViewStyle = 2130772142;
-			
-			// aapt resource value: 0x7f0100d5
-			public const int closeIcon = 2130772181;
-			
-			// aapt resource value: 0x7f010039
-			public const int closeItemLayout = 2130772025;
-			
-			// aapt resource value: 0x7f0100f4
-			public const int collapseContentDescription = 2130772212;
-			
-			// aapt resource value: 0x7f0100f3
-			public const int collapseIcon = 2130772211;
-			
-			// aapt resource value: 0x7f010113
-			public const int collapsedTitleGravity = 2130772243;
-			
-			// aapt resource value: 0x7f01010d
-			public const int collapsedTitleTextAppearance = 2130772237;
-			
-			// aapt resource value: 0x7f0100bc
-			public const int color = 2130772156;
-			
-			// aapt resource value: 0x7f01009a
-			public const int colorAccent = 2130772122;
-			
-			// aapt resource value: 0x7f0100a1
-			public const int colorBackgroundFloating = 2130772129;
-			
-			// aapt resource value: 0x7f01009e
-			public const int colorButtonNormal = 2130772126;
-			
-			// aapt resource value: 0x7f01009c
-			public const int colorControlActivated = 2130772124;
-			
-			// aapt resource value: 0x7f01009d
-			public const int colorControlHighlight = 2130772125;
-			
-			// aapt resource value: 0x7f01009b
-			public const int colorControlNormal = 2130772123;
-			
-			// aapt resource value: 0x7f010098
-			public const int colorPrimary = 2130772120;
-			
-			// aapt resource value: 0x7f010099
-			public const int colorPrimaryDark = 2130772121;
-			
-			// aapt resource value: 0x7f01009f
-			public const int colorSwitchThumbNormal = 2130772127;
-			
-			// aapt resource value: 0x7f0100da
-			public const int commitIcon = 2130772186;
-			
-			// aapt resource value: 0x7f010032
-			public const int contentInsetEnd = 2130772018;
-			
-			// aapt resource value: 0x7f010036
-			public const int contentInsetEndWithActions = 2130772022;
-			
-			// aapt resource value: 0x7f010033
-			public const int contentInsetLeft = 2130772019;
-			
-			// aapt resource value: 0x7f010034
-			public const int contentInsetRight = 2130772020;
-			
-			// aapt resource value: 0x7f010031
-			public const int contentInsetStart = 2130772017;
-			
-			// aapt resource value: 0x7f010035
-			public const int contentInsetStartWithNavigation = 2130772021;
-			
-			// aapt resource value: 0x7f010016
-			public const int contentPadding = 2130771990;
-			
-			// aapt resource value: 0x7f01001a
-			public const int contentPaddingBottom = 2130771994;
-			
-			// aapt resource value: 0x7f010017
-			public const int contentPaddingLeft = 2130771991;
-			
-			// aapt resource value: 0x7f010018
-			public const int contentPaddingRight = 2130771992;
-			
-			// aapt resource value: 0x7f010019
-			public const int contentPaddingTop = 2130771993;
-			
-			// aapt resource value: 0x7f01010e
-			public const int contentScrim = 2130772238;
-			
-			// aapt resource value: 0x7f0100a0
-			public const int controlBackground = 2130772128;
-			
-			// aapt resource value: 0x7f010147
-			public const int counterEnabled = 2130772295;
-			
-			// aapt resource value: 0x7f010148
-			public const int counterMaxLength = 2130772296;
-			
-			// aapt resource value: 0x7f01014a
-			public const int counterOverflowTextAppearance = 2130772298;
-			
-			// aapt resource value: 0x7f010149
-			public const int counterTextAppearance = 2130772297;
-			
-			// aapt resource value: 0x7f01002a
-			public const int customNavigationLayout = 2130772010;
-			
-			// aapt resource value: 0x7f0100d4
-			public const int defaultQueryHint = 2130772180;
-			
-			// aapt resource value: 0x7f010071
-			public const int dialogPreferredPadding = 2130772081;
-			
-			// aapt resource value: 0x7f010070
-			public const int dialogTheme = 2130772080;
-			
-			// aapt resource value: 0x7f010020
-			public const int displayOptions = 2130772000;
-			
-			// aapt resource value: 0x7f010026
-			public const int divider = 2130772006;
-			
-			// aapt resource value: 0x7f01007e
-			public const int dividerHorizontal = 2130772094;
-			
-			// aapt resource value: 0x7f0100c6
-			public const int dividerPadding = 2130772166;
-			
-			// aapt resource value: 0x7f01007d
-			public const int dividerVertical = 2130772093;
-			
-			// aapt resource value: 0x7f0100be
-			public const int drawableSize = 2130772158;
-			
-			// aapt resource value: 0x7f01001b
-			public const int drawerArrowStyle = 2130771995;
-			
-			// aapt resource value: 0x7f010090
-			public const int dropDownListViewStyle = 2130772112;
+			public const int actionButtonStyle = 2130772088;
 			
 			// aapt resource value: 0x7f010074
-			public const int dropdownListPreferredItemHeight = 2130772084;
+			public const int actionDropDownStyle = 2130772084;
 			
-			// aapt resource value: 0x7f010085
-			public const int editTextBackground = 2130772101;
+			// aapt resource value: 0x7f0100c9
+			public const int actionLayout = 2130772169;
 			
-			// aapt resource value: 0x7f010084
-			public const int editTextColor = 2130772100;
+			// aapt resource value: 0x7f01005f
+			public const int actionMenuTextAppearance = 2130772063;
 			
-			// aapt resource value: 0x7f0100af
-			public const int editTextStyle = 2130772143;
+			// aapt resource value: 0x7f010060
+			public const int actionMenuTextColor = 2130772064;
 			
-			// aapt resource value: 0x7f010037
-			public const int elevation = 2130772023;
+			// aapt resource value: 0x7f010063
+			public const int actionModeBackground = 2130772067;
 			
-			// aapt resource value: 0x7f010145
-			public const int errorEnabled = 2130772293;
+			// aapt resource value: 0x7f010062
+			public const int actionModeCloseButtonStyle = 2130772066;
 			
-			// aapt resource value: 0x7f010146
-			public const int errorTextAppearance = 2130772294;
+			// aapt resource value: 0x7f010065
+			public const int actionModeCloseDrawable = 2130772069;
 			
-			// aapt resource value: 0x7f01003b
-			public const int expandActivityOverflowButtonDrawable = 2130772027;
+			// aapt resource value: 0x7f010067
+			public const int actionModeCopyDrawable = 2130772071;
+			
+			// aapt resource value: 0x7f010066
+			public const int actionModeCutDrawable = 2130772070;
+			
+			// aapt resource value: 0x7f01006b
+			public const int actionModeFindDrawable = 2130772075;
+			
+			// aapt resource value: 0x7f010068
+			public const int actionModePasteDrawable = 2130772072;
+			
+			// aapt resource value: 0x7f01006d
+			public const int actionModePopupWindowStyle = 2130772077;
+			
+			// aapt resource value: 0x7f010069
+			public const int actionModeSelectAllDrawable = 2130772073;
+			
+			// aapt resource value: 0x7f01006a
+			public const int actionModeShareDrawable = 2130772074;
+			
+			// aapt resource value: 0x7f010064
+			public const int actionModeSplitBackground = 2130772068;
+			
+			// aapt resource value: 0x7f010061
+			public const int actionModeStyle = 2130772065;
+			
+			// aapt resource value: 0x7f01006c
+			public const int actionModeWebSearchDrawable = 2130772076;
+			
+			// aapt resource value: 0x7f010055
+			public const int actionOverflowButtonStyle = 2130772053;
+			
+			// aapt resource value: 0x7f010056
+			public const int actionOverflowMenuStyle = 2130772054;
+			
+			// aapt resource value: 0x7f0100cb
+			public const int actionProviderClass = 2130772171;
+			
+			// aapt resource value: 0x7f0100ca
+			public const int actionViewClass = 2130772170;
+			
+			// aapt resource value: 0x7f010080
+			public const int activityChooserViewStyle = 2130772096;
+			
+			// aapt resource value: 0x7f0100a4
+			public const int alertDialogButtonGroupStyle = 2130772132;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int alertDialogCenterButtons = 2130772133;
+			
+			// aapt resource value: 0x7f0100a3
+			public const int alertDialogStyle = 2130772131;
+			
+			// aapt resource value: 0x7f0100a6
+			public const int alertDialogTheme = 2130772134;
+			
+			// aapt resource value: 0x7f0100b9
+			public const int allowStacking = 2130772153;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int alpha = 2130772154;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int arrowHeadLength = 2130772161;
+			
+			// aapt resource value: 0x7f0100c2
+			public const int arrowShaftLength = 2130772162;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int autoCompleteTextViewStyle = 2130772139;
+			
+			// aapt resource value: 0x7f010028
+			public const int background = 2130772008;
+			
+			// aapt resource value: 0x7f01002a
+			public const int backgroundSplit = 2130772010;
+			
+			// aapt resource value: 0x7f010029
+			public const int backgroundStacked = 2130772009;
+			
+			// aapt resource value: 0x7f0100fe
+			public const int backgroundTint = 2130772222;
 			
 			// aapt resource value: 0x7f0100ff
-			public const int expanded = 2130772223;
+			public const int backgroundTintMode = 2130772223;
 			
-			// aapt resource value: 0x7f010114
-			public const int expandedTitleGravity = 2130772244;
-			
-			// aapt resource value: 0x7f010107
-			public const int expandedTitleMargin = 2130772231;
-			
-			// aapt resource value: 0x7f01010b
-			public const int expandedTitleMarginBottom = 2130772235;
-			
-			// aapt resource value: 0x7f01010a
-			public const int expandedTitleMarginEnd = 2130772234;
-			
-			// aapt resource value: 0x7f010108
-			public const int expandedTitleMarginStart = 2130772232;
-			
-			// aapt resource value: 0x7f010109
-			public const int expandedTitleMarginTop = 2130772233;
-			
-			// aapt resource value: 0x7f01010c
-			public const int expandedTitleTextAppearance = 2130772236;
-			
-			// aapt resource value: 0x7f01000f
-			public const int externalRouteEnabledDrawable = 2130771983;
-			
-			// aapt resource value: 0x7f010124
-			public const int fabSize = 2130772260;
+			// aapt resource value: 0x7f0100c3
+			public const int barLength = 2130772163;
 			
 			// aapt resource value: 0x7f010129
-			public const int foregroundInsidePadding = 2130772265;
+			public const int behavior_autoHide = 2130772265;
 			
-			// aapt resource value: 0x7f0100bf
-			public const int gapBetweenBars = 2130772159;
+			// aapt resource value: 0x7f010106
+			public const int behavior_hideable = 2130772230;
+			
+			// aapt resource value: 0x7f010132
+			public const int behavior_overlapTop = 2130772274;
+			
+			// aapt resource value: 0x7f010105
+			public const int behavior_peekHeight = 2130772229;
+			
+			// aapt resource value: 0x7f010107
+			public const int behavior_skipCollapsed = 2130772231;
+			
+			// aapt resource value: 0x7f010127
+			public const int borderWidth = 2130772263;
+			
+			// aapt resource value: 0x7f01007d
+			public const int borderlessButtonStyle = 2130772093;
+			
+			// aapt resource value: 0x7f010121
+			public const int bottomSheetDialogTheme = 2130772257;
+			
+			// aapt resource value: 0x7f010122
+			public const int bottomSheetStyle = 2130772258;
+			
+			// aapt resource value: 0x7f01007a
+			public const int buttonBarButtonStyle = 2130772090;
+			
+			// aapt resource value: 0x7f0100a9
+			public const int buttonBarNegativeButtonStyle = 2130772137;
+			
+			// aapt resource value: 0x7f0100aa
+			public const int buttonBarNeutralButtonStyle = 2130772138;
+			
+			// aapt resource value: 0x7f0100a8
+			public const int buttonBarPositiveButtonStyle = 2130772136;
+			
+			// aapt resource value: 0x7f010079
+			public const int buttonBarStyle = 2130772089;
+			
+			// aapt resource value: 0x7f0100f3
+			public const int buttonGravity = 2130772211;
+			
+			// aapt resource value: 0x7f01003d
+			public const int buttonPanelSideLayout = 2130772029;
+			
+			// aapt resource value: 0x7f0100ac
+			public const int buttonStyle = 2130772140;
+			
+			// aapt resource value: 0x7f0100ad
+			public const int buttonStyleSmall = 2130772141;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int buttonTint = 2130772155;
+			
+			// aapt resource value: 0x7f0100bc
+			public const int buttonTintMode = 2130772156;
+			
+			// aapt resource value: 0x7f010011
+			public const int cardBackgroundColor = 2130771985;
+			
+			// aapt resource value: 0x7f010012
+			public const int cardCornerRadius = 2130771986;
+			
+			// aapt resource value: 0x7f010013
+			public const int cardElevation = 2130771987;
+			
+			// aapt resource value: 0x7f010014
+			public const int cardMaxElevation = 2130771988;
+			
+			// aapt resource value: 0x7f010016
+			public const int cardPreventCornerOverlap = 2130771990;
+			
+			// aapt resource value: 0x7f010015
+			public const int cardUseCompatPadding = 2130771989;
+			
+			// aapt resource value: 0x7f0100ae
+			public const int checkboxStyle = 2130772142;
+			
+			// aapt resource value: 0x7f0100af
+			public const int checkedTextViewStyle = 2130772143;
 			
 			// aapt resource value: 0x7f0100d6
-			public const int goIcon = 2130772182;
-			
-			// aapt resource value: 0x7f01012f
-			public const int headerLayout = 2130772271;
-			
-			// aapt resource value: 0x7f01001c
-			public const int height = 2130771996;
-			
-			// aapt resource value: 0x7f010030
-			public const int hideOnContentScroll = 2130772016;
-			
-			// aapt resource value: 0x7f01014b
-			public const int hintAnimationEnabled = 2130772299;
-			
-			// aapt resource value: 0x7f010144
-			public const int hintEnabled = 2130772292;
-			
-			// aapt resource value: 0x7f010143
-			public const int hintTextAppearance = 2130772291;
-			
-			// aapt resource value: 0x7f010076
-			public const int homeAsUpIndicator = 2130772086;
-			
-			// aapt resource value: 0x7f01002b
-			public const int homeLayout = 2130772011;
-			
-			// aapt resource value: 0x7f010024
-			public const int icon = 2130772004;
-			
-			// aapt resource value: 0x7f0100d2
-			public const int iconifiedByDefault = 2130772178;
-			
-			// aapt resource value: 0x7f010086
-			public const int imageButtonStyle = 2130772102;
-			
-			// aapt resource value: 0x7f01002d
-			public const int indeterminateProgressStyle = 2130772013;
+			public const int closeIcon = 2130772182;
 			
 			// aapt resource value: 0x7f01003a
-			public const int initialActivityCount = 2130772026;
+			public const int closeItemLayout = 2130772026;
+			
+			// aapt resource value: 0x7f0100f5
+			public const int collapseContentDescription = 2130772213;
+			
+			// aapt resource value: 0x7f0100f4
+			public const int collapseIcon = 2130772212;
+			
+			// aapt resource value: 0x7f010114
+			public const int collapsedTitleGravity = 2130772244;
+			
+			// aapt resource value: 0x7f01010e
+			public const int collapsedTitleTextAppearance = 2130772238;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int color = 2130772157;
+			
+			// aapt resource value: 0x7f01009b
+			public const int colorAccent = 2130772123;
+			
+			// aapt resource value: 0x7f0100a2
+			public const int colorBackgroundFloating = 2130772130;
+			
+			// aapt resource value: 0x7f01009f
+			public const int colorButtonNormal = 2130772127;
+			
+			// aapt resource value: 0x7f01009d
+			public const int colorControlActivated = 2130772125;
+			
+			// aapt resource value: 0x7f01009e
+			public const int colorControlHighlight = 2130772126;
+			
+			// aapt resource value: 0x7f01009c
+			public const int colorControlNormal = 2130772124;
+			
+			// aapt resource value: 0x7f010099
+			public const int colorPrimary = 2130772121;
+			
+			// aapt resource value: 0x7f01009a
+			public const int colorPrimaryDark = 2130772122;
+			
+			// aapt resource value: 0x7f0100a0
+			public const int colorSwitchThumbNormal = 2130772128;
+			
+			// aapt resource value: 0x7f0100db
+			public const int commitIcon = 2130772187;
+			
+			// aapt resource value: 0x7f010033
+			public const int contentInsetEnd = 2130772019;
+			
+			// aapt resource value: 0x7f010037
+			public const int contentInsetEndWithActions = 2130772023;
+			
+			// aapt resource value: 0x7f010034
+			public const int contentInsetLeft = 2130772020;
+			
+			// aapt resource value: 0x7f010035
+			public const int contentInsetRight = 2130772021;
+			
+			// aapt resource value: 0x7f010032
+			public const int contentInsetStart = 2130772018;
+			
+			// aapt resource value: 0x7f010036
+			public const int contentInsetStartWithNavigation = 2130772022;
+			
+			// aapt resource value: 0x7f010017
+			public const int contentPadding = 2130771991;
+			
+			// aapt resource value: 0x7f01001b
+			public const int contentPaddingBottom = 2130771995;
+			
+			// aapt resource value: 0x7f010018
+			public const int contentPaddingLeft = 2130771992;
+			
+			// aapt resource value: 0x7f010019
+			public const int contentPaddingRight = 2130771993;
+			
+			// aapt resource value: 0x7f01001a
+			public const int contentPaddingTop = 2130771994;
+			
+			// aapt resource value: 0x7f01010f
+			public const int contentScrim = 2130772239;
+			
+			// aapt resource value: 0x7f0100a1
+			public const int controlBackground = 2130772129;
+			
+			// aapt resource value: 0x7f010148
+			public const int counterEnabled = 2130772296;
+			
+			// aapt resource value: 0x7f010149
+			public const int counterMaxLength = 2130772297;
+			
+			// aapt resource value: 0x7f01014b
+			public const int counterOverflowTextAppearance = 2130772299;
+			
+			// aapt resource value: 0x7f01014a
+			public const int counterTextAppearance = 2130772298;
+			
+			// aapt resource value: 0x7f01002b
+			public const int customNavigationLayout = 2130772011;
+			
+			// aapt resource value: 0x7f0100d5
+			public const int defaultQueryHint = 2130772181;
+			
+			// aapt resource value: 0x7f010072
+			public const int dialogPreferredPadding = 2130772082;
+			
+			// aapt resource value: 0x7f010071
+			public const int dialogTheme = 2130772081;
+			
+			// aapt resource value: 0x7f010021
+			public const int displayOptions = 2130772001;
+			
+			// aapt resource value: 0x7f010027
+			public const int divider = 2130772007;
+			
+			// aapt resource value: 0x7f01007f
+			public const int dividerHorizontal = 2130772095;
+			
+			// aapt resource value: 0x7f0100c7
+			public const int dividerPadding = 2130772167;
+			
+			// aapt resource value: 0x7f01007e
+			public const int dividerVertical = 2130772094;
+			
+			// aapt resource value: 0x7f0100bf
+			public const int drawableSize = 2130772159;
+			
+			// aapt resource value: 0x7f01001c
+			public const int drawerArrowStyle = 2130771996;
+			
+			// aapt resource value: 0x7f010091
+			public const int dropDownListViewStyle = 2130772113;
+			
+			// aapt resource value: 0x7f010075
+			public const int dropdownListPreferredItemHeight = 2130772085;
+			
+			// aapt resource value: 0x7f010086
+			public const int editTextBackground = 2130772102;
+			
+			// aapt resource value: 0x7f010085
+			public const int editTextColor = 2130772101;
+			
+			// aapt resource value: 0x7f0100b0
+			public const int editTextStyle = 2130772144;
+			
+			// aapt resource value: 0x7f010038
+			public const int elevation = 2130772024;
+			
+			// aapt resource value: 0x7f010146
+			public const int errorEnabled = 2130772294;
+			
+			// aapt resource value: 0x7f010147
+			public const int errorTextAppearance = 2130772295;
+			
+			// aapt resource value: 0x7f01003c
+			public const int expandActivityOverflowButtonDrawable = 2130772028;
+			
+			// aapt resource value: 0x7f010100
+			public const int expanded = 2130772224;
+			
+			// aapt resource value: 0x7f010115
+			public const int expandedTitleGravity = 2130772245;
+			
+			// aapt resource value: 0x7f010108
+			public const int expandedTitleMargin = 2130772232;
+			
+			// aapt resource value: 0x7f01010c
+			public const int expandedTitleMarginBottom = 2130772236;
+			
+			// aapt resource value: 0x7f01010b
+			public const int expandedTitleMarginEnd = 2130772235;
+			
+			// aapt resource value: 0x7f010109
+			public const int expandedTitleMarginStart = 2130772233;
+			
+			// aapt resource value: 0x7f01010a
+			public const int expandedTitleMarginTop = 2130772234;
+			
+			// aapt resource value: 0x7f01010d
+			public const int expandedTitleTextAppearance = 2130772237;
+			
+			// aapt resource value: 0x7f010010
+			public const int externalRouteEnabledDrawable = 2130771984;
+			
+			// aapt resource value: 0x7f010125
+			public const int fabSize = 2130772261;
+			
+			// aapt resource value: 0x7f01012a
+			public const int foregroundInsidePadding = 2130772266;
+			
+			// aapt resource value: 0x7f0100c0
+			public const int gapBetweenBars = 2130772160;
+			
+			// aapt resource value: 0x7f0100d7
+			public const int goIcon = 2130772183;
 			
 			// aapt resource value: 0x7f010130
-			public const int insetForeground = 2130772272;
+			public const int headerLayout = 2130772272;
 			
 			// aapt resource value: 0x7f01001d
-			public const int isLightTheme = 2130771997;
+			public const int height = 2130771997;
 			
-			// aapt resource value: 0x7f01012d
-			public const int itemBackground = 2130772269;
+			// aapt resource value: 0x7f010031
+			public const int hideOnContentScroll = 2130772017;
 			
-			// aapt resource value: 0x7f01012b
-			public const int itemIconTint = 2130772267;
+			// aapt resource value: 0x7f01014c
+			public const int hintAnimationEnabled = 2130772300;
 			
-			// aapt resource value: 0x7f01002f
-			public const int itemPadding = 2130772015;
+			// aapt resource value: 0x7f010145
+			public const int hintEnabled = 2130772293;
+			
+			// aapt resource value: 0x7f010144
+			public const int hintTextAppearance = 2130772292;
+			
+			// aapt resource value: 0x7f010077
+			public const int homeAsUpIndicator = 2130772087;
+			
+			// aapt resource value: 0x7f01002c
+			public const int homeLayout = 2130772012;
+			
+			// aapt resource value: 0x7f010025
+			public const int icon = 2130772005;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int iconifiedByDefault = 2130772179;
+			
+			// aapt resource value: 0x7f010087
+			public const int imageButtonStyle = 2130772103;
+			
+			// aapt resource value: 0x7f01002e
+			public const int indeterminateProgressStyle = 2130772014;
+			
+			// aapt resource value: 0x7f01003b
+			public const int initialActivityCount = 2130772027;
+			
+			// aapt resource value: 0x7f010131
+			public const int insetForeground = 2130772273;
+			
+			// aapt resource value: 0x7f01001e
+			public const int isLightTheme = 2130771998;
 			
 			// aapt resource value: 0x7f01012e
-			public const int itemTextAppearance = 2130772270;
+			public const int itemBackground = 2130772270;
 			
 			// aapt resource value: 0x7f01012c
-			public const int itemTextColor = 2130772268;
+			public const int itemIconTint = 2130772268;
 			
-			// aapt resource value: 0x7f010118
-			public const int keylines = 2130772248;
+			// aapt resource value: 0x7f010030
+			public const int itemPadding = 2130772016;
 			
-			// aapt resource value: 0x7f0100d1
-			public const int layout = 2130772177;
+			// aapt resource value: 0x7f01012f
+			public const int itemTextAppearance = 2130772271;
+			
+			// aapt resource value: 0x7f01012d
+			public const int itemTextColor = 2130772269;
+			
+			// aapt resource value: 0x7f010119
+			public const int keylines = 2130772249;
+			
+			// aapt resource value: 0x7f0100d2
+			public const int layout = 2130772178;
 			
 			// aapt resource value: 0x7f010000
 			public const int layoutManager = 2130771968;
 			
-			// aapt resource value: 0x7f01011b
-			public const int layout_anchor = 2130772251;
-			
-			// aapt resource value: 0x7f01011d
-			public const int layout_anchorGravity = 2130772253;
-			
-			// aapt resource value: 0x7f01011a
-			public const int layout_behavior = 2130772250;
-			
-			// aapt resource value: 0x7f010116
-			public const int layout_collapseMode = 2130772246;
-			
-			// aapt resource value: 0x7f010117
-			public const int layout_collapseParallaxMultiplier = 2130772247;
-			
-			// aapt resource value: 0x7f01011f
-			public const int layout_dodgeInsetEdges = 2130772255;
+			// aapt resource value: 0x7f01011c
+			public const int layout_anchor = 2130772252;
 			
 			// aapt resource value: 0x7f01011e
-			public const int layout_insetEdge = 2130772254;
+			public const int layout_anchorGravity = 2130772254;
 			
-			// aapt resource value: 0x7f01011c
-			public const int layout_keyline = 2130772252;
+			// aapt resource value: 0x7f01011b
+			public const int layout_behavior = 2130772251;
 			
-			// aapt resource value: 0x7f010102
-			public const int layout_scrollFlags = 2130772226;
+			// aapt resource value: 0x7f010117
+			public const int layout_collapseMode = 2130772247;
+			
+			// aapt resource value: 0x7f010118
+			public const int layout_collapseParallaxMultiplier = 2130772248;
+			
+			// aapt resource value: 0x7f010120
+			public const int layout_dodgeInsetEdges = 2130772256;
+			
+			// aapt resource value: 0x7f01011f
+			public const int layout_insetEdge = 2130772255;
+			
+			// aapt resource value: 0x7f01011d
+			public const int layout_keyline = 2130772253;
 			
 			// aapt resource value: 0x7f010103
-			public const int layout_scrollInterpolator = 2130772227;
+			public const int layout_scrollFlags = 2130772227;
 			
-			// aapt resource value: 0x7f010097
-			public const int listChoiceBackgroundIndicator = 2130772119;
+			// aapt resource value: 0x7f010104
+			public const int layout_scrollInterpolator = 2130772228;
 			
-			// aapt resource value: 0x7f010072
-			public const int listDividerAlertDialog = 2130772082;
+			// aapt resource value: 0x7f010098
+			public const int listChoiceBackgroundIndicator = 2130772120;
 			
-			// aapt resource value: 0x7f010040
-			public const int listItemLayout = 2130772032;
+			// aapt resource value: 0x7f010073
+			public const int listDividerAlertDialog = 2130772083;
 			
-			// aapt resource value: 0x7f01003d
-			public const int listLayout = 2130772029;
+			// aapt resource value: 0x7f010041
+			public const int listItemLayout = 2130772033;
 			
-			// aapt resource value: 0x7f0100b7
-			public const int listMenuViewStyle = 2130772151;
+			// aapt resource value: 0x7f01003e
+			public const int listLayout = 2130772030;
 			
-			// aapt resource value: 0x7f010091
-			public const int listPopupWindowStyle = 2130772113;
+			// aapt resource value: 0x7f0100b8
+			public const int listMenuViewStyle = 2130772152;
 			
-			// aapt resource value: 0x7f01008b
-			public const int listPreferredItemHeight = 2130772107;
-			
-			// aapt resource value: 0x7f01008d
-			public const int listPreferredItemHeightLarge = 2130772109;
+			// aapt resource value: 0x7f010092
+			public const int listPopupWindowStyle = 2130772114;
 			
 			// aapt resource value: 0x7f01008c
-			public const int listPreferredItemHeightSmall = 2130772108;
+			public const int listPreferredItemHeight = 2130772108;
 			
 			// aapt resource value: 0x7f01008e
-			public const int listPreferredItemPaddingLeft = 2130772110;
+			public const int listPreferredItemHeightLarge = 2130772110;
+			
+			// aapt resource value: 0x7f01008d
+			public const int listPreferredItemHeightSmall = 2130772109;
 			
 			// aapt resource value: 0x7f01008f
-			public const int listPreferredItemPaddingRight = 2130772111;
+			public const int listPreferredItemPaddingLeft = 2130772111;
 			
-			// aapt resource value: 0x7f010025
-			public const int logo = 2130772005;
+			// aapt resource value: 0x7f010090
+			public const int listPreferredItemPaddingRight = 2130772112;
 			
-			// aapt resource value: 0x7f0100f7
-			public const int logoDescription = 2130772215;
+			// aapt resource value: 0x7f010026
+			public const int logo = 2130772006;
 			
-			// aapt resource value: 0x7f010132
-			public const int maxActionInlineWidth = 2130772274;
+			// aapt resource value: 0x7f0100f8
+			public const int logoDescription = 2130772216;
 			
-			// aapt resource value: 0x7f0100f1
-			public const int maxButtonHeight = 2130772209;
+			// aapt resource value: 0x7f010133
+			public const int maxActionInlineWidth = 2130772275;
 			
-			// aapt resource value: 0x7f0100c4
-			public const int measureWithLargestChild = 2130772164;
+			// aapt resource value: 0x7f0100f2
+			public const int maxButtonHeight = 2130772210;
+			
+			// aapt resource value: 0x7f0100c5
+			public const int measureWithLargestChild = 2130772165;
 			
 			// aapt resource value: 0x7f010004
 			public const int mediaRouteAudioTrackDrawable = 2130771972;
@@ -2074,409 +3710,412 @@ namespace rodriguez.Droid
 			public const int mediaRouteSpeakerIconDrawable = 2130771980;
 			
 			// aapt resource value: 0x7f01000d
-			public const int mediaRouteTheme = 2130771981;
+			public const int mediaRouteStopDrawable = 2130771981;
 			
 			// aapt resource value: 0x7f01000e
-			public const int mediaRouteTvIconDrawable = 2130771982;
+			public const int mediaRouteTheme = 2130771982;
 			
-			// aapt resource value: 0x7f01012a
-			public const int menu = 2130772266;
+			// aapt resource value: 0x7f01000f
+			public const int mediaRouteTvIconDrawable = 2130771983;
 			
-			// aapt resource value: 0x7f01003e
-			public const int multiChoiceItemLayout = 2130772030;
+			// aapt resource value: 0x7f01012b
+			public const int menu = 2130772267;
+			
+			// aapt resource value: 0x7f01003f
+			public const int multiChoiceItemLayout = 2130772031;
+			
+			// aapt resource value: 0x7f0100f7
+			public const int navigationContentDescription = 2130772215;
 			
 			// aapt resource value: 0x7f0100f6
-			public const int navigationContentDescription = 2130772214;
+			public const int navigationIcon = 2130772214;
 			
-			// aapt resource value: 0x7f0100f5
-			public const int navigationIcon = 2130772213;
+			// aapt resource value: 0x7f010020
+			public const int navigationMode = 2130772000;
 			
-			// aapt resource value: 0x7f01001f
-			public const int navigationMode = 2130771999;
-			
-			// aapt resource value: 0x7f0100cd
-			public const int overlapAnchor = 2130772173;
-			
-			// aapt resource value: 0x7f0100cf
-			public const int paddingBottomNoButtons = 2130772175;
-			
-			// aapt resource value: 0x7f0100fb
-			public const int paddingEnd = 2130772219;
-			
-			// aapt resource value: 0x7f0100fa
-			public const int paddingStart = 2130772218;
+			// aapt resource value: 0x7f0100ce
+			public const int overlapAnchor = 2130772174;
 			
 			// aapt resource value: 0x7f0100d0
-			public const int paddingTopNoTitle = 2130772176;
+			public const int paddingBottomNoButtons = 2130772176;
 			
-			// aapt resource value: 0x7f010094
-			public const int panelBackground = 2130772116;
+			// aapt resource value: 0x7f0100fc
+			public const int paddingEnd = 2130772220;
 			
-			// aapt resource value: 0x7f010096
-			public const int panelMenuListTheme = 2130772118;
+			// aapt resource value: 0x7f0100fb
+			public const int paddingStart = 2130772219;
+			
+			// aapt resource value: 0x7f0100d1
+			public const int paddingTopNoTitle = 2130772177;
 			
 			// aapt resource value: 0x7f010095
-			public const int panelMenuListWidth = 2130772117;
+			public const int panelBackground = 2130772117;
 			
-			// aapt resource value: 0x7f01014e
-			public const int passwordToggleContentDescription = 2130772302;
+			// aapt resource value: 0x7f010097
+			public const int panelMenuListTheme = 2130772119;
 			
-			// aapt resource value: 0x7f01014d
-			public const int passwordToggleDrawable = 2130772301;
-			
-			// aapt resource value: 0x7f01014c
-			public const int passwordToggleEnabled = 2130772300;
+			// aapt resource value: 0x7f010096
+			public const int panelMenuListWidth = 2130772118;
 			
 			// aapt resource value: 0x7f01014f
-			public const int passwordToggleTint = 2130772303;
+			public const int passwordToggleContentDescription = 2130772303;
+			
+			// aapt resource value: 0x7f01014e
+			public const int passwordToggleDrawable = 2130772302;
+			
+			// aapt resource value: 0x7f01014d
+			public const int passwordToggleEnabled = 2130772301;
 			
 			// aapt resource value: 0x7f010150
-			public const int passwordToggleTintMode = 2130772304;
+			public const int passwordToggleTint = 2130772304;
 			
-			// aapt resource value: 0x7f010082
-			public const int popupMenuStyle = 2130772098;
-			
-			// aapt resource value: 0x7f010038
-			public const int popupTheme = 2130772024;
+			// aapt resource value: 0x7f010151
+			public const int passwordToggleTintMode = 2130772305;
 			
 			// aapt resource value: 0x7f010083
-			public const int popupWindowStyle = 2130772099;
+			public const int popupMenuStyle = 2130772099;
 			
-			// aapt resource value: 0x7f0100cb
-			public const int preserveIconSpacing = 2130772171;
+			// aapt resource value: 0x7f010039
+			public const int popupTheme = 2130772025;
 			
-			// aapt resource value: 0x7f010125
-			public const int pressedTranslationZ = 2130772261;
+			// aapt resource value: 0x7f010084
+			public const int popupWindowStyle = 2130772100;
 			
-			// aapt resource value: 0x7f01002e
-			public const int progressBarPadding = 2130772014;
+			// aapt resource value: 0x7f0100cc
+			public const int preserveIconSpacing = 2130772172;
 			
-			// aapt resource value: 0x7f01002c
-			public const int progressBarStyle = 2130772012;
+			// aapt resource value: 0x7f010126
+			public const int pressedTranslationZ = 2130772262;
 			
-			// aapt resource value: 0x7f0100dc
-			public const int queryBackground = 2130772188;
+			// aapt resource value: 0x7f01002f
+			public const int progressBarPadding = 2130772015;
 			
-			// aapt resource value: 0x7f0100d3
-			public const int queryHint = 2130772179;
+			// aapt resource value: 0x7f01002d
+			public const int progressBarStyle = 2130772013;
 			
-			// aapt resource value: 0x7f0100b0
-			public const int radioButtonStyle = 2130772144;
+			// aapt resource value: 0x7f0100dd
+			public const int queryBackground = 2130772189;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int queryHint = 2130772180;
 			
 			// aapt resource value: 0x7f0100b1
-			public const int ratingBarStyle = 2130772145;
+			public const int radioButtonStyle = 2130772145;
 			
 			// aapt resource value: 0x7f0100b2
-			public const int ratingBarStyleIndicator = 2130772146;
+			public const int ratingBarStyle = 2130772146;
 			
 			// aapt resource value: 0x7f0100b3
-			public const int ratingBarStyleSmall = 2130772147;
+			public const int ratingBarStyleIndicator = 2130772147;
+			
+			// aapt resource value: 0x7f0100b4
+			public const int ratingBarStyleSmall = 2130772148;
 			
 			// aapt resource value: 0x7f010002
 			public const int reverseLayout = 2130771970;
 			
-			// aapt resource value: 0x7f010123
-			public const int rippleColor = 2130772259;
+			// aapt resource value: 0x7f010124
+			public const int rippleColor = 2130772260;
+			
+			// aapt resource value: 0x7f010113
+			public const int scrimAnimationDuration = 2130772243;
 			
 			// aapt resource value: 0x7f010112
-			public const int scrimAnimationDuration = 2130772242;
+			public const int scrimVisibleHeightTrigger = 2130772242;
 			
-			// aapt resource value: 0x7f010111
-			public const int scrimVisibleHeightTrigger = 2130772241;
+			// aapt resource value: 0x7f0100d9
+			public const int searchHintIcon = 2130772185;
 			
 			// aapt resource value: 0x7f0100d8
-			public const int searchHintIcon = 2130772184;
+			public const int searchIcon = 2130772184;
 			
-			// aapt resource value: 0x7f0100d7
-			public const int searchIcon = 2130772183;
+			// aapt resource value: 0x7f01008b
+			public const int searchViewStyle = 2130772107;
 			
-			// aapt resource value: 0x7f01008a
-			public const int searchViewStyle = 2130772106;
-			
-			// aapt resource value: 0x7f0100b4
-			public const int seekBarStyle = 2130772148;
-			
-			// aapt resource value: 0x7f01007a
-			public const int selectableItemBackground = 2130772090;
+			// aapt resource value: 0x7f0100b5
+			public const int seekBarStyle = 2130772149;
 			
 			// aapt resource value: 0x7f01007b
-			public const int selectableItemBackgroundBorderless = 2130772091;
+			public const int selectableItemBackground = 2130772091;
 			
-			// aapt resource value: 0x7f0100c7
-			public const int showAsAction = 2130772167;
+			// aapt resource value: 0x7f01007c
+			public const int selectableItemBackgroundBorderless = 2130772092;
 			
-			// aapt resource value: 0x7f0100c5
-			public const int showDividers = 2130772165;
+			// aapt resource value: 0x7f0100c8
+			public const int showAsAction = 2130772168;
 			
-			// aapt resource value: 0x7f0100e8
-			public const int showText = 2130772200;
+			// aapt resource value: 0x7f0100c6
+			public const int showDividers = 2130772166;
 			
-			// aapt resource value: 0x7f010041
-			public const int showTitle = 2130772033;
+			// aapt resource value: 0x7f0100e9
+			public const int showText = 2130772201;
 			
-			// aapt resource value: 0x7f01003f
-			public const int singleChoiceItemLayout = 2130772031;
+			// aapt resource value: 0x7f010042
+			public const int showTitle = 2130772034;
+			
+			// aapt resource value: 0x7f010040
+			public const int singleChoiceItemLayout = 2130772032;
 			
 			// aapt resource value: 0x7f010001
 			public const int spanCount = 2130771969;
 			
-			// aapt resource value: 0x7f0100bd
-			public const int spinBars = 2130772157;
+			// aapt resource value: 0x7f0100be
+			public const int spinBars = 2130772158;
 			
-			// aapt resource value: 0x7f010075
-			public const int spinnerDropDownItemStyle = 2130772085;
+			// aapt resource value: 0x7f010076
+			public const int spinnerDropDownItemStyle = 2130772086;
 			
-			// aapt resource value: 0x7f0100b5
-			public const int spinnerStyle = 2130772149;
+			// aapt resource value: 0x7f0100b6
+			public const int spinnerStyle = 2130772150;
 			
-			// aapt resource value: 0x7f0100e7
-			public const int splitTrack = 2130772199;
+			// aapt resource value: 0x7f0100e8
+			public const int splitTrack = 2130772200;
 			
-			// aapt resource value: 0x7f010042
-			public const int srcCompat = 2130772034;
+			// aapt resource value: 0x7f010043
+			public const int srcCompat = 2130772035;
 			
 			// aapt resource value: 0x7f010003
 			public const int stackFromEnd = 2130771971;
 			
-			// aapt resource value: 0x7f0100ce
-			public const int state_above_anchor = 2130772174;
-			
-			// aapt resource value: 0x7f010100
-			public const int state_collapsed = 2130772224;
+			// aapt resource value: 0x7f0100cf
+			public const int state_above_anchor = 2130772175;
 			
 			// aapt resource value: 0x7f010101
-			public const int state_collapsible = 2130772225;
+			public const int state_collapsed = 2130772225;
 			
-			// aapt resource value: 0x7f010119
-			public const int statusBarBackground = 2130772249;
+			// aapt resource value: 0x7f010102
+			public const int state_collapsible = 2130772226;
 			
-			// aapt resource value: 0x7f01010f
-			public const int statusBarScrim = 2130772239;
-			
-			// aapt resource value: 0x7f0100cc
-			public const int subMenuArrow = 2130772172;
-			
-			// aapt resource value: 0x7f0100dd
-			public const int submitBackground = 2130772189;
-			
-			// aapt resource value: 0x7f010021
-			public const int subtitle = 2130772001;
-			
-			// aapt resource value: 0x7f0100ea
-			public const int subtitleTextAppearance = 2130772202;
-			
-			// aapt resource value: 0x7f0100f9
-			public const int subtitleTextColor = 2130772217;
-			
-			// aapt resource value: 0x7f010023
-			public const int subtitleTextStyle = 2130772003;
-			
-			// aapt resource value: 0x7f0100db
-			public const int suggestionRowLayout = 2130772187;
-			
-			// aapt resource value: 0x7f0100e5
-			public const int switchMinWidth = 2130772197;
-			
-			// aapt resource value: 0x7f0100e6
-			public const int switchPadding = 2130772198;
-			
-			// aapt resource value: 0x7f0100b6
-			public const int switchStyle = 2130772150;
-			
-			// aapt resource value: 0x7f0100e4
-			public const int switchTextAppearance = 2130772196;
-			
-			// aapt resource value: 0x7f010136
-			public const int tabBackground = 2130772278;
-			
-			// aapt resource value: 0x7f010135
-			public const int tabContentStart = 2130772277;
-			
-			// aapt resource value: 0x7f010138
-			public const int tabGravity = 2130772280;
-			
-			// aapt resource value: 0x7f010133
-			public const int tabIndicatorColor = 2130772275;
-			
-			// aapt resource value: 0x7f010134
-			public const int tabIndicatorHeight = 2130772276;
-			
-			// aapt resource value: 0x7f01013a
-			public const int tabMaxWidth = 2130772282;
-			
-			// aapt resource value: 0x7f010139
-			public const int tabMinWidth = 2130772281;
-			
-			// aapt resource value: 0x7f010137
-			public const int tabMode = 2130772279;
-			
-			// aapt resource value: 0x7f010142
-			public const int tabPadding = 2130772290;
-			
-			// aapt resource value: 0x7f010141
-			public const int tabPaddingBottom = 2130772289;
-			
-			// aapt resource value: 0x7f010140
-			public const int tabPaddingEnd = 2130772288;
-			
-			// aapt resource value: 0x7f01013e
-			public const int tabPaddingStart = 2130772286;
-			
-			// aapt resource value: 0x7f01013f
-			public const int tabPaddingTop = 2130772287;
-			
-			// aapt resource value: 0x7f01013d
-			public const int tabSelectedTextColor = 2130772285;
-			
-			// aapt resource value: 0x7f01013b
-			public const int tabTextAppearance = 2130772283;
-			
-			// aapt resource value: 0x7f01013c
-			public const int tabTextColor = 2130772284;
-			
-			// aapt resource value: 0x7f010046
-			public const int textAllCaps = 2130772038;
-			
-			// aapt resource value: 0x7f01006d
-			public const int textAppearanceLargePopupMenu = 2130772077;
-			
-			// aapt resource value: 0x7f010092
-			public const int textAppearanceListItem = 2130772114;
-			
-			// aapt resource value: 0x7f010093
-			public const int textAppearanceListItemSmall = 2130772115;
-			
-			// aapt resource value: 0x7f01006f
-			public const int textAppearancePopupMenuHeader = 2130772079;
-			
-			// aapt resource value: 0x7f010088
-			public const int textAppearanceSearchResultSubtitle = 2130772104;
-			
-			// aapt resource value: 0x7f010087
-			public const int textAppearanceSearchResultTitle = 2130772103;
-			
-			// aapt resource value: 0x7f01006e
-			public const int textAppearanceSmallPopupMenu = 2130772078;
-			
-			// aapt resource value: 0x7f0100a6
-			public const int textColorAlertDialogListItem = 2130772134;
-			
-			// aapt resource value: 0x7f010122
-			public const int textColorError = 2130772258;
-			
-			// aapt resource value: 0x7f010089
-			public const int textColorSearchUrl = 2130772105;
-			
-			// aapt resource value: 0x7f0100fc
-			public const int theme = 2130772220;
-			
-			// aapt resource value: 0x7f0100c3
-			public const int thickness = 2130772163;
-			
-			// aapt resource value: 0x7f0100e3
-			public const int thumbTextPadding = 2130772195;
-			
-			// aapt resource value: 0x7f0100de
-			public const int thumbTint = 2130772190;
-			
-			// aapt resource value: 0x7f0100df
-			public const int thumbTintMode = 2130772191;
-			
-			// aapt resource value: 0x7f010043
-			public const int tickMark = 2130772035;
-			
-			// aapt resource value: 0x7f010044
-			public const int tickMarkTint = 2130772036;
-			
-			// aapt resource value: 0x7f010045
-			public const int tickMarkTintMode = 2130772037;
-			
-			// aapt resource value: 0x7f01001e
-			public const int title = 2130771998;
-			
-			// aapt resource value: 0x7f010115
-			public const int titleEnabled = 2130772245;
-			
-			// aapt resource value: 0x7f0100eb
-			public const int titleMargin = 2130772203;
-			
-			// aapt resource value: 0x7f0100ef
-			public const int titleMarginBottom = 2130772207;
-			
-			// aapt resource value: 0x7f0100ed
-			public const int titleMarginEnd = 2130772205;
-			
-			// aapt resource value: 0x7f0100ec
-			public const int titleMarginStart = 2130772204;
-			
-			// aapt resource value: 0x7f0100ee
-			public const int titleMarginTop = 2130772206;
-			
-			// aapt resource value: 0x7f0100f0
-			public const int titleMargins = 2130772208;
-			
-			// aapt resource value: 0x7f0100e9
-			public const int titleTextAppearance = 2130772201;
-			
-			// aapt resource value: 0x7f0100f8
-			public const int titleTextColor = 2130772216;
-			
-			// aapt resource value: 0x7f010022
-			public const int titleTextStyle = 2130772002;
+			// aapt resource value: 0x7f01011a
+			public const int statusBarBackground = 2130772250;
 			
 			// aapt resource value: 0x7f010110
-			public const int toolbarId = 2130772240;
+			public const int statusBarScrim = 2130772240;
 			
-			// aapt resource value: 0x7f010081
-			public const int toolbarNavigationButtonStyle = 2130772097;
+			// aapt resource value: 0x7f0100cd
+			public const int subMenuArrow = 2130772173;
 			
-			// aapt resource value: 0x7f010080
-			public const int toolbarStyle = 2130772096;
+			// aapt resource value: 0x7f0100de
+			public const int submitBackground = 2130772190;
 			
-			// aapt resource value: 0x7f0100e0
-			public const int track = 2130772192;
+			// aapt resource value: 0x7f010022
+			public const int subtitle = 2130772002;
 			
-			// aapt resource value: 0x7f0100e1
-			public const int trackTint = 2130772193;
+			// aapt resource value: 0x7f0100eb
+			public const int subtitleTextAppearance = 2130772203;
 			
-			// aapt resource value: 0x7f0100e2
-			public const int trackTintMode = 2130772194;
+			// aapt resource value: 0x7f0100fa
+			public const int subtitleTextColor = 2130772218;
 			
-			// aapt resource value: 0x7f010127
-			public const int useCompatPadding = 2130772263;
+			// aapt resource value: 0x7f010024
+			public const int subtitleTextStyle = 2130772004;
 			
-			// aapt resource value: 0x7f0100d9
-			public const int voiceIcon = 2130772185;
+			// aapt resource value: 0x7f0100dc
+			public const int suggestionRowLayout = 2130772188;
+			
+			// aapt resource value: 0x7f0100e6
+			public const int switchMinWidth = 2130772198;
+			
+			// aapt resource value: 0x7f0100e7
+			public const int switchPadding = 2130772199;
+			
+			// aapt resource value: 0x7f0100b7
+			public const int switchStyle = 2130772151;
+			
+			// aapt resource value: 0x7f0100e5
+			public const int switchTextAppearance = 2130772197;
+			
+			// aapt resource value: 0x7f010137
+			public const int tabBackground = 2130772279;
+			
+			// aapt resource value: 0x7f010136
+			public const int tabContentStart = 2130772278;
+			
+			// aapt resource value: 0x7f010139
+			public const int tabGravity = 2130772281;
+			
+			// aapt resource value: 0x7f010134
+			public const int tabIndicatorColor = 2130772276;
+			
+			// aapt resource value: 0x7f010135
+			public const int tabIndicatorHeight = 2130772277;
+			
+			// aapt resource value: 0x7f01013b
+			public const int tabMaxWidth = 2130772283;
+			
+			// aapt resource value: 0x7f01013a
+			public const int tabMinWidth = 2130772282;
+			
+			// aapt resource value: 0x7f010138
+			public const int tabMode = 2130772280;
+			
+			// aapt resource value: 0x7f010143
+			public const int tabPadding = 2130772291;
+			
+			// aapt resource value: 0x7f010142
+			public const int tabPaddingBottom = 2130772290;
+			
+			// aapt resource value: 0x7f010141
+			public const int tabPaddingEnd = 2130772289;
+			
+			// aapt resource value: 0x7f01013f
+			public const int tabPaddingStart = 2130772287;
+			
+			// aapt resource value: 0x7f010140
+			public const int tabPaddingTop = 2130772288;
+			
+			// aapt resource value: 0x7f01013e
+			public const int tabSelectedTextColor = 2130772286;
+			
+			// aapt resource value: 0x7f01013c
+			public const int tabTextAppearance = 2130772284;
+			
+			// aapt resource value: 0x7f01013d
+			public const int tabTextColor = 2130772285;
 			
 			// aapt resource value: 0x7f010047
-			public const int windowActionBar = 2130772039;
+			public const int textAllCaps = 2130772039;
 			
-			// aapt resource value: 0x7f010049
-			public const int windowActionBarOverlay = 2130772041;
+			// aapt resource value: 0x7f01006e
+			public const int textAppearanceLargePopupMenu = 2130772078;
 			
-			// aapt resource value: 0x7f01004a
-			public const int windowActionModeOverlay = 2130772042;
+			// aapt resource value: 0x7f010093
+			public const int textAppearanceListItem = 2130772115;
 			
-			// aapt resource value: 0x7f01004e
-			public const int windowFixedHeightMajor = 2130772046;
+			// aapt resource value: 0x7f010094
+			public const int textAppearanceListItemSmall = 2130772116;
 			
-			// aapt resource value: 0x7f01004c
-			public const int windowFixedHeightMinor = 2130772044;
+			// aapt resource value: 0x7f010070
+			public const int textAppearancePopupMenuHeader = 2130772080;
 			
-			// aapt resource value: 0x7f01004b
-			public const int windowFixedWidthMajor = 2130772043;
+			// aapt resource value: 0x7f010089
+			public const int textAppearanceSearchResultSubtitle = 2130772105;
 			
-			// aapt resource value: 0x7f01004d
-			public const int windowFixedWidthMinor = 2130772045;
+			// aapt resource value: 0x7f010088
+			public const int textAppearanceSearchResultTitle = 2130772104;
 			
-			// aapt resource value: 0x7f01004f
-			public const int windowMinWidthMajor = 2130772047;
+			// aapt resource value: 0x7f01006f
+			public const int textAppearanceSmallPopupMenu = 2130772079;
 			
-			// aapt resource value: 0x7f010050
-			public const int windowMinWidthMinor = 2130772048;
+			// aapt resource value: 0x7f0100a7
+			public const int textColorAlertDialogListItem = 2130772135;
+			
+			// aapt resource value: 0x7f010123
+			public const int textColorError = 2130772259;
+			
+			// aapt resource value: 0x7f01008a
+			public const int textColorSearchUrl = 2130772106;
+			
+			// aapt resource value: 0x7f0100fd
+			public const int theme = 2130772221;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int thickness = 2130772164;
+			
+			// aapt resource value: 0x7f0100e4
+			public const int thumbTextPadding = 2130772196;
+			
+			// aapt resource value: 0x7f0100df
+			public const int thumbTint = 2130772191;
+			
+			// aapt resource value: 0x7f0100e0
+			public const int thumbTintMode = 2130772192;
+			
+			// aapt resource value: 0x7f010044
+			public const int tickMark = 2130772036;
+			
+			// aapt resource value: 0x7f010045
+			public const int tickMarkTint = 2130772037;
+			
+			// aapt resource value: 0x7f010046
+			public const int tickMarkTintMode = 2130772038;
+			
+			// aapt resource value: 0x7f01001f
+			public const int title = 2130771999;
+			
+			// aapt resource value: 0x7f010116
+			public const int titleEnabled = 2130772246;
+			
+			// aapt resource value: 0x7f0100ec
+			public const int titleMargin = 2130772204;
+			
+			// aapt resource value: 0x7f0100f0
+			public const int titleMarginBottom = 2130772208;
+			
+			// aapt resource value: 0x7f0100ee
+			public const int titleMarginEnd = 2130772206;
+			
+			// aapt resource value: 0x7f0100ed
+			public const int titleMarginStart = 2130772205;
+			
+			// aapt resource value: 0x7f0100ef
+			public const int titleMarginTop = 2130772207;
+			
+			// aapt resource value: 0x7f0100f1
+			public const int titleMargins = 2130772209;
+			
+			// aapt resource value: 0x7f0100ea
+			public const int titleTextAppearance = 2130772202;
+			
+			// aapt resource value: 0x7f0100f9
+			public const int titleTextColor = 2130772217;
+			
+			// aapt resource value: 0x7f010023
+			public const int titleTextStyle = 2130772003;
+			
+			// aapt resource value: 0x7f010111
+			public const int toolbarId = 2130772241;
+			
+			// aapt resource value: 0x7f010082
+			public const int toolbarNavigationButtonStyle = 2130772098;
+			
+			// aapt resource value: 0x7f010081
+			public const int toolbarStyle = 2130772097;
+			
+			// aapt resource value: 0x7f0100e1
+			public const int track = 2130772193;
+			
+			// aapt resource value: 0x7f0100e2
+			public const int trackTint = 2130772194;
+			
+			// aapt resource value: 0x7f0100e3
+			public const int trackTintMode = 2130772195;
+			
+			// aapt resource value: 0x7f010128
+			public const int useCompatPadding = 2130772264;
+			
+			// aapt resource value: 0x7f0100da
+			public const int voiceIcon = 2130772186;
 			
 			// aapt resource value: 0x7f010048
-			public const int windowNoTitle = 2130772040;
+			public const int windowActionBar = 2130772040;
+			
+			// aapt resource value: 0x7f01004a
+			public const int windowActionBarOverlay = 2130772042;
+			
+			// aapt resource value: 0x7f01004b
+			public const int windowActionModeOverlay = 2130772043;
+			
+			// aapt resource value: 0x7f01004f
+			public const int windowFixedHeightMajor = 2130772047;
+			
+			// aapt resource value: 0x7f01004d
+			public const int windowFixedHeightMinor = 2130772045;
+			
+			// aapt resource value: 0x7f01004c
+			public const int windowFixedWidthMajor = 2130772044;
+			
+			// aapt resource value: 0x7f01004e
+			public const int windowFixedWidthMinor = 2130772046;
+			
+			// aapt resource value: 0x7f010050
+			public const int windowMinWidthMajor = 2130772048;
+			
+			// aapt resource value: 0x7f010051
+			public const int windowMinWidthMinor = 2130772049;
+			
+			// aapt resource value: 0x7f010049
+			public const int windowNoTitle = 2130772041;
 			
 			static Attribute()
 			{
@@ -3737,409 +5376,421 @@ namespace rodriguez.Droid
 			public const int ic_media_play_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_mr_button_connected_00_dark = 2130837637;
+			public const int ic_media_stop_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_light = 2130837638;
+			public const int ic_media_stop_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_01_dark = 2130837639;
+			public const int ic_mr_button_connected_00_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_light = 2130837640;
+			public const int ic_mr_button_connected_00_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_02_dark = 2130837641;
+			public const int ic_mr_button_connected_01_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_light = 2130837642;
+			public const int ic_mr_button_connected_01_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_03_dark = 2130837643;
+			public const int ic_mr_button_connected_02_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_light = 2130837644;
+			public const int ic_mr_button_connected_02_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_04_dark = 2130837645;
+			public const int ic_mr_button_connected_03_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_light = 2130837646;
+			public const int ic_mr_button_connected_03_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_05_dark = 2130837647;
+			public const int ic_mr_button_connected_04_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_light = 2130837648;
+			public const int ic_mr_button_connected_04_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_06_dark = 2130837649;
+			public const int ic_mr_button_connected_05_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_light = 2130837650;
+			public const int ic_mr_button_connected_05_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_07_dark = 2130837651;
+			public const int ic_mr_button_connected_06_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_light = 2130837652;
+			public const int ic_mr_button_connected_06_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_08_dark = 2130837653;
+			public const int ic_mr_button_connected_07_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_light = 2130837654;
+			public const int ic_mr_button_connected_07_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_09_dark = 2130837655;
+			public const int ic_mr_button_connected_08_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_light = 2130837656;
+			public const int ic_mr_button_connected_08_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_10_dark = 2130837657;
+			public const int ic_mr_button_connected_09_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_light = 2130837658;
+			public const int ic_mr_button_connected_09_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_11_dark = 2130837659;
+			public const int ic_mr_button_connected_10_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_light = 2130837660;
+			public const int ic_mr_button_connected_10_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_12_dark = 2130837661;
+			public const int ic_mr_button_connected_11_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_light = 2130837662;
+			public const int ic_mr_button_connected_11_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_13_dark = 2130837663;
+			public const int ic_mr_button_connected_12_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_light = 2130837664;
+			public const int ic_mr_button_connected_12_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_14_dark = 2130837665;
+			public const int ic_mr_button_connected_13_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_light = 2130837666;
+			public const int ic_mr_button_connected_13_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_15_dark = 2130837667;
+			public const int ic_mr_button_connected_14_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_light = 2130837668;
+			public const int ic_mr_button_connected_14_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_16_dark = 2130837669;
+			public const int ic_mr_button_connected_15_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_light = 2130837670;
+			public const int ic_mr_button_connected_15_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_17_dark = 2130837671;
+			public const int ic_mr_button_connected_16_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_light = 2130837672;
+			public const int ic_mr_button_connected_16_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_18_dark = 2130837673;
+			public const int ic_mr_button_connected_17_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_light = 2130837674;
+			public const int ic_mr_button_connected_17_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_19_dark = 2130837675;
+			public const int ic_mr_button_connected_18_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_light = 2130837676;
+			public const int ic_mr_button_connected_18_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_20_dark = 2130837677;
+			public const int ic_mr_button_connected_19_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_light = 2130837678;
+			public const int ic_mr_button_connected_19_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_21_dark = 2130837679;
+			public const int ic_mr_button_connected_20_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_light = 2130837680;
+			public const int ic_mr_button_connected_20_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_22_dark = 2130837681;
+			public const int ic_mr_button_connected_21_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_light = 2130837682;
+			public const int ic_mr_button_connected_21_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connecting_00_dark = 2130837683;
+			public const int ic_mr_button_connected_22_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connecting_00_light = 2130837684;
+			public const int ic_mr_button_connected_22_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connecting_01_dark = 2130837685;
+			public const int ic_mr_button_connecting_00_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connecting_01_light = 2130837686;
+			public const int ic_mr_button_connecting_00_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connecting_02_dark = 2130837687;
+			public const int ic_mr_button_connecting_01_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connecting_02_light = 2130837688;
+			public const int ic_mr_button_connecting_01_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connecting_03_dark = 2130837689;
+			public const int ic_mr_button_connecting_02_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connecting_03_light = 2130837690;
+			public const int ic_mr_button_connecting_02_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connecting_04_dark = 2130837691;
+			public const int ic_mr_button_connecting_03_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connecting_04_light = 2130837692;
+			public const int ic_mr_button_connecting_03_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connecting_05_dark = 2130837693;
+			public const int ic_mr_button_connecting_04_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connecting_05_light = 2130837694;
+			public const int ic_mr_button_connecting_04_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connecting_06_dark = 2130837695;
+			public const int ic_mr_button_connecting_05_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connecting_06_light = 2130837696;
+			public const int ic_mr_button_connecting_05_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connecting_07_dark = 2130837697;
+			public const int ic_mr_button_connecting_06_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connecting_07_light = 2130837698;
+			public const int ic_mr_button_connecting_06_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_08_dark = 2130837699;
+			public const int ic_mr_button_connecting_07_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_08_light = 2130837700;
+			public const int ic_mr_button_connecting_07_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_09_dark = 2130837701;
+			public const int ic_mr_button_connecting_08_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_09_light = 2130837702;
+			public const int ic_mr_button_connecting_08_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_10_dark = 2130837703;
+			public const int ic_mr_button_connecting_09_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_10_light = 2130837704;
+			public const int ic_mr_button_connecting_09_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_11_dark = 2130837705;
+			public const int ic_mr_button_connecting_10_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_11_light = 2130837706;
+			public const int ic_mr_button_connecting_10_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_12_dark = 2130837707;
+			public const int ic_mr_button_connecting_11_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_12_light = 2130837708;
+			public const int ic_mr_button_connecting_11_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_13_dark = 2130837709;
+			public const int ic_mr_button_connecting_12_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_13_light = 2130837710;
+			public const int ic_mr_button_connecting_12_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_14_dark = 2130837711;
+			public const int ic_mr_button_connecting_13_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_14_light = 2130837712;
+			public const int ic_mr_button_connecting_13_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_15_dark = 2130837713;
+			public const int ic_mr_button_connecting_14_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_15_light = 2130837714;
+			public const int ic_mr_button_connecting_14_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_16_dark = 2130837715;
+			public const int ic_mr_button_connecting_15_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_16_light = 2130837716;
+			public const int ic_mr_button_connecting_15_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_17_dark = 2130837717;
+			public const int ic_mr_button_connecting_16_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_17_light = 2130837718;
+			public const int ic_mr_button_connecting_16_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_18_dark = 2130837719;
+			public const int ic_mr_button_connecting_17_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_18_light = 2130837720;
+			public const int ic_mr_button_connecting_17_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_19_dark = 2130837721;
+			public const int ic_mr_button_connecting_18_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_19_light = 2130837722;
+			public const int ic_mr_button_connecting_18_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_20_dark = 2130837723;
+			public const int ic_mr_button_connecting_19_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_20_light = 2130837724;
+			public const int ic_mr_button_connecting_19_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_21_dark = 2130837725;
+			public const int ic_mr_button_connecting_20_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_21_light = 2130837726;
+			public const int ic_mr_button_connecting_20_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_22_dark = 2130837727;
+			public const int ic_mr_button_connecting_21_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_22_light = 2130837728;
+			public const int ic_mr_button_connecting_21_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_disabled_dark = 2130837729;
+			public const int ic_mr_button_connecting_22_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_disabled_light = 2130837730;
+			public const int ic_mr_button_connecting_22_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_disconnected_dark = 2130837731;
+			public const int ic_mr_button_disabled_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_disconnected_light = 2130837732;
+			public const int ic_mr_button_disabled_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_grey = 2130837733;
+			public const int ic_mr_button_disconnected_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_vol_type_speaker_dark = 2130837734;
+			public const int ic_mr_button_disconnected_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_vol_type_speaker_group_dark = 2130837735;
+			public const int ic_mr_button_grey = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_vol_type_speaker_group_light = 2130837736;
+			public const int ic_vol_type_speaker_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_vol_type_speaker_light = 2130837737;
+			public const int ic_vol_type_speaker_group_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_vol_type_tv_dark = 2130837738;
+			public const int ic_vol_type_speaker_group_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_vol_type_tv_light = 2130837739;
+			public const int ic_vol_type_speaker_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int icon = 2130837740;
+			public const int ic_vol_type_tv_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int mr_button_connected_dark = 2130837741;
+			public const int ic_vol_type_tv_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int mr_button_connected_light = 2130837742;
+			public const int icon = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int mr_button_connecting_dark = 2130837743;
+			public const int mr_button_connected_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_button_connecting_light = 2130837744;
+			public const int mr_button_connected_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_button_dark = 2130837745;
+			public const int mr_button_connecting_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_button_light = 2130837746;
+			public const int mr_button_connecting_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_dialog_close_dark = 2130837747;
+			public const int mr_button_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_dialog_close_light = 2130837748;
+			public const int mr_button_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_dialog_material_background_dark = 2130837749;
+			public const int mr_dialog_close_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_dialog_material_background_light = 2130837750;
+			public const int mr_dialog_close_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_group_collapse = 2130837751;
+			public const int mr_dialog_material_background_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_group_expand = 2130837752;
+			public const int mr_dialog_material_background_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_media_pause_dark = 2130837753;
+			public const int mr_group_collapse = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_media_pause_light = 2130837754;
+			public const int mr_group_expand = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_media_play_dark = 2130837755;
+			public const int mr_media_pause_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int mr_media_play_light = 2130837756;
+			public const int mr_media_pause_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int mr_vol_type_audiotrack_dark = 2130837757;
+			public const int mr_media_play_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int mr_vol_type_audiotrack_light = 2130837758;
+			public const int mr_media_play_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int navigation_empty_icon = 2130837759;
+			public const int mr_media_stop_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int notification_action_background = 2130837760;
+			public const int mr_media_stop_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int notification_bg = 2130837761;
+			public const int mr_vol_type_audiotrack_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int notification_bg_low = 2130837762;
+			public const int mr_vol_type_audiotrack_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int notification_bg_low_normal = 2130837763;
+			public const int navigation_empty_icon = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int notification_bg_low_pressed = 2130837764;
+			public const int notification_action_background = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_bg_normal = 2130837765;
+			public const int notification_bg = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notification_bg_normal_pressed = 2130837766;
+			public const int notification_bg_low = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int notification_icon_background = 2130837767;
-			
-			// aapt resource value: 0x7f02010a
-			public const int notification_template_icon_bg = 2130837770;
-			
-			// aapt resource value: 0x7f02010b
-			public const int notification_template_icon_low_bg = 2130837771;
+			public const int notification_bg_low_normal = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int notification_tile_bg = 2130837768;
+			public const int notification_bg_low_pressed = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int notify_panel_notification_icon_bg = 2130837769;
+			public const int notification_bg_normal = 2130837769;
+			
+			// aapt resource value: 0x7f02010a
+			public const int notification_bg_normal_pressed = 2130837770;
+			
+			// aapt resource value: 0x7f02010b
+			public const int notification_icon_background = 2130837771;
+			
+			// aapt resource value: 0x7f02010e
+			public const int notification_template_icon_bg = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int notification_template_icon_low_bg = 2130837775;
+			
+			// aapt resource value: 0x7f02010c
+			public const int notification_tile_bg = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int notify_panel_notification_icon_bg = 2130837773;
 			
 			static Drawable()
 			{
@@ -4422,7 +6073,7 @@ namespace rodriguez.Droid
 			public const int mr_control_divider = 2131427474;
 			
 			// aapt resource value: 0x7f0b0098
-			public const int mr_control_play_pause = 2131427480;
+			public const int mr_control_playback_ctrl = 2131427480;
 			
 			// aapt resource value: 0x7f0b009b
 			public const int mr_control_subtitle = 2131427483;
@@ -5025,107 +6676,107 @@ namespace rodriguez.Droid
 			// aapt resource value: 0x7f070000
 			public const int Hello = 2131165184;
 			
-			// aapt resource value: 0x7f07001b
-			public const int abc_action_bar_home_description = 2131165211;
-			
 			// aapt resource value: 0x7f07001c
-			public const int abc_action_bar_home_description_format = 2131165212;
+			public const int abc_action_bar_home_description = 2131165212;
 			
 			// aapt resource value: 0x7f07001d
-			public const int abc_action_bar_home_subtitle_description_format = 2131165213;
+			public const int abc_action_bar_home_description_format = 2131165213;
 			
 			// aapt resource value: 0x7f07001e
-			public const int abc_action_bar_up_description = 2131165214;
+			public const int abc_action_bar_home_subtitle_description_format = 2131165214;
 			
 			// aapt resource value: 0x7f07001f
-			public const int abc_action_menu_overflow_description = 2131165215;
+			public const int abc_action_bar_up_description = 2131165215;
 			
 			// aapt resource value: 0x7f070020
-			public const int abc_action_mode_done = 2131165216;
+			public const int abc_action_menu_overflow_description = 2131165216;
 			
 			// aapt resource value: 0x7f070021
-			public const int abc_activity_chooser_view_see_all = 2131165217;
+			public const int abc_action_mode_done = 2131165217;
 			
 			// aapt resource value: 0x7f070022
-			public const int abc_activitychooserview_choose_application = 2131165218;
+			public const int abc_activity_chooser_view_see_all = 2131165218;
 			
 			// aapt resource value: 0x7f070023
-			public const int abc_capital_off = 2131165219;
+			public const int abc_activitychooserview_choose_application = 2131165219;
 			
 			// aapt resource value: 0x7f070024
-			public const int abc_capital_on = 2131165220;
-			
-			// aapt resource value: 0x7f070030
-			public const int abc_font_family_body_1_material = 2131165232;
-			
-			// aapt resource value: 0x7f070031
-			public const int abc_font_family_body_2_material = 2131165233;
-			
-			// aapt resource value: 0x7f070032
-			public const int abc_font_family_button_material = 2131165234;
-			
-			// aapt resource value: 0x7f070033
-			public const int abc_font_family_caption_material = 2131165235;
-			
-			// aapt resource value: 0x7f070034
-			public const int abc_font_family_display_1_material = 2131165236;
-			
-			// aapt resource value: 0x7f070035
-			public const int abc_font_family_display_2_material = 2131165237;
-			
-			// aapt resource value: 0x7f070036
-			public const int abc_font_family_display_3_material = 2131165238;
-			
-			// aapt resource value: 0x7f070037
-			public const int abc_font_family_display_4_material = 2131165239;
-			
-			// aapt resource value: 0x7f070038
-			public const int abc_font_family_headline_material = 2131165240;
-			
-			// aapt resource value: 0x7f070039
-			public const int abc_font_family_menu_material = 2131165241;
-			
-			// aapt resource value: 0x7f07003a
-			public const int abc_font_family_subhead_material = 2131165242;
-			
-			// aapt resource value: 0x7f07003b
-			public const int abc_font_family_title_material = 2131165243;
+			public const int abc_capital_off = 2131165220;
 			
 			// aapt resource value: 0x7f070025
-			public const int abc_search_hint = 2131165221;
+			public const int abc_capital_on = 2131165221;
 			
-			// aapt resource value: 0x7f070026
-			public const int abc_searchview_description_clear = 2131165222;
+			// aapt resource value: 0x7f070031
+			public const int abc_font_family_body_1_material = 2131165233;
 			
-			// aapt resource value: 0x7f070027
-			public const int abc_searchview_description_query = 2131165223;
+			// aapt resource value: 0x7f070032
+			public const int abc_font_family_body_2_material = 2131165234;
 			
-			// aapt resource value: 0x7f070028
-			public const int abc_searchview_description_search = 2131165224;
+			// aapt resource value: 0x7f070033
+			public const int abc_font_family_button_material = 2131165235;
 			
-			// aapt resource value: 0x7f070029
-			public const int abc_searchview_description_submit = 2131165225;
+			// aapt resource value: 0x7f070034
+			public const int abc_font_family_caption_material = 2131165236;
 			
-			// aapt resource value: 0x7f07002a
-			public const int abc_searchview_description_voice = 2131165226;
+			// aapt resource value: 0x7f070035
+			public const int abc_font_family_display_1_material = 2131165237;
 			
-			// aapt resource value: 0x7f07002b
-			public const int abc_shareactionprovider_share_with = 2131165227;
+			// aapt resource value: 0x7f070036
+			public const int abc_font_family_display_2_material = 2131165238;
 			
-			// aapt resource value: 0x7f07002c
-			public const int abc_shareactionprovider_share_with_application = 2131165228;
+			// aapt resource value: 0x7f070037
+			public const int abc_font_family_display_3_material = 2131165239;
 			
-			// aapt resource value: 0x7f07002d
-			public const int abc_toolbar_collapse_description = 2131165229;
+			// aapt resource value: 0x7f070038
+			public const int abc_font_family_display_4_material = 2131165240;
+			
+			// aapt resource value: 0x7f070039
+			public const int abc_font_family_headline_material = 2131165241;
+			
+			// aapt resource value: 0x7f07003a
+			public const int abc_font_family_menu_material = 2131165242;
+			
+			// aapt resource value: 0x7f07003b
+			public const int abc_font_family_subhead_material = 2131165243;
 			
 			// aapt resource value: 0x7f07003c
-			public const int appbar_scrolling_view_behavior = 2131165244;
+			public const int abc_font_family_title_material = 2131165244;
+			
+			// aapt resource value: 0x7f070026
+			public const int abc_search_hint = 2131165222;
+			
+			// aapt resource value: 0x7f070027
+			public const int abc_searchview_description_clear = 2131165223;
+			
+			// aapt resource value: 0x7f070028
+			public const int abc_searchview_description_query = 2131165224;
+			
+			// aapt resource value: 0x7f070029
+			public const int abc_searchview_description_search = 2131165225;
+			
+			// aapt resource value: 0x7f07002a
+			public const int abc_searchview_description_submit = 2131165226;
+			
+			// aapt resource value: 0x7f07002b
+			public const int abc_searchview_description_voice = 2131165227;
+			
+			// aapt resource value: 0x7f07002c
+			public const int abc_shareactionprovider_share_with = 2131165228;
+			
+			// aapt resource value: 0x7f07002d
+			public const int abc_shareactionprovider_share_with_application = 2131165229;
+			
+			// aapt resource value: 0x7f07002e
+			public const int abc_toolbar_collapse_description = 2131165230;
 			
 			// aapt resource value: 0x7f07003d
-			public const int bottom_sheet_behavior = 2131165245;
+			public const int appbar_scrolling_view_behavior = 2131165245;
 			
 			// aapt resource value: 0x7f07003e
-			public const int character_counter_pattern = 2131165246;
+			public const int bottom_sheet_behavior = 2131165246;
+			
+			// aapt resource value: 0x7f07003f
+			public const int character_counter_pattern = 2131165247;
 			
 			// aapt resource value: 0x7f070003
 			public const int day_name_format = 2131165187;
@@ -5190,8 +6841,11 @@ namespace rodriguez.Droid
 			// aapt resource value: 0x7f070016
 			public const int mr_controller_play = 2131165206;
 			
+			// aapt resource value: 0x7f07001b
+			public const int mr_controller_stop = 2131165211;
+			
 			// aapt resource value: 0x7f070017
-			public const int mr_controller_stop = 2131165207;
+			public const int mr_controller_stop_casting = 2131165207;
 			
 			// aapt resource value: 0x7f070018
 			public const int mr_controller_volume_slider = 2131165208;
@@ -5202,26 +6856,26 @@ namespace rodriguez.Droid
 			// aapt resource value: 0x7f07001a
 			public const int mr_user_route_category_name = 2131165210;
 			
-			// aapt resource value: 0x7f07003f
-			public const int password_toggle_content_description = 2131165247;
-			
 			// aapt resource value: 0x7f070040
-			public const int path_password_eye = 2131165248;
+			public const int password_toggle_content_description = 2131165248;
 			
 			// aapt resource value: 0x7f070041
-			public const int path_password_eye_mask_strike_through = 2131165249;
+			public const int path_password_eye = 2131165249;
 			
 			// aapt resource value: 0x7f070042
-			public const int path_password_eye_mask_visible = 2131165250;
+			public const int path_password_eye_mask_strike_through = 2131165250;
 			
 			// aapt resource value: 0x7f070043
-			public const int path_password_strike_through = 2131165251;
+			public const int path_password_eye_mask_visible = 2131165251;
 			
-			// aapt resource value: 0x7f07002e
-			public const int search_menu_title = 2131165230;
+			// aapt resource value: 0x7f070044
+			public const int path_password_strike_through = 2131165252;
 			
 			// aapt resource value: 0x7f07002f
-			public const int status_bar_notification_info_overflow = 2131165231;
+			public const int search_menu_title = 2131165231;
+			
+			// aapt resource value: 0x7f070030
+			public const int status_bar_notification_info_overflow = 2131165232;
 			
 			static String()
 			{
@@ -6451,8 +8105,7 @@ namespace rodriguez.Droid
 			
 			public static int[] ActionBar = new int[]
 			{
-					2130771996,
-					2130771998,
+					2130771997,
 					2130771999,
 					2130772000,
 					2130772001,
@@ -6479,7 +8132,8 @@ namespace rodriguez.Droid
 					2130772022,
 					2130772023,
 					2130772024,
-					2130772086};
+					2130772025,
+					2130772087};
 			
 			// aapt resource value: 10
 			public const int ActionBar_background = 10;
@@ -6586,12 +8240,12 @@ namespace rodriguez.Droid
 			
 			public static int[] ActionMode = new int[]
 			{
-					2130771996,
-					2130772002,
+					2130771997,
 					2130772003,
-					2130772007,
-					2130772009,
-					2130772025};
+					2130772004,
+					2130772008,
+					2130772010,
+					2130772026};
 			
 			// aapt resource value: 3
 			public const int ActionMode_background = 3;
@@ -6613,8 +8267,8 @@ namespace rodriguez.Droid
 			
 			public static int[] ActivityChooserView = new int[]
 			{
-					2130772026,
-					2130772027};
+					2130772027,
+					2130772028};
 			
 			// aapt resource value: 1
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
@@ -6625,12 +8279,12 @@ namespace rodriguez.Droid
 			public static int[] AlertDialog = new int[]
 			{
 					16842994,
-					2130772028,
 					2130772029,
 					2130772030,
 					2130772031,
 					2130772032,
-					2130772033};
+					2130772033,
+					2130772034};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -6656,8 +8310,8 @@ namespace rodriguez.Droid
 			public static int[] AppBarLayout = new int[]
 			{
 					16842964,
-					2130772023,
-					2130772223};
+					2130772024,
+					2130772224};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_android_background = 0;
@@ -6670,8 +8324,8 @@ namespace rodriguez.Droid
 			
 			public static int[] AppBarLayoutStates = new int[]
 			{
-					2130772224,
-					2130772225};
+					2130772225,
+					2130772226};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -6681,8 +8335,8 @@ namespace rodriguez.Droid
 			
 			public static int[] AppBarLayout_Layout = new int[]
 			{
-					2130772226,
-					2130772227};
+					2130772227,
+					2130772228};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -6693,7 +8347,7 @@ namespace rodriguez.Droid
 			public static int[] AppCompatImageView = new int[]
 			{
 					16843033,
-					2130772034};
+					2130772035};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -6704,9 +8358,9 @@ namespace rodriguez.Droid
 			public static int[] AppCompatSeekBar = new int[]
 			{
 					16843074,
-					2130772035,
 					2130772036,
-					2130772037};
+					2130772037,
+					2130772038};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -6754,7 +8408,7 @@ namespace rodriguez.Droid
 			public static int[] AppCompatTextView = new int[]
 			{
 					16842804,
-					2130772038};
+					2130772039};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -6766,7 +8420,6 @@ namespace rodriguez.Droid
 			{
 					16842839,
 					16842926,
-					2130772039,
 					2130772040,
 					2130772041,
 					2130772042,
@@ -6878,7 +8531,8 @@ namespace rodriguez.Droid
 					2130772148,
 					2130772149,
 					2130772150,
-					2130772151};
+					2130772151,
+					2130772152};
 			
 			// aapt resource value: 23
 			public const int AppCompatTheme_actionBarDivider = 23;
@@ -7227,11 +8881,11 @@ namespace rodriguez.Droid
 			
 			public static int[] BottomNavigationView = new int[]
 			{
-					2130772023,
-					2130772266,
+					2130772024,
 					2130772267,
 					2130772268,
-					2130772269};
+					2130772269,
+					2130772270};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -7250,9 +8904,9 @@ namespace rodriguez.Droid
 			
 			public static int[] BottomSheetBehavior_Layout = new int[]
 			{
-					2130772228,
 					2130772229,
-					2130772230};
+					2130772230,
+					2130772231};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -7265,7 +8919,7 @@ namespace rodriguez.Droid
 			
 			public static int[] ButtonBarLayout = new int[]
 			{
-					2130772152};
+					2130772153};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
@@ -7274,7 +8928,6 @@ namespace rodriguez.Droid
 			{
 					16843071,
 					16843072,
-					2130771984,
 					2130771985,
 					2130771986,
 					2130771987,
@@ -7284,7 +8937,8 @@ namespace rodriguez.Droid
 					2130771991,
 					2130771992,
 					2130771993,
-					2130771994};
+					2130771994,
+					2130771995};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -7327,8 +8981,7 @@ namespace rodriguez.Droid
 			
 			public static int[] CollapsingToolbarLayout = new int[]
 			{
-					2130771998,
-					2130772231,
+					2130771999,
 					2130772232,
 					2130772233,
 					2130772234,
@@ -7342,7 +8995,8 @@ namespace rodriguez.Droid
 					2130772242,
 					2130772243,
 					2130772244,
-					2130772245};
+					2130772245,
+					2130772246};
 			
 			// aapt resource value: 13
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 13;
@@ -7394,8 +9048,8 @@ namespace rodriguez.Droid
 			
 			public static int[] CollapsingToolbarLayout_Layout = new int[]
 			{
-					2130772246,
-					2130772247};
+					2130772247,
+					2130772248};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -7407,7 +9061,7 @@ namespace rodriguez.Droid
 			{
 					16843173,
 					16843551,
-					2130772153};
+					2130772154};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -7421,8 +9075,8 @@ namespace rodriguez.Droid
 			public static int[] CompoundButton = new int[]
 			{
 					16843015,
-					2130772154,
-					2130772155};
+					2130772155,
+					2130772156};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -7435,8 +9089,8 @@ namespace rodriguez.Droid
 			
 			public static int[] CoordinatorLayout = new int[]
 			{
-					2130772248,
-					2130772249};
+					2130772249,
+					2130772250};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -7447,12 +9101,12 @@ namespace rodriguez.Droid
 			public static int[] CoordinatorLayout_Layout = new int[]
 			{
 					16842931,
-					2130772250,
 					2130772251,
 					2130772252,
 					2130772253,
 					2130772254,
-					2130772255};
+					2130772255,
+					2130772256};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -7477,9 +9131,9 @@ namespace rodriguez.Droid
 			
 			public static int[] DesignTheme = new int[]
 			{
-					2130772256,
 					2130772257,
-					2130772258};
+					2130772258,
+					2130772259};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -7492,14 +9146,14 @@ namespace rodriguez.Droid
 			
 			public static int[] DrawerArrowToggle = new int[]
 			{
-					2130772156,
 					2130772157,
 					2130772158,
 					2130772159,
 					2130772160,
 					2130772161,
 					2130772162,
-					2130772163};
+					2130772163,
+					2130772164};
 			
 			// aapt resource value: 4
 			public const int DrawerArrowToggle_arrowHeadLength = 4;
@@ -7527,14 +9181,14 @@ namespace rodriguez.Droid
 			
 			public static int[] FloatingActionButton = new int[]
 			{
-					2130772023,
-					2130772221,
+					2130772024,
 					2130772222,
-					2130772259,
+					2130772223,
 					2130772260,
 					2130772261,
 					2130772262,
-					2130772263};
+					2130772263,
+					2130772264};
 			
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTint = 1;
@@ -7562,7 +9216,7 @@ namespace rodriguez.Droid
 			
 			public static int[] FloatingActionButton_Behavior_Layout = new int[]
 			{
-					2130772264};
+					2130772265};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -7571,7 +9225,7 @@ namespace rodriguez.Droid
 			{
 					16843017,
 					16843264,
-					2130772265};
+					2130772266};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -7589,10 +9243,10 @@ namespace rodriguez.Droid
 					16843046,
 					16843047,
 					16843048,
-					2130772006,
-					2130772164,
+					2130772007,
 					2130772165,
-					2130772166};
+					2130772166,
+					2130772167};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -7655,8 +9309,8 @@ namespace rodriguez.Droid
 			{
 					16843071,
 					16843072,
-					2130771983,
-					2130772154};
+					2130771984,
+					2130772155};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -7712,10 +9366,10 @@ namespace rodriguez.Droid
 					16843236,
 					16843237,
 					16843375,
-					2130772167,
 					2130772168,
 					2130772169,
-					2130772170};
+					2130772170,
+					2130772171};
 			
 			// aapt resource value: 14
 			public const int MenuItem_actionLayout = 14;
@@ -7777,8 +9431,8 @@ namespace rodriguez.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130772171,
-					2130772172};
+					2130772172,
+					2130772173};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -7812,13 +9466,13 @@ namespace rodriguez.Droid
 					16842964,
 					16842973,
 					16843039,
-					2130772023,
-					2130772266,
+					2130772024,
 					2130772267,
 					2130772268,
 					2130772269,
 					2130772270,
-					2130772271};
+					2130772271,
+					2130772272};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -7854,7 +9508,7 @@ namespace rodriguez.Droid
 			{
 					16843126,
 					16843465,
-					2130772173};
+					2130772174};
 			
 			// aapt resource value: 1
 			public const int PopupWindow_android_popupAnimationStyle = 1;
@@ -7867,15 +9521,15 @@ namespace rodriguez.Droid
 			
 			public static int[] PopupWindowBackgroundState = new int[]
 			{
-					2130772174};
+					2130772175};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
 			
 			public static int[] RecycleListView = new int[]
 			{
-					2130772175,
-					2130772176};
+					2130772176,
+					2130772177};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -7912,14 +9566,14 @@ namespace rodriguez.Droid
 			
 			public static int[] ScrimInsetsFrameLayout = new int[]
 			{
-					2130772272};
+					2130772273};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[]
 			{
-					2130772273};
+					2130772274};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
@@ -7930,7 +9584,6 @@ namespace rodriguez.Droid
 					16843039,
 					16843296,
 					16843364,
-					2130772177,
 					2130772178,
 					2130772179,
 					2130772180,
@@ -7942,7 +9595,8 @@ namespace rodriguez.Droid
 					2130772186,
 					2130772187,
 					2130772188,
-					2130772189};
+					2130772189,
+					2130772190};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -7998,8 +9652,8 @@ namespace rodriguez.Droid
 			public static int[] SnackbarLayout = new int[]
 			{
 					16843039,
-					2130772023,
-					2130772274};
+					2130772024,
+					2130772275};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -8016,7 +9670,7 @@ namespace rodriguez.Droid
 					16843126,
 					16843131,
 					16843362,
-					2130772024};
+					2130772025};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -8038,7 +9692,6 @@ namespace rodriguez.Droid
 					16843044,
 					16843045,
 					16843074,
-					2130772190,
 					2130772191,
 					2130772192,
 					2130772193,
@@ -8048,7 +9701,8 @@ namespace rodriguez.Droid
 					2130772197,
 					2130772198,
 					2130772199,
-					2130772200};
+					2130772200,
+					2130772201};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -8109,7 +9763,6 @@ namespace rodriguez.Droid
 			
 			public static int[] TabLayout = new int[]
 			{
-					2130772275,
 					2130772276,
 					2130772277,
 					2130772278,
@@ -8124,7 +9777,8 @@ namespace rodriguez.Droid
 					2130772287,
 					2130772288,
 					2130772289,
-					2130772290};
+					2130772290,
+					2130772291};
 			
 			// aapt resource value: 3
 			public const int TabLayout_tabBackground = 3;
@@ -8185,7 +9839,7 @@ namespace rodriguez.Droid
 					16843106,
 					16843107,
 					16843108,
-					2130772038};
+					2130772039};
 			
 			// aapt resource value: 5
 			public const int TextAppearance_android_shadowColor = 5;
@@ -8221,7 +9875,6 @@ namespace rodriguez.Droid
 			{
 					16842906,
 					16843088,
-					2130772291,
 					2130772292,
 					2130772293,
 					2130772294,
@@ -8234,7 +9887,8 @@ namespace rodriguez.Droid
 					2130772301,
 					2130772302,
 					2130772303,
-					2130772304};
+					2130772304,
+					2130772305};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -8288,17 +9942,16 @@ namespace rodriguez.Droid
 			{
 					16842927,
 					16843072,
-					2130771998,
-					2130772001,
-					2130772005,
-					2130772017,
+					2130771999,
+					2130772002,
+					2130772006,
 					2130772018,
 					2130772019,
 					2130772020,
 					2130772021,
 					2130772022,
-					2130772024,
-					2130772201,
+					2130772023,
+					2130772025,
 					2130772202,
 					2130772203,
 					2130772204,
@@ -8314,7 +9967,8 @@ namespace rodriguez.Droid
 					2130772214,
 					2130772215,
 					2130772216,
-					2130772217};
+					2130772217,
+					2130772218};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -8407,9 +10061,9 @@ namespace rodriguez.Droid
 			{
 					16842752,
 					16842970,
-					2130772218,
 					2130772219,
-					2130772220};
+					2130772220,
+					2130772221};
 			
 			// aapt resource value: 1
 			public const int View_android_focusable = 1;
@@ -8429,8 +10083,8 @@ namespace rodriguez.Droid
 			public static int[] ViewBackgroundHelper = new int[]
 			{
 					16842964,
-					2130772221,
-					2130772222};
+					2130772222,
+					2130772223};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;

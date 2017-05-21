@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>rodriguez.Droid</RootNamespace>
     <AssemblyName>rodriguez.Droid</AssemblyName>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>

@@ -14,26 +14,10 @@ namespace rodriguez
 
 		List<categoria> categoriasLista;
 
-
-		public class ShoppingCart
-		{
-			public DateTime Date { get; set; }
-			public double Amount { get; set; }
-		}
-
-		public class Section
-		{
-			public string Title { get; set; }
-			public IEnumerable<ShoppingCart> List { get; set; }
-		}
 		public class SectionCategorias
 		{
 			public string Title { get; set; }
 			public IEnumerable<producto> List { get; set; }
-		}
-		public class ViewModel
-		{
-			public IEnumerable<Section> List { get; set; }
 		}
 
 		public class ViewModelProd
