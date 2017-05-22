@@ -2,7 +2,6 @@
 using Xamarin.Forms;
 using System.Collections.Generic;
 using XLabs.Ioc;
-using rodriguez.Data.PayPal;
 using rodriguez.UI;
 
 namespace rodriguez

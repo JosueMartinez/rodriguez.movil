@@ -9,9 +9,9 @@ using Android.Widget;
 using Android.OS;
 using XLabs.Ioc;
 using XLabs.Platform.Device;
-using rodriguez.Data.PayPal;
 using PayPal.Forms.Abstractions;
 using PayPal.Forms.Abstractions.Enum;
+using PayPal.Forms;
 
 namespace rodriguez.Droid
 {
@@ -20,8 +20,7 @@ namespace rodriguez.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+
 
             base.OnCreate(bundle);
             //adding iconize package
@@ -29,10 +28,14 @@ namespace rodriguez.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             FormsPlugin.Iconize.Droid.IconControls.Init(Resource.Id.toolbar, Resource.Id.tabMode);
+            TabLayoutResource = Resource.Layout.Tabbar;
+            ToolbarResource = Resource.Layout.Toolbar;
 
             #region paypal-conf
-            PayPal.Forms.CrossPayPalManager.Init(new PayPalConfiguration(PayPalEnvironment.NoNetwork, "AbpLXvsoTb4Qrd1qQbGl6QsllrYC-QSumRWB3rlM6nbBtx01ngomIDdiyF94lZaz47lVsY7Mt5MveM20")  //"Your PayPal ID from https://developer.paypal.com/developer/applications/"
-
+            CrossPayPalManager.Init(new PayPalConfiguration(
+                    PayPal.Forms.Abstractions.Enum.PayPalEnvironment.NoNetwork,
+                    "AbpLXvsoTb4Qrd1qQbGl6QsllrYC - QSumRWB3rlM6nbBtx01ngomIDdiyF94lZaz47lVsY7Mt5MveM20"
+                    )
             {
                 //If you want to accept credit cards
                 AcceptCreditCards = true,
@@ -44,19 +47,31 @@ namespace rodriguez.Droid
                 MerchantUserAgreementUri = "https://www.example.com/legal",
 
                 // OPTIONAL - ShippingAddressOption (Both, None, PayPal, Provided)
-                ShippingAddressOption = ShippingAddressOption.None,
+                ShippingAddressOption = ShippingAddressOption.Both,
 
                 // OPTIONAL - Language: Default languege for PayPal Plug-In
                 Language = "es",
 
                 // OPTIONAL - PhoneCountryCode: Default phone country code for PayPal Plug-In
-                PhoneCountryCode = "809",
+                PhoneCountryCode = "52",
             }
             );
             #endregion
 
 
             LoadApplication(new App());
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            PayPalManagerImplementation.Manager.OnActivityResult(requestCode, resultCode, data);
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            PayPalManagerImplementation.Manager.Destroy();
         }
 
     }

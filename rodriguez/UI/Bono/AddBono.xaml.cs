@@ -5,10 +5,13 @@ using Xamarin.Forms;
 using System.Diagnostics;
 using rodriguez.Data;
 using System.Threading.Tasks;
-using rodriguez.Data.PayPal;
 using XLabs.Ioc;
 using System.Linq;
 using System.Collections;
+using PayPal.Forms;
+using PayPal.Forms.Abstractions;
+using PayPal.Forms.Abstractions.Enum;
+
 
 namespace rodriguez
 {
@@ -51,8 +54,6 @@ namespace rodriguez
         async void comprarBono(object sender, System.EventArgs e)
         {
             btnComprar.IsEnabled = false;
-            PayPalClient paypal = new PayPalClient();
-            //var token = await paypal.GetAccessToken();
             double montoBono;
 
             //tasa = cbMoneda.SelectedItem;
@@ -63,8 +64,7 @@ namespace rodriguez
                 cedulaDestino = txtCedula.Text,
                 telefonoDestino = txtCelular.Text,
                 //monto = int.Parse(txtMonto.Text),
-                fechaCompra = DateTime.Now,
-                tasaId = tasa.id
+                fechaCompra = DateTime.Now
             };
             b.clienteId = 1; //TODO get logged user
 
@@ -74,22 +74,41 @@ namespace rodriguez
                 b.monto = montoBono;
             }
 
+            if (monedaSeleccionada != null)
+            {
+                b.tasaId = monedaSeleccionada.tasas.First().id;
+            }
+
 
 
             if (validarBono(b))
             {
-                var result = await paypal.MakePayment(b);
+                var currency = monedaSeleccionada.simbolo.Equals("RD") ? "DOP" : monedaSeleccionada.simbolo;
+                var payment = (new PayPalItem("Test Product", (decimal)b.monto, currency));
+                var result = await CrossPayPalManager.Current.Buy(payment, new Decimal(0));
+                if (result.Status == PayPalStatus.Cancelled)
+                {
+                    await DisplayAlert("Cancelado", "Ha cancelado el proceso", "Ok");
+                }
+                else if (result.Status == PayPalStatus.Error)
+                {
+                    await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
+                }
+                else if (result.Status == PayPalStatus.Successful)
+                {
+                    if (bonoManager.buyBono(b) != null)
+                    {
+                        await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
+                        await Navigation.PopAsync();
+                    }
+                    else
+                    {
+                        await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
+                    }
+
+                }
+
                 btnComprar.IsEnabled = true;
-
-                if (result.DisplayError == null)
-                {
-                    await Navigation.PushAsync(new PayPalWebView(result.Url, result.AccessToken));
-
-                }
-                else
-                {
-                    // display executePaymentData.DisplayError
-                }
 
             }
             else
@@ -177,14 +196,13 @@ namespace rodriguez
         {
             if (cbMoneda.SelectedIndex != -1)
             {
-                moneda mon = cbMoneda.SelectedItem as moneda;
+                monedaSeleccionada = cbMoneda.SelectedItem as moneda;
                 //Task<tasa> tasaTask = tasaManager.GetBySimbolo(mon.simbolo);
                 //tasa = await tasaTask;
-                tasaDia = mon.tasas.First().valor;
+                tasaDia = monedaSeleccionada.tasas.First().valor;
                 lbTasaDia.Text = TasaDia;
                 montoRD = double.Parse(txtMonto.Text != null ? txtMonto.Text : "0.00") * tasaDia;
                 lbMontoRD.Text = MontoRD;
-                monedaSeleccionada = mon;
             }
         }
 

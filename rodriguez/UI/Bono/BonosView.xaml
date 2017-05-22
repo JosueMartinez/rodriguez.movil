@@ -8,7 +8,7 @@
     </ContentPage.Padding>
 
 	<ContentPage.ToolbarItems>
-	    <iconize:IconToolbarItem Clicked="addBono"  Icon="fa-plus" />
+	    <iconize:IconToolbarItem Clicked="addBono" Command="{Binding addBono}" Icon="fa-plus" />
 	</ContentPage.ToolbarItems>
 	
 	<ContentPage.Content>
