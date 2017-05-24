@@ -11,6 +11,7 @@ using System.Collections;
 using PayPal.Forms;
 using PayPal.Forms.Abstractions;
 using PayPal.Forms.Abstractions.Enum;
+using rodriguez.Data.PayPal;
 
 
 namespace rodriguez
@@ -41,7 +42,7 @@ namespace rodriguez
             monedas = await monedasTask;
             IList monedasList = (IList)monedas;
             cbMoneda.ItemsSource = monedasList;
-            if (monedas.Count() > 0)
+            if (monedas != null && monedas.Count() > 0)
                 monedaSeleccionada = (from mn in monedas where mn.simbolo.Equals("USD") select mn).FirstOrDefault();
             else
             {
@@ -85,6 +86,8 @@ namespace rodriguez
             {
                 var currency = monedaSeleccionada.simbolo.Equals("RD") ? "DOP" : monedaSeleccionada.simbolo;
                 var payment = (new PayPalItem("Test Product", (decimal)b.monto, currency));
+
+
                 var result = await CrossPayPalManager.Current.Buy(payment, new Decimal(0));
                 if (result.Status == PayPalStatus.Cancelled)
                 {
@@ -96,6 +99,15 @@ namespace rodriguez
                 }
                 else if (result.Status == PayPalStatus.Successful)
                 {
+                    var paymentId = result.ServerResponse.Response.Id;
+                    Debug.WriteLine(result.ServerResponse.Response.Id);
+                    PayPalClient paypal = new PayPalClient();
+                    PayPalPayment paymentDetail = await paypal.getPayment(paymentId);
+
+                    b.paypalId = paymentId;
+
+                    //TODO agregar demas propiedades del pago de paypal (estado y metodo)
+
                     if (bonoManager.buyBono(b) != null)
                     {
                         await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");

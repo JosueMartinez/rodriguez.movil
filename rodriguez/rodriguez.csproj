@@ -102,6 +102,10 @@
       <DependentUpon>ListaDetail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Classes\AccordionView.cs" />
+    <Compile Include="Data\PayPal\PayPalClient.cs" />
+    <Compile Include="Data\PayPal\PayPalGetTokenResponse.cs" />
+    <Compile Include="Data\PayPal\PayPalPayment.cs" />
+    <Compile Include="Data\PayPal\PayPalPayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">
@@ -165,6 +169,7 @@
     <Folder Include="Classes\" />
     <Folder Include="UI\Bono\" />
     <Folder Include="UI\Compras\" />
+    <Folder Include="Data\PayPal\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
