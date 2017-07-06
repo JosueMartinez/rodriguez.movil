@@ -80,8 +80,6 @@ namespace rodriguez
                 b.tasaId = monedaSeleccionada.tasas.First().id;
             }
 
-
-
             if (validarBono(b))
             {
                 var currency = monedaSeleccionada.simbolo.Equals("RD") ? "DOP" : monedaSeleccionada.simbolo;

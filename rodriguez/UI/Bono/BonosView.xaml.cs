@@ -29,6 +29,14 @@ namespace rodriguez
             };
 
             InitializeComponent();
+
+            //Toolbar Items
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Icon = "fa-plus",
+                Text = "fa-plus",
+                Command = new Command(this.addBono)
+            });
         }
 
         async void refreshData()
@@ -63,7 +71,6 @@ namespace rodriguez
 
 
             this.IsBusy = false;
-            //await DisplayAlert("Subject?", "Text", "Yes", "No");
         }
 
         async void ViewDetails(object sender, ItemTappedEventArgs e)
@@ -73,6 +80,11 @@ namespace rodriguez
         }
 
         void addBono(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new AddBono());
+        }
+
+        void addBono()
         {
             Navigation.PushAsync(new AddBono());
         }

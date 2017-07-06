@@ -11,7 +11,12 @@ namespace rodriguez
         public App()
         {
             InitializeComponent();
-            tabbedPage = new IconTabbedPage { Title = "Supermercado Rodriguez", BarTextColor = Color.White, BarBackgroundColor = Color.Red };
+            tabbedPage = new IconTabbedPage
+            {
+                Title = "Supermercado Rodriguez",
+                BarTextColor = Color.White,
+                BarBackgroundColor = Color.Red
+            };
 
 
             tabbedPage.Children.Add(new BonosView
@@ -32,7 +37,11 @@ namespace rodriguez
                 Icon = "fa-cogs"
             });
 
-            MainPage = new IconNavigationPage(tabbedPage) { BarTextColor = Color.White, BarBackgroundColor = Color.Red };
+            MainPage = new IconNavigationPage(tabbedPage)
+            {
+                BarTextColor = Color.White,
+                BarBackgroundColor = Color.Red
+            };
 
         }
 

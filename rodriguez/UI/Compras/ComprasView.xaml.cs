@@ -8,66 +8,74 @@ using System.Linq;
 
 namespace rodriguez
 {
-	public partial class ComprasView : ContentPage
-	{
-		readonly IList<listacompra> listas = new ObservableCollection<listacompra>();
-		readonly listaCompraManager manager = new listaCompraManager();
+    public partial class ComprasView : ContentPage
+    {
+        readonly IList<listacompra> listas = new ObservableCollection<listacompra>();
+        readonly listaCompraManager manager = new listaCompraManager();
 
-		public ComprasView()
-		{
-			this.Appearing += (object sender, EventArgs e) => {
-				refreshData();
-				ListasList.ItemsSource = listas;
-			};
+        public ComprasView()
+        {
+            this.Appearing += (object sender, EventArgs e) =>
+            {
+                refreshData();
+                ListasList.ItemsSource = listas;
+            };
 
-			InitializeComponent();
+            InitializeComponent();
+            //Toolbar Items
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Icon = "fa-plus",
+                Text = "Nueva",
+                Command = new Command(this.addLista)
+            });
 
-		}
+        }
 
-		async void refreshData()
-		{
-			this.IsBusy = true;
-			listas.Clear();
-			var listasLista = await manager.GetAll();  //obtaining listas from Server
+        async void refreshData()
+        {
+            this.IsBusy = true;
+            listas.Clear();
+            var listasLista = await manager.GetAll();  //obtaining listas from Server
 
-			if (listasLista != null)
-			{
-				if (listasLista.Count() > 0)
-				{
-					
-					foreach (listacompra lista in listasLista.OrderByDescending(x => x.fechaCreacion))
-					{
-						//bono.tasa.moneda = await monedaManager.GetByID(bono.tasa.monedaId);
-						if (listas.All(l => l.id != lista.id))
-							listas.Add(lista);
-					}
-				}
-				else
-				{
-					ListasList.IsVisible = false;
-					ListasListMessage.IsVisible = true;
-				}
-			}
-			else
-			{
-				await DisplayAlert("Error!", "Se ha producido un error en la conexión", "OK");
-			}
+            if (listasLista != null)
+            {
+                if (listasLista.Count() > 0)
+                {
+
+                    foreach (listacompra lista in listasLista.OrderByDescending(x => x.fechaCreacion))
+                    {
+                        //bono.tasa.moneda = await monedaManager.GetByID(bono.tasa.monedaId);
+                        if (listas.All(l => l.id != lista.id))
+                            listas.Add(lista);
+                    }
+                }
+                else
+                {
+                    ListasList.IsVisible = false;
+                    ListasListMessage.IsVisible = true;
+                }
+            }
+            else
+            {
+                await DisplayAlert("Error!", "Se ha producido un error en la conexión", "OK");
+            }
 
 
 
-			this.IsBusy = false;
-			//await DisplayAlert("Subject?", "Text", "Yes", "No");
-		}
+            this.IsBusy = false;
+            //await DisplayAlert("Subject?", "Text", "Yes", "No");
+        }
 
-		async void ViewDetails(object sender, ItemTappedEventArgs e)
-		{
-			listacompra l = (listacompra)e.Item;
-			await Navigation.PushAsync(new ListaDetail(l));
-		}
+        async void ViewDetails(object sender, ItemTappedEventArgs e)
+        {
+            listacompra l = (listacompra)e.Item;
+            await Navigation.PushAsync(new ListaDetail(l));
+        }
 
-		void addLista(object sender, System.EventArgs e)
-		{
-			Navigation.PushAsync(new AddLista());
-		}
-	}
+        void addLista()
+        {
+            Navigation.PushAsync(new AddLista());
+        }
+    }
 }

@@ -6649,10 +6649,10 @@ namespace rodriguez.Droid
 			public const int support_simple_spinner_dropdown_item = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int Tabbar = 2130903110;
+			public const int tabs = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int Toolbar = 2130903111;
+			public const int toolbar = 2130903111;
 			
 			// aapt resource value: 0x7f030048
 			public const int week = 2130903112;
@@ -6670,11 +6670,11 @@ namespace rodriguez.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int ApplicationName = 2131165185;
+			// aapt resource value: 0x7f070002
+			public const int ApplicationName = 2131165186;
 			
-			// aapt resource value: 0x7f070000
-			public const int Hello = 2131165184;
+			// aapt resource value: 0x7f070001
+			public const int Hello = 2131165185;
 			
 			// aapt resource value: 0x7f07001c
 			public const int abc_action_bar_home_description = 2131165212;
@@ -6787,8 +6787,8 @@ namespace rodriguez.Droid
 			// aapt resource value: 0x7f070004
 			public const int invalid_date = 2131165188;
 			
-			// aapt resource value: 0x7f070002
-			public const int library_name = 2131165186;
+			// aapt resource value: 0x7f070000
+			public const int library_name = 2131165184;
 			
 			// aapt resource value: 0x7f070005
 			public const int month_name_format = 2131165189;

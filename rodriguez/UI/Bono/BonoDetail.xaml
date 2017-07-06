@@ -4,7 +4,7 @@
 	x:Class="rodriguez.BonoDetail"
 	Title="Detalle Bono">
 
-	<Label Text="Detall Bono"/>
+	<Label Text="Detalle Bono"/>
 	<Grid x:Name ="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
 
         <Grid.ColumnDefinitions>

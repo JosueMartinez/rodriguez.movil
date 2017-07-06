@@ -3,15 +3,11 @@
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using XLabs.Ioc;
-using XLabs.Platform.Device;
 using PayPal.Forms.Abstractions;
 using PayPal.Forms.Abstractions.Enum;
 using PayPal.Forms;
+using FormsPlugin.Iconize.Droid;
 
 namespace rodriguez.Droid
 {
@@ -27,9 +23,10 @@ namespace rodriguez.Droid
             Plugin.Iconize.Iconize.With(new Plugin.Iconize.Fonts.FontAwesomeModule());
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            FormsPlugin.Iconize.Droid.IconControls.Init(Resource.Id.toolbar, Resource.Id.tabMode);
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+            IconControls.Init(Resource.Id.toolbar, Resource.Id.sliding_tabs);
+            ToolbarResource = Resource.Layout.toolbar;
+            TabLayoutResource = Resource.Layout.tabs;
+
 
             #region paypal-conf
             CrossPayPalManager.Init(new PayPalConfiguration(

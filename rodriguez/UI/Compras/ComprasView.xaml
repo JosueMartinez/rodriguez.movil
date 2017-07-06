@@ -9,9 +9,9 @@
 	    <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
     </ContentPage.Padding>
 
-	<ContentPage.ToolbarItems>
-	    <iconize:IconToolbarItem Clicked="addLista"  Icon="fa-plus" />
-	</ContentPage.ToolbarItems>
+	<!--<ContentPage.ToolbarItems>
+	    <iconize:IconToolbarItem Clicked="addLista" IconColor="White"  Icon="fa-plus" />
+	</ContentPage.ToolbarItems>-->
 	
 	<ContentPage.Content>
 		<StackLayout>
