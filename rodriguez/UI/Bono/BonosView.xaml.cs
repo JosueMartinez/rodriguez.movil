@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using System.Linq;
 using System.Threading.Tasks;
 using Plugin.Iconize;
+using FormsPlugin.Iconize;
 using rodriguez.Data;
 
 namespace rodriguez
@@ -31,10 +32,10 @@ namespace rodriguez
             InitializeComponent();
 
             //Toolbar Items
-            ToolbarItems.Add(new ToolbarItem
+            ToolbarItems.Add(new IconToolbarItem
             {
                 Icon = "fa-plus",
-                Text = "fa-plus",
+                IconColor = Color.White,
                 Command = new Command(this.addBono)
             });
         }
