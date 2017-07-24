@@ -105,16 +105,24 @@ namespace rodriguez
                     b.paypalId = paymentId;
 
                     //TODO agregar demas propiedades del pago de paypal (estado y metodo)
-
-                    if (bonoManager.buyBono(b) != null)
+                    try
                     {
-                        await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
-                        await Navigation.PopAsync();
+                        if (bonoManager.buyBono(b) != null)
+                        {
+                            await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
+                            await Navigation.PopAsync();
+                        }
+                        else
+                        {
+                            await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
+                        }
                     }
-                    else
+                    catch (Exception ex)
                     {
+                        Debug.WriteLine(ex.ToString());
                         await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
                     }
+
 
                 }
 

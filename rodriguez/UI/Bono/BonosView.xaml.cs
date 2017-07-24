@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
-using Xamarin.Forms;
 using System.Linq;
-using System.Threading.Tasks;
-using Plugin.Iconize;
 using FormsPlugin.Iconize;
 using rodriguez.Data;
+using Xamarin.Forms;
 
 namespace rodriguez
 {
@@ -23,11 +20,11 @@ namespace rodriguez
             manager = new BonosManager();
             monedaManager = new MonedaManager();
 
-            this.Appearing += (object sender, EventArgs e) =>
-            {
-                refreshData();
-                BonosList.ItemsSource = bonos;
-            };
+            //this.Appearing += (object sender, EventArgs e) =>
+            //{
+            refreshData();
+            BonosList.ItemsSource = bonos;
+            //};
 
             InitializeComponent();
 

@@ -10,7 +10,7 @@
 
     <!-- SHOWN ONLY ON IOS-->
     <!-- Android toolbaritem is handled on code -->
-	<ContentPage.ToolbarItems>
+	<!--<ContentPage.ToolbarItems>
 	    <iconize:IconToolbarItem Priority="0" Clicked="addBono" IconColor="White" Icon="fa-plus">
             <iconize:IconToolbarItem.IsVisible>  
                 <OnPlatform x:TypeArguments="x:Boolean" 
@@ -18,7 +18,7 @@
                       Android="false"/>
             </iconize:IconToolbarItem.IsVisible>
         </iconize:IconToolbarItem>
-	</ContentPage.ToolbarItems>
+	</ContentPage.ToolbarItems>-->
     
 	<ContentPage.Content>
 		<StackLayout>

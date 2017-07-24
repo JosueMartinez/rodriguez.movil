@@ -57,6 +57,9 @@
     <EmbeddedResource Include="UI\Compras\ListaDetail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Usuario\Login.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -106,6 +109,10 @@
     <Compile Include="Data\PayPal\PayPalGetTokenResponse.cs" />
     <Compile Include="Data\PayPal\PayPalPayment.cs" />
     <Compile Include="Data\PayPal\PayPalPayer.cs" />
+    <Compile Include="UI\Usuario\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ILoginManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">
@@ -159,6 +166,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Zlib.Portable">
+      <HintPath>..\packages\Zlib.Portable.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.OAuth">
+      <HintPath>..\packages\Xamarin.Forms.OAuth.1.2.1\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\Xamarin.Forms.OAuth.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -170,6 +183,7 @@
     <Folder Include="UI\Bono\" />
     <Folder Include="UI\Compras\" />
     <Folder Include="Data\PayPal\" />
+    <Folder Include="UI\Usuario\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

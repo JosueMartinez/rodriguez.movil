@@ -1,5 +1,28 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.UI.Login">
-	<ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="rodriguez.UI.Login"
+    xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize">
+
+
+    <ContentPage.Content>
+        
+        <Grid x:Name ="GridLogin" Padding="10" Margin="10" RowSpacing="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center"/>
+            <Entry x:Name="txtUsuario" Placeholder="Usuario" Grid.Row="1" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
+            <Entry IsPassword="true" x:Name="txtContraseña" Placeholder="Contraseña" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>  
+            <Button x:Name="btnLogin" Clicked="iniciarSesion"  Text="Entrar" Grid.Row="3" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
+        </Grid>
 	</ContentPage.Content>
 </ContentPage>

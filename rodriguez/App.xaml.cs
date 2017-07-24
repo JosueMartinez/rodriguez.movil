@@ -1,15 +1,24 @@
 ﻿using System.Linq;
 using FormsPlugin.Iconize;
+using rodriguez.Classes;
+using rodriguez.UI;
 using Xamarin.Forms;
+using Xamarin.Forms.OAuth;
 
 namespace rodriguez
 {
     public partial class App : Application
     {
         public IconTabbedPage tabbedPage { get; set; }
+        static ILoginManager loginManager;
+        public static App Current;
 
         public App()
         {
+            Current = this;
+            OAuthAuthenticator.AddPRovider(OAuthProviders.Facebook("553399218382011"));
+            //OAuthAuthenticator.AddPRovider(OAuthProviders.Google("GoogleClientId", "RedirectUrlConfiguredInGoogleAppConsole"));
+
             InitializeComponent();
             tabbedPage = new IconTabbedPage
             {
@@ -37,12 +46,40 @@ namespace rodriguez
                 Icon = "fa-cogs"
             });
 
+            //tabbedPage.Children.Add((new Login
+            //{
+            //    Title = "Login",
+            //    Icon = "fa-shopping-cart"
+            //}));
+
+            var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
+
+            // we remember if they're logged in, and only display the login page if they're not
+            if (isLoggedIn)
+            {
+                MainPage = new IconNavigationPage(tabbedPage)
+                {
+                    BarTextColor = Color.White,
+                    BarBackgroundColor = Color.Red
+                };
+            }
+            else
+                MainPage = new Login();
+        }
+
+        public void ShowMainPage()
+        {
             MainPage = new IconNavigationPage(tabbedPage)
             {
                 BarTextColor = Color.White,
                 BarBackgroundColor = Color.Red
             };
+        }
 
+        public void Logout()
+        {
+            Properties["IsLoggedIn"] = false; // only gets set to 'true' on the LoginPage
+            MainPage = new Login();
         }
 
         protected override void OnStart()
