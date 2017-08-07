@@ -60,6 +60,12 @@
     <EmbeddedResource Include="UI\Usuario\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Usuario\Register.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Usuario\PasswordRecover.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -113,6 +119,13 @@
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
     <Compile Include="Classes\ILoginManager.cs" />
+    <Compile Include="UI\Usuario\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Usuario\PasswordRecover.xaml.cs">
+      <DependentUpon>PasswordRecover.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WaitingPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">

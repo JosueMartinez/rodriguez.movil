@@ -1,5 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.UI.Usuario.Register">
-	<ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.UI.Usuario.Register">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+    </ContentPage.Padding>
+
+    
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="20">
+
+            <StackLayout VerticalOptions="StartAndExpand">
+                <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout VerticalOptions="CenterAndExpand">
+                <Entry Placeholder="Usuario" x:Name="Usuario" HorizontalTextAlignment="Center" />
+                <Entry Placeholder="Nombre" x:Name="Nombre" HorizontalTextAlignment="Center" />
+                <Entry Keyboard="Telephone" Placeholder="Cédula" x:Name="Cedula" HorizontalTextAlignment="Center" />
+                <Entry Keyboard="Email" Placeholder="E-mail" x:Name="Email" HorizontalTextAlignment="Center" />
+                <Entry Keyboard="Telephone" Placeholder="Teléfono" x:Name="Telefono" HorizontalTextAlignment="Center" />
+                <Entry IsPassword="true" Placeholder="Contraseña" x:Name="Contrasena" HorizontalTextAlignment="Center" />
+                <Entry IsPassword="true" Placeholder="Confirmar Contraseña" x:Name="ConfirmarContrasena" HorizontalTextAlignment="Center" />
+            </StackLayout>
+
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Label x:Name="GoToLogin" HorizontalTextAlignment="Center" Margin="10" Text="Ya tengo una cuenta" TextColor="#33749C"></Label>
+                <Button Text="Crear" TextColor="White" BackgroundColor="#33749C" Clicked="crearCuenta"/>
+            </StackLayout>
+            
+        </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -10,23 +10,16 @@ namespace rodriguez
 {
     public partial class BonosView : ContentPage
     {
-        IList<Bono> bonos { get; set; }
         BonosManager manager { get; set; }
         MonedaManager monedaManager { get; set; }
 
         public BonosView()
         {
-            bonos = new ObservableCollection<Bono>();
             manager = new BonosManager();
-            monedaManager = new MonedaManager();
-
-            //this.Appearing += (object sender, EventArgs e) =>
-            //{
-            refreshData();
-            BonosList.ItemsSource = bonos;
-            //};
 
             InitializeComponent();
+
+            refreshData();
 
             //Toolbar Items
             ToolbarItems.Add(new IconToolbarItem
@@ -40,20 +33,13 @@ namespace rodriguez
         async void refreshData()
         {
             this.IsBusy = true;
-            bonos.Clear();
             var bonosLista = await manager.GetAll();  //obtaining bonos from Server
 
             if (bonosLista != null)
             {
                 if (bonosLista.Count() > 0)
                 {
-
-                    foreach (Bono bono in bonosLista.OrderByDescending(x => x.fechaCompra))
-                    {
-                        bono.tasa.moneda = await monedaManager.GetByID(bono.tasa.monedaId);
-                        if (bonos.All(b => b.id != bono.id))
-                            bonos.Add(bono);
-                    }
+                    BonosList.ItemsSource = bonosLista;
                 }
                 else
                 {

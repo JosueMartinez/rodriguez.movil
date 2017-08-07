@@ -7,18 +7,6 @@
 	<ContentPage.Padding>
 	    <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
     </ContentPage.Padding>
-
-    <!-- SHOWN ONLY ON IOS-->
-    <!-- Android toolbaritem is handled on code -->
-	<!--<ContentPage.ToolbarItems>
-	    <iconize:IconToolbarItem Priority="0" Clicked="addBono" IconColor="White" Icon="fa-plus">
-            <iconize:IconToolbarItem.IsVisible>  
-                <OnPlatform x:TypeArguments="x:Boolean" 
-                      iOS="true"
-                      Android="false"/>
-            </iconize:IconToolbarItem.IsVisible>
-        </iconize:IconToolbarItem>
-	</ContentPage.ToolbarItems>-->
     
 	<ContentPage.Content>
 		<StackLayout>

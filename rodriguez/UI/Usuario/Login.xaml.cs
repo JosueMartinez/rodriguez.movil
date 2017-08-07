@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
 using Newtonsoft.Json;
+using rodriguez.UI.Usuario;
 using Xamarin.Forms;
+
 
 namespace rodriguez.UI
 {
@@ -11,11 +13,12 @@ namespace rodriguez.UI
     {
         private string authorizationKey;
         HttpClient client { get; set; }
+        ActivityIndicator act;
 
         void iniciarSesion(object sender, System.EventArgs e)
         {
             var usuario = txtUsuario.Text;
-            var contrasena = txtContraseña.Text;
+            var contrasena = txtContrasena.Text;
 
             if (String.IsNullOrEmpty(usuario) || String.IsNullOrEmpty(contrasena))
             {
@@ -43,7 +46,6 @@ namespace rodriguez.UI
                     authorizationKey = tokenDictionary["access_token"];
                     Application.Current.Properties["IsLoggedIn"] = true;
                     Application.Current.Properties["token"] = authorizationKey;
-
                     App.Current.ShowMainPage();
 
                 }
@@ -59,7 +61,28 @@ namespace rodriguez.UI
         {
             client = new HttpClient();
             client.BaseAddress = new Uri(Constants.baseUrl);
+
             InitializeComponent();
+
+            newAccountLabel.GestureRecognizers.Add(
+                new TapGestureRecognizer()
+                {
+                    Command = new Command(() =>
+                    {
+                        Navigation.PushModalAsync(new Register());
+                    })
+                }
+            );
+
+            forgottenLabel.GestureRecognizers.Add(
+                new TapGestureRecognizer()
+                {
+                    Command = new Command(() =>
+                    {
+                        Navigation.PushModalAsync(new PasswordRecover());
+                    })
+                }
+            );
         }
 
     }
