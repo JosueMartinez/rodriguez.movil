@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns ="http://xamarin.com/schemas/2014/forms" 
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-	x:Class="rodriguez.ConfigView"
-	Title="Configuración">
-
-	<ContentPage.Padding>
-	    <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.ConfigView" Title="Configuración">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
     </ContentPage.Padding>
-	
-	<ContentPage.Content>
-		<Label Text="Configuración"/>
-	</ContentPage.Content>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="20">
+            
+            <StackLayout VerticalOptions="StartAndExpand">
+                
+                <Grid x:Name="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Usuario: " Grid.Row="0" Grid.Column="0" VerticalOptions="Center" />
+                    <Entry IsEnabled="false" Text="{Binding usuario}" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
+                    
+                    <Label Text="E-mail: " Grid.Row="1" Grid.Column="0" VerticalOptions="Center" />
+                    <Entry IsEnabled="false" Text="{Binding email}"  Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
+                    
+                    <Label Text="Teléfono: " Grid.Row="2" Grid.Column="0" VerticalOptions="Center" />
+                    <Entry IsEnabled="false" Text="{Binding telefono}" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
+                </Grid>
+
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

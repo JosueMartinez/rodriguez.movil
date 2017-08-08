@@ -20,6 +20,55 @@ namespace rodriguez
             //OAuthAuthenticator.AddPRovider(OAuthProviders.Google("GoogleClientId", "RedirectUrlConfiguredInGoogleAppConsole"));
 
             InitializeComponent();
+            //tabbedPage = new IconTabbedPage
+            //{
+            //    Title = "Supermercado Rodriguez",
+            //    BarTextColor = Color.White,
+            //    BarBackgroundColor = Color.Red
+            //};
+
+
+            //tabbedPage.Children.Add(new BonosView
+            //{
+            //    Title = "Bonos",
+            //    Icon = "fa-money"
+            //});
+
+            //tabbedPage.Children.Add(new ComprasView
+            //{
+            //    Title = "Compras",
+            //    Icon = "fa-shopping-cart"
+            //});
+
+            //tabbedPage.Children.Add(new ConfigView
+            //{
+            //    Title = "Configuración",
+            //    Icon = "fa-cogs"
+            //});
+
+            //tabbedPage.Children.Add((new Login
+            //{
+            //    Title = "Login",
+            //    Icon = "fa-shopping-cart"
+            //}));
+
+            var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
+
+            // we remember if they're logged in, and only display the login page if they're not
+            if (isLoggedIn)
+            {
+                MainPage = new IconNavigationPage(tabbedPage)
+                {
+                    BarTextColor = Color.White,
+                    BarBackgroundColor = Color.Red
+                };
+            }
+            else
+                MainPage = new Login();
+        }
+
+        public void ShowMainPage()
+        {
             tabbedPage = new IconTabbedPage
             {
                 Title = "Supermercado Rodriguez",
@@ -46,29 +95,6 @@ namespace rodriguez
                 Icon = "fa-cogs"
             });
 
-            //tabbedPage.Children.Add((new Login
-            //{
-            //    Title = "Login",
-            //    Icon = "fa-shopping-cart"
-            //}));
-
-            var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
-
-            // we remember if they're logged in, and only display the login page if they're not
-            if (isLoggedIn)
-            {
-                MainPage = new IconNavigationPage(tabbedPage)
-                {
-                    BarTextColor = Color.White,
-                    BarBackgroundColor = Color.Red
-                };
-            }
-            else
-                MainPage = new Login();
-        }
-
-        public void ShowMainPage()
-        {
             MainPage = new IconNavigationPage(tabbedPage)
             {
                 BarTextColor = Color.White,

@@ -26,6 +26,7 @@ namespace rodriguez
         private moneda monedaSeleccionada { get; set; }
         private double tasaDia { get; set; }
         private double montoRD { get; set; }
+        private cliente cliente { get; set; }
 
         public AddBono()
         {
@@ -54,6 +55,7 @@ namespace rodriguez
 
         async void comprarBono(object sender, System.EventArgs e)
         {
+            cliente = (rodriguez.Data.cliente)Application.Current.Properties["cliente"];
             btnComprar.IsEnabled = false;
             double montoBono;
 
@@ -67,7 +69,7 @@ namespace rodriguez
                 //monto = int.Parse(txtMonto.Text),
                 fechaCompra = DateTime.Now
             };
-            b.clienteId = 1; //TODO get logged user
+            b.clienteId = cliente.id;  //1; //TODO get logged user
 
             if (txtMonto.Text != null)
             {
@@ -107,10 +109,12 @@ namespace rodriguez
                     //TODO agregar demas propiedades del pago de paypal (estado y metodo)
                     try
                     {
-                        if (bonoManager.buyBono(b) != null)
+                        var bonoResult = bonoManager.buyBono(b);
+                        if (bonoResult != null)
                         {
                             await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
                             await Navigation.PopAsync();
+                            Debug.WriteLine("si");
                         }
                         else
                         {

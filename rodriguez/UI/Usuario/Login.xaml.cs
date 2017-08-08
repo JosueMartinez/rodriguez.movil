@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
 using Newtonsoft.Json;
+using rodriguez.Data;
 using rodriguez.UI.Usuario;
 using Xamarin.Forms;
 
@@ -13,7 +14,6 @@ namespace rodriguez.UI
     {
         private string authorizationKey;
         HttpClient client { get; set; }
-        ActivityIndicator act;
 
         void iniciarSesion(object sender, System.EventArgs e)
         {
@@ -40,12 +40,17 @@ namespace rodriguez.UI
                 if (response.IsSuccessStatusCode)
                 {
                     var result = response.Content.ReadAsStringAsync().Result;
+                    var clienteResponse = client.GetAsync(Constants.baseUrl + "clienteU/" + usuario).Result;
+                    var clienteContent = clienteResponse.Content.ReadAsStringAsync().Result;
+                    var cliente = JsonConvert.DeserializeObject<cliente>(clienteContent);
 
                     // Deserialize the JSON into a Dictionary<string, string>
                     Dictionary<string, string> tokenDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
                     authorizationKey = tokenDictionary["access_token"];
                     Application.Current.Properties["IsLoggedIn"] = true;
                     Application.Current.Properties["token"] = authorizationKey;
+                    Application.Current.Properties["usuario"] = usuario;
+                    Application.Current.Properties["cliente"] = cliente;
                     App.Current.ShowMainPage();
 
                 }
