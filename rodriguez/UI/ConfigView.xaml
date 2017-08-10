@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.ConfigView" Title="Configuración">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="rodriguez.ConfigView" Title="Configuración"
+    xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
     </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="20">
-            
-            <StackLayout VerticalOptions="StartAndExpand">
-                
+            <StackLayout VerticalOptions="CenterAndExpand">
                 <Grid x:Name="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
@@ -19,18 +20,37 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-
                     <Label Text="Usuario: " Grid.Row="0" Grid.Column="0" VerticalOptions="Center" />
                     <Entry IsEnabled="false" Text="{Binding usuario}" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
-                    
                     <Label Text="E-mail: " Grid.Row="1" Grid.Column="0" VerticalOptions="Center" />
-                    <Entry IsEnabled="false" Text="{Binding email}"  Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
-                    
+                    <Entry IsEnabled="false" Text="{Binding email}" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
                     <Label Text="Teléfono: " Grid.Row="2" Grid.Column="0" VerticalOptions="Center" />
-                    <Entry IsEnabled="false" Text="{Binding telefono}" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
+                    <Entry IsEnabled="false" Text="{Binding celular}" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" />
                 </Grid>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Label Text="Siganos en:" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" />
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Grid x:Name="GridSocial" Padding="10" Margin="10" RowSpacing="20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
 
-                
+                        <iconize:IconImage x:Name="fb" HeightRequest="70" Icon="fa-facebook-square" Grid.Column="0" IconColor="Navy" WidthRequest="100" HorizontalOptions="Center" />
+                        <iconize:IconImage x:Name="youtube" HeightRequest="100" Icon="fa-youtube-square" Grid.Column="1"  IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
+                        <iconize:IconImage x:Name="twitter" HeightRequest="100" Icon="fa-twitter-square" Grid.Column="2"  IconColor="Aqua" WidthRequest="100" HorizontalOptions="Center" />
+                    </Grid>
+                </StackLayout>
+
+
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Label Text="v1.0" HorizontalTextAlignment="Center" VerticalTextAlignment="End"/>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

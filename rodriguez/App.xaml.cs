@@ -16,7 +16,7 @@ namespace rodriguez
         public App()
         {
             Current = this;
-            OAuthAuthenticator.AddPRovider(OAuthProviders.Facebook("553399218382011"));
+            //OAuthAuthenticator.AddPRovider(OAuthProviders.Facebook("553399218382011"));
             //OAuthAuthenticator.AddPRovider(OAuthProviders.Google("GoogleClientId", "RedirectUrlConfiguredInGoogleAppConsole"));
 
             InitializeComponent();
@@ -57,6 +57,32 @@ namespace rodriguez
             // we remember if they're logged in, and only display the login page if they're not
             if (isLoggedIn)
             {
+                tabbedPage = new IconTabbedPage
+                {
+                    Title = "Supermercado Rodriguez",
+                    BarTextColor = Color.White,
+                    BarBackgroundColor = Color.Red
+                };
+
+
+                tabbedPage.Children.Add(new BonosView
+                {
+                    Title = "Bonos",
+                    Icon = "fa-money"
+                });
+
+                tabbedPage.Children.Add(new ComprasView
+                {
+                    Title = "Compras",
+                    Icon = "fa-shopping-cart"
+                });
+
+                tabbedPage.Children.Add(new ConfigView
+                {
+                    Title = "Configuración",
+                    Icon = "fa-cogs"
+                });
+
                 MainPage = new IconNavigationPage(tabbedPage)
                 {
                     BarTextColor = Color.White,
