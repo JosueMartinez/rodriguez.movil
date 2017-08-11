@@ -114,8 +114,6 @@ namespace rodriguez
                         {
                             await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
                             await Navigation.PopAsync();
-
-                            Debug.WriteLine("si");
                         }
                         else
                         {

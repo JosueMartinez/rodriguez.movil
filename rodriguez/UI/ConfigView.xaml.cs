@@ -13,8 +13,12 @@ namespace rodriguez
         public ConfigView()
         {
             InitializeComponent();
-            getUserData();
-            BindingContext = cliente;
+            if (Application.Current.Properties.ContainsKey("cliente"))
+            {
+                getUserData();
+                BindingContext = cliente;
+            }
+
             //Toolbar Items
             ToolbarItems.Add(new IconToolbarItem
             {
@@ -26,6 +30,7 @@ namespace rodriguez
 
         public void getUserData()
         {
+
             cliente = (rodriguez.Data.cliente)Application.Current.Properties["cliente"];
         }
 

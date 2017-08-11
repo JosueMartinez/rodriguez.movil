@@ -16,8 +16,6 @@ namespace rodriguez
         public App()
         {
             Current = this;
-            //OAuthAuthenticator.AddPRovider(OAuthProviders.Facebook("553399218382011"));
-            //OAuthAuthenticator.AddPRovider(OAuthProviders.Google("GoogleClientId", "RedirectUrlConfiguredInGoogleAppConsole"));
 
             InitializeComponent();
             //tabbedPage = new IconTabbedPage
@@ -53,9 +51,10 @@ namespace rodriguez
             //}));
 
             var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
+            var cliente = Properties.ContainsKey("cliente") ? Properties["cliente"] : null;
 
             // we remember if they're logged in, and only display the login page if they're not
-            if (isLoggedIn)
+            if (isLoggedIn && cliente != null)
             {
                 tabbedPage = new IconTabbedPage
                 {

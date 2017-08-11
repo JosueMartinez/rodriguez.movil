@@ -37,7 +37,7 @@ namespace rodriguez
             if (Application.Current.Properties.ContainsKey("token"))
             {
                 authorizationKey = Convert.ToString(Application.Current.Properties["token"]);//tokenDictionary["access_token"];
-                cliente = (rodriguez.Data.cliente)Application.Current.Properties["cliente"];
+                cliente = Application.Current.Properties.ContainsKey("cliente") ? (rodriguez.Data.cliente)Application.Current.Properties["cliente"] : null;
                 client.DefaultRequestHeaders.Add("Accept", "application/json");
                 client.DefaultRequestHeaders.Add("Authorization", "Bearer " + authorizationKey);
                 return client;
