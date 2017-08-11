@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using FormsPlugin.Iconize;
 using rodriguez.Data;
 using Xamarin.Forms;
@@ -17,9 +18,9 @@ namespace rodriguez
         public BonosView()
         {
             manager = new BonosManager();
-            this.Appearing += (object sender, EventArgs e) =>
+            this.Appearing += async (object sender, EventArgs e) =>
             {
-                refreshData();
+                await refreshData();
             };
 
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace rodriguez
             });
         }
 
-        async void refreshData()
+        async Task refreshData()
         {
             this.IsBusy = true;
             bonosLista = await manager.GetAll();  //obtaining bonos from Server

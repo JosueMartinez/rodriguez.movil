@@ -35,15 +35,15 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="*" />
+<!--                            <ColumnDefinition Width="*" />-->
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
 
-                        <iconize:IconImage x:Name="fb" HeightRequest="70" Icon="fa-facebook-square" Grid.Column="0" IconColor="Navy" WidthRequest="100" HorizontalOptions="Center" />
-                        <iconize:IconImage x:Name="youtube" HeightRequest="100" Icon="fa-youtube-square" Grid.Column="1"  IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
-                        <iconize:IconImage x:Name="twitter" HeightRequest="100" Icon="fa-twitter-square" Grid.Column="2"  IconColor="Aqua" WidthRequest="100" HorizontalOptions="Center" />
+                        <iconize:IconImage x:Name="fb" HeightRequest="70" Icon="fa-facebook-square" Grid.Column="0"  WidthRequest="100" HorizontalOptions="Center" />
+<!--                        <iconize:IconImage x:Name="youtube" HeightRequest="100" Icon="fa-youtube-square" Grid.Column="1"  IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />-->
+                        <iconize:IconImage x:Name="twitter" HeightRequest="100" Icon="fa-twitter-square" Grid.Column="1" WidthRequest="100" HorizontalOptions="Center" />
                     </Grid>
                 </StackLayout>
 

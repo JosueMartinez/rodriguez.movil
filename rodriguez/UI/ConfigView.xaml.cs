@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using FormsPlugin.Iconize;
 using rodriguez.Data;
@@ -13,6 +12,33 @@ namespace rodriguez
         public ConfigView()
         {
             InitializeComponent();
+
+            // color bonotes social
+            fb.IconColor = Color.FromHex("#3C5798");
+            twitter.IconColor = Color.FromHex("#2093E0");
+
+            //gesture botones
+            fb.GestureRecognizers.Add(
+                new TapGestureRecognizer()
+                {
+                    Command = new Command(() =>
+                    {
+                        Device.OpenUri(new Uri("https://www.facebook.com/Supermercado-Rodriguez-561717717293234/"));
+                    })
+                }
+            );
+
+            twitter.GestureRecognizers.Add(
+                new TapGestureRecognizer()
+                {
+                    Command = new Command(() =>
+                    {
+                        Device.OpenUri(new Uri("https://twitter.com/Sm_rodriguezs"));
+                    })
+                }
+            );
+
+            //geting info
             if (Application.Current.Properties.ContainsKey("cliente"))
             {
                 getUserData();
@@ -26,6 +52,8 @@ namespace rodriguez
                 IconColor = Color.White,
                 Command = new Command(this.logout)
             });
+
+
         }
 
         public void getUserData()
