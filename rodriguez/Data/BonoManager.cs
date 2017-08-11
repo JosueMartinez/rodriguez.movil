@@ -12,6 +12,7 @@ using rodriguez.UI;
 using System.Collections;
 using System.Linq;
 using Xamarin.Forms;
+using System.Collections.ObjectModel;
 
 namespace rodriguez
 {
@@ -25,67 +26,45 @@ namespace rodriguez
 
         public BonosManager()
         {
-            client = new HttpClient();
-            client.BaseAddress = new Uri(Constants.baseUrl);
+            //client = new HttpClient();
+            //client.BaseAddress = new Uri(Constants.baseUrl);
         }
 
         private HttpClient GetClient()
         {
-            //HttpClient client = new HttpClient();
-            //var pairs = new List<KeyValuePair<string, string>>
-            //{
-            //    new KeyValuePair<string, string>( "grant_type", "password" ),
-            //    new KeyValuePair<string, string>( "username", "tester"),
-            //    new KeyValuePair<string, string> ( "password", "tester123" )
-            //};
-            //var content = new FormUrlEncodedContent(pairs);
-
-            //if (string.IsNullOrEmpty(authorizationKey))
-            //{
-            //var response = client.PostAsync(Constants.baseUrl + "token", content).Result;
-            //if (response.IsSuccessStatusCode)
-            //{
-            //var result = response.Content.ReadAsStringAsync().Result;
-
-            //// Deserialize the JSON into a Dictionary<string, string>
-            //Dictionary<string, string> tokenDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
+            client = new HttpClient();
+            client.BaseAddress = new Uri(Constants.baseUrl);
             if (Application.Current.Properties.ContainsKey("token"))
             {
                 authorizationKey = Convert.ToString(Application.Current.Properties["token"]);//tokenDictionary["access_token"];
                 cliente = (rodriguez.Data.cliente)Application.Current.Properties["cliente"];
+                client.DefaultRequestHeaders.Add("Accept", "application/json");
+                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + authorizationKey);
+                return client;
             }
+            return null;
 
-            client.DefaultRequestHeaders.Add("Accept", "application/json");
-            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + authorizationKey);
-            return client;
 
-            //    }
-            //    else
-            //    {
-            //        return null;
-            //    }
-
-            //}
-
-            //return client;
         }
 
 
-        public async Task<IEnumerable<Bono>> GetAll()
+        public async Task<ObservableCollection<Bono>> GetAll()
         {
             try
             {
-                client = GetClient();
+                if (client == null)
+                    client = GetClient();
+
                 if (client != null && cliente != null)
                 {
-                    var idCliente = cliente.id;// 1;   //TODO : obtain logged user
+                    var idCliente = cliente.id;
                     var url = String.Format("cliente/{0}/bonos", idCliente);
                     var request = new HttpRequestMessage(HttpMethod.Get, url);
                     var response = await client.SendAsync(request);
                     if (response.IsSuccessStatusCode)
                     {
                         var content = await response.Content.ReadAsStringAsync();
-                        var bonos = JsonConvert.DeserializeObject<List<Bono>>(content);
+                        ObservableCollection<Bono> bonos = JsonConvert.DeserializeObject<ObservableCollection<Bono>>(content);
                         return bonos;
                     }
                 }
@@ -102,7 +81,7 @@ namespace rodriguez
                 return null;
             }
 
-            return Enumerable.Empty<Bono>();
+            return new ObservableCollection<Bono>();
 
         }
 

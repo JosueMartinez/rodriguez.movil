@@ -84,7 +84,7 @@ namespace rodriguez
 
             if (validarBono(b))
             {
-                var currency = monedaSeleccionada.simbolo.Equals("RD") ? "DOP" : monedaSeleccionada.simbolo;
+                var currency = monedaSeleccionada.simbolo.Equals("RD") ? "DOP" : monedaSeleccionada.simbolo.Equals("EU") ? "EUR" : monedaSeleccionada.simbolo;
                 var payment = (new PayPalItem("Test Product", (decimal)b.monto, currency));
 
 
@@ -114,6 +114,7 @@ namespace rodriguez
                         {
                             await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
                             await Navigation.PopAsync();
+
                             Debug.WriteLine("si");
                         }
                         else
@@ -139,62 +140,6 @@ namespace rodriguez
                 await DisplayAlert("Faltan Datos", "Hay Errores en los datos introducidos", "Ok");
                 Debug.WriteLine("Hay errores en los datos introducidos");
             }
-
-
-
-
-
-            //PayPalClient paypal = new PayPalClient();
-            //var token = await paypal.GetAccessToken();
-
-
-            //var loading = new ActivityIndicator()
-            //{
-            //    Color = Color.Red,
-            //    IsVisible = true,
-            //    IsEnabled = true,
-            //    IsRunning = true
-            //};
-
-
-            try
-            {
-                //Bono b = new Bono()
-                //{
-                //    nombreDestino = txtNombreDestinatario.Text,
-                //    apellidoDestino = txtApellidoDestinatario.Text,
-                //    cedulaDestino = txtCedula.Text,
-                //    telefonoDestino = txtCelular.Text,
-                //    monto = int.Parse(txtMonto.Text),
-                //    fechaCompra = DateTime.Now,
-                //    tasaId = tasa.id
-                //};
-                //b.clienteId = 1; //TODO get logged user
-
-                //TODO comprar bono
-                //if (validarBono(b))
-                //{
-                //    if (bonoManager.buyBono(b) != null)
-                //    {
-
-                //        await Navigation.PopAsync();
-                //    }
-                //    else
-                //    {
-                //        await DisplayAlert("Error!", "Ha ocurrido un error. Por favor intente de nuevo", "OK");
-                //    }
-                //}
-                //else
-                //{
-                //    Debug.WriteLine("Hay errores en los datos introducidos");
-                //}
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.ToString());
-                await DisplayAlert("", "Hay errores en los datos introducidos", "OK");
-            }
-
         }
 
         bool validarBono(Bono b)

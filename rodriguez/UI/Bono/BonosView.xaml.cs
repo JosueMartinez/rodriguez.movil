@@ -12,14 +12,17 @@ namespace rodriguez
     {
         BonosManager manager { get; set; }
         MonedaManager monedaManager { get; set; }
+        ObservableCollection<Bono> bonosLista { get; set; }
 
         public BonosView()
         {
             manager = new BonosManager();
+            this.Appearing += (object sender, EventArgs e) =>
+            {
+                refreshData();
+            };
 
             InitializeComponent();
-
-            refreshData();
 
             //Toolbar Items
             ToolbarItems.Add(new IconToolbarItem
@@ -33,7 +36,7 @@ namespace rodriguez
         async void refreshData()
         {
             this.IsBusy = true;
-            var bonosLista = await manager.GetAll();  //obtaining bonos from Server
+            bonosLista = await manager.GetAll();  //obtaining bonos from Server
 
             if (bonosLista != null)
             {
@@ -51,8 +54,6 @@ namespace rodriguez
             {
                 await DisplayAlert("Error!", "Se ha producido un error en la conexión", "OK");
             }
-
-
 
             this.IsBusy = false;
         }
@@ -72,5 +73,11 @@ namespace rodriguez
         {
             Navigation.PushAsync(new AddBono());
         }
+
+        //protected override void OnAppearing()
+        //{
+        //    base.OnAppearing();
+        //    refreshData();
+        //}
     }
 }
