@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
+using System.Diagnostics.Contracts;
 using System.Net.Http;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using rodriguez.Data;
 using rodriguez.UI.Usuario;
@@ -12,17 +15,24 @@ namespace rodriguez.UI
 {
     public partial class Login : ContentPage
     {
+
         private string authorizationKey;
         HttpClient client { get; set; }
 
-        void iniciarSesion(object sender, System.EventArgs e)
+
+        async void iniciarSesion(object sender, System.EventArgs e)
         {
+
+            await isRunning(true);
             var usuario = txtUsuario.Text;
             var contrasena = txtContrasena.Text;
 
             if (String.IsNullOrEmpty(usuario) || String.IsNullOrEmpty(contrasena))
             {
-                DisplayAlert("Error", "Proporcione sus credenciales de acceso", "Ok");
+                await DisplayAlert("Error", "Proporcione sus credenciales de acceso", "Ok");
+                await isRunning(false);
+                return;
+
             }
 
             HttpClient client = new HttpClient();
@@ -36,7 +46,7 @@ namespace rodriguez.UI
 
             if (string.IsNullOrEmpty(authorizationKey))
             {
-                var response = client.PostAsync(Constants.baseUrl + "token", content).Result;
+                var response = await client.PostAsync(Constants.baseUrl + "token", content);
                 if (response.IsSuccessStatusCode)
                 {
                     var result = response.Content.ReadAsStringAsync().Result;
@@ -56,19 +66,22 @@ namespace rodriguez.UI
                 }
                 else
                 {
+                    await DisplayAlert("Error", "Usuario y/o contraseña incorrecta", "Ok");
                     Debug.WriteLine(response.StatusCode);
                 }
 
             }
+
+            await isRunning(false);
         }
 
         public Login()
         {
+
             client = new HttpClient();
             client.BaseAddress = new Uri(Constants.baseUrl);
 
             InitializeComponent();
-
             newAccountLabel.GestureRecognizers.Add(
                 new TapGestureRecognizer()
                 {
@@ -89,6 +102,16 @@ namespace rodriguez.UI
                 }
             );
         }
+
+
+
+        private Task isRunning(bool value)
+        {
+            ActivityIndicator.IsVisible = value;
+            ActivityIndicator.IsRunning = value;
+            return Task.FromResult<object>(null);
+        }
+
 
     }
 }

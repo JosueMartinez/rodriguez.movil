@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns ="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-	xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
-	xmlns:userControls="clr-namespace:rodriguez.Views.Controls;assembly=rodriguez"
-	xmlns:local="clr-namespace:rodriguez.Data;assembly=rodriguez"
-	xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
-	x:Class="rodriguez.AddBono" Title="Comprar Bono">
-
-
-	
-	<ContentPage.Content>
-		<Grid x:Name ="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
-
-		        <Grid.ColumnDefinitions>
-		            <ColumnDefinition Width="*" />
-		            <ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-		        </Grid.ColumnDefinitions>
-
-		        <Grid.RowDefinitions>
-		            <RowDefinition Height="Auto" />
-		            <RowDefinition Height="Auto" />
-					<RowDefinition Height="Auto" />
-		            <RowDefinition Height="Auto" />
-		            <RowDefinition Height="Auto" />
-					<RowDefinition Height="Auto" />
-					<RowDefinition Height="Auto" />
-					<RowDefinition Height="Auto" />
-					<RowDefinition Height="Auto" />
-		        </Grid.RowDefinitions>
-
-				<Label Text="Nombre Destino" Grid.Row="0" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
-				<Label Text="Apellido Destino" Grid.Row="1" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
-				<Label Text="Cédula" Grid.Row="2" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
-				<Label Text="Celular" Grid.Row="3" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
-				<Label Text="Monto" Grid.Row="4" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center"/>
-
-				<Entry x:Name="txtNombreDestinatario" Placeholder="Nombres de quien recibe" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
-			    <Entry x:Name="txtApellidoDestinatario" Placeholder="Apellidos de quien recibe" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>  
-				<Entry x:Name="txtCedula" Keyboard="Numeric" Placeholder="Su Cédula" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
-				<Entry x:Name="txtCelular" Keyboard="Numeric" Placeholder="Un número para comunicarnos" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"/>
-				<Entry x:Name="txtMonto" TextChanged="OnMontoChange" Text="{Binding monto, Mode=TwoWay}" Keyboard="Numeric" Placeholder="¿Cuánto?" Grid.Row="4" Grid.Column="1"/>
-				<controls:ExtendedPicker x:Name="cbMoneda" DisplayProperty="simbolo"  SelectedIndexChanged="OnMonedaChange" Grid.Row="4" Grid.Column="2"/>
-				<Label x:Name="lbTasaDia" TextColor="Gray" FontSize="Small" FontAttributes="Bold" Text="{Binding TasaDia}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand"/>
-				<Label x:Name="lbMontoRD" Style="{StaticResource lbMontoRDStyle}" Text="{Binding MontoRD}" Grid.Row="6" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
-			    <Button x:Name="btnComprar" Clicked="comprarBono" Text="Comprar Bono" Grid.Row="8" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand"/>
-		</Grid>
-	</ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize" xmlns:userControls="clr-namespace:rodriguez.Views.Controls;assembly=rodriguez" xmlns:local="clr-namespace:rodriguez.Data;assembly=rodriguez" xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms" x:Class="rodriguez.AddBono" Title="Comprar Bono">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <ActivityIndicator HorizontalOptions="Center" VerticalOptions="Center" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" />
+            <StackLayout Spacing="20" Padding="20" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="View" x:Key="MyBase">
+                            <!-- Disable controls when the activity indicator is running -->
+                            <Style.Triggers>
+                                <DataTrigger TargetType="View" Binding="{Binding Source={x:Reference ActivityIndicator}, Path=IsRunning}" Value="True">
+                                    <Setter Property="Opacity" Value="0.3" />
+                                    <Setter Property="IsEnabled" Value="False" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                        <!-- Define implicit styles for each control we use. -->
+                        <Style TargetType="Label" BasedOn="{StaticResource MyBase}" />
+                        <Style TargetType="Entry" BasedOn="{StaticResource MyBase}" />
+                        <Style TargetType="Button" BasedOn="{StaticResource MyBase}" />
+                    </ResourceDictionary>
+                </StackLayout.Resources>
+                <Grid x:Name="GridDetalleBono" Padding="10" Margin="10" RowSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label Text="Nombre Destino" Grid.Row="0" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+                    <Label Text="Apellido Destino" Grid.Row="1" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+                    <Label Text="Cédula" Grid.Row="2" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+                    <Label Text="Celular" Grid.Row="3" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+                    <Label Text="Monto" Grid.Row="4" Grid.Column="0" Style="{StaticResource GridDetailLabel}" VerticalOptions="Center" />
+                    <Entry x:Name="txtNombreDestinatario" Placeholder="Nombres de quien recibe" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" />
+                    <Entry x:Name="txtApellidoDestinatario" Placeholder="Apellidos de quien recibe" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" />
+                    <Entry x:Name="txtCedula" Keyboard="Numeric" Placeholder="Su Cédula" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" />
+                    <Entry x:Name="txtCelular" Keyboard="Numeric" Placeholder="Un número para comunicarnos" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" />
+                    <Entry x:Name="txtMonto" TextChanged="OnMontoChange" Text="{Binding monto, Mode=TwoWay}" Keyboard="Numeric" Placeholder="¿Cuánto?" Grid.Row="4" Grid.Column="1" />
+                    <controls:ExtendedPicker x:Name="cbMoneda" DisplayProperty="simbolo" SelectedIndexChanged="OnMonedaChange" Grid.Row="4" Grid.Column="2" />
+                    <Label x:Name="lbTasaDia" TextColor="Gray" FontSize="Small" FontAttributes="Bold" Text="{Binding TasaDia}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand" />
+                    <Label x:Name="lbMontoRD" Style="{StaticResource lbMontoRDStyle}" Text="{Binding MontoRD}" Grid.Row="6" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand" />
+                    <Button x:Name="btnComprar" Clicked="comprarBono" Text="Comprar Bono" Grid.Row="8" Grid.ColumnSpan="3" HorizontalOptions="CenterAndExpand" />
+                </Grid>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
 </ContentPage>

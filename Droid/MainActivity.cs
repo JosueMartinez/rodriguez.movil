@@ -68,7 +68,7 @@ namespace rodriguez.Droid
         protected override void OnDestroy()
         {
             base.OnDestroy();
-            PayPalManagerImplementation.Manager.Destroy();
+            //PayPalManagerImplementation.Manager.Destroy();
         }
 
     }

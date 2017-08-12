@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.UI.Login" xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="rodriguez.UI.Login" 
+    xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize">
+
     <ContentPage.Content>
-       
-        <StackLayout Spacing="20" Padding="20">
-             
-            <StackLayout VerticalOptions="EndAndExpand">
-                <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
+        <AbsoluteLayout>
+            <ActivityIndicator  HorizontalOptions="Center" VerticalOptions="Center" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" />
+            <StackLayout Spacing="20" Padding="20" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="View" x:Key="MyBase">
+                            <!-- Disable controls when the activity indicator is running -->
+                            <Style.Triggers>
+                                <DataTrigger TargetType="View" Binding="{Binding Source={x:Reference ActivityIndicator}, Path=IsRunning}" Value="True">
+                                    <Setter Property="Opacity" Value="0.3" />
+                                    <Setter Property="IsEnabled" Value="False" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                        <!-- Define implicit styles for each control we use. -->
+                        <Style TargetType="Label" BasedOn="{StaticResource MyBase}" />
+                        <Style TargetType="Entry" BasedOn="{StaticResource MyBase}" />
+                        <Style TargetType="Button" BasedOn="{StaticResource MyBase}" />
+                    </ResourceDictionary>
+                </StackLayout.Resources>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
+                </StackLayout>
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    <Entry Placeholder="Correo o Usuario" x:Name="txtUsuario" HorizontalTextAlignment="Center" />
+                    <Entry Placeholder="Contraseña" x:Name="txtContrasena" HorizontalTextAlignment="Center" IsPassword="true" />
+                    <Label x:Name="forgottenLabel" HorizontalTextAlignment="Center" Margin="15" Text="He olvidado mi contraseña" TextColor="Gray">
+                    </Label>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Label x:Name="newAccountLabel" HorizontalTextAlignment="Center" Margin="20" Text="Crear Cuenta" TextColor="#33749C">
+                    </Label>
+                    <Button Text="Entrar" TextColor="White" BackgroundColor="#33749C" Clicked="iniciarSesion" />
+                </StackLayout>
             </StackLayout>
-            <StackLayout VerticalOptions="CenterAndExpand">
-                <Entry Placeholder="Correo o Usuario" x:Name="txtUsuario" HorizontalTextAlignment="Center" />
-                <Entry Placeholder="Contraseña" x:Name="txtContrasena" HorizontalTextAlignment="Center" IsPassword="true" />
-                <Label x:Name="forgottenLabel" HorizontalTextAlignment="Center" Margin="15" Text="He olvidado mi contraseña" TextColor="Gray"></Label>
-            </StackLayout>
-            <StackLayout VerticalOptions="EndAndExpand">
-                <Label x:Name="newAccountLabel" HorizontalTextAlignment="Center" Margin="20" Text="Crear Cuenta" TextColor="#33749C"></Label>
-                <Button Text="Entrar" TextColor="White" BackgroundColor="#33749C" Clicked="iniciarSesion" />
-            </StackLayout>
-
-            <!--<ActivityIndicator IsVisible="{Binding isBusy}"
-                               IsRunning="{Binding isBusy}"
-                               Color="Black"
-                               VerticalOptions="CenterAndExpand"
-                               HorizontalOptions="CenterAndExpand"
-                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
-                                        Property=Height,
-                                        Factor=0.33}"
-                               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
-                                        Property=Height,
-                                        Factor=0.33}" />-->
-        </StackLayout>
-
-
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

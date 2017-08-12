@@ -55,8 +55,9 @@ namespace rodriguez
 
         async void comprarBono(object sender, System.EventArgs e)
         {
+            await isRunning(true);
             cliente = (rodriguez.Data.cliente)Application.Current.Properties["cliente"];
-            btnComprar.IsEnabled = false;
+            //btnComprar.IsEnabled = false;
             double montoBono;
 
             //tasa = cbMoneda.SelectedItem;
@@ -91,10 +92,12 @@ namespace rodriguez
                 var result = await CrossPayPalManager.Current.Buy(payment, new Decimal(0));
                 if (result.Status == PayPalStatus.Cancelled)
                 {
+                    await isRunning(false);
                     await DisplayAlert("Cancelado", "Ha cancelado el proceso", "Ok");
                 }
                 else if (result.Status == PayPalStatus.Error)
                 {
+                    await isRunning(false);
                     await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
                 }
                 else if (result.Status == PayPalStatus.Successful)
@@ -112,6 +115,7 @@ namespace rodriguez
                         var bonoResult = bonoManager.buyBono(b);
                         if (bonoResult != null)
                         {
+
                             await DisplayAlert("Exito", "Se ha comprado el bono de forma exitosa", "Ok");
                             await Navigation.PopAsync();
                         }
@@ -119,22 +123,20 @@ namespace rodriguez
                         {
                             await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
                         }
+                        await isRunning(false);
                     }
                     catch (Exception ex)
                     {
+                        await isRunning(false);
                         Debug.WriteLine(ex.ToString());
                         await DisplayAlert("Error", "Ha ocurrido un error.  Intene de nuevo mas tarde", "Ok");
                     }
-
-
                 }
-
-                btnComprar.IsEnabled = true;
 
             }
             else
             {
-                btnComprar.IsEnabled = true;
+                await isRunning(false);
                 await DisplayAlert("Faltan Datos", "Hay Errores en los datos introducidos", "Ok");
                 Debug.WriteLine("Hay errores en los datos introducidos");
             }
@@ -187,6 +189,14 @@ namespace rodriguez
                 return String.Format("RD$ {0:#,##0.00}", montoRD);
             }
         }
+
+        private Task isRunning(bool value)
+        {
+            ActivityIndicator.IsVisible = value;
+            ActivityIndicator.IsRunning = value;
+            return Task.FromResult<object>(null);
+        }
+
 
     }
 }
