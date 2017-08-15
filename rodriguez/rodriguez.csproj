@@ -125,7 +125,6 @@
     <Compile Include="UI\Usuario\PasswordRecover.xaml.cs">
       <DependentUpon>PasswordRecover.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\WaitingPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">

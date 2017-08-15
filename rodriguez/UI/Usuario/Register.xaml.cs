@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using rodriguez.Data;
 using Xamarin.Forms;
@@ -29,16 +30,17 @@ namespace rodriguez.UI.Usuario
             );
         }
 
-        void crearCuenta(object sender, System.EventArgs e)
+        async void crearCuenta(object sender, System.EventArgs e)
         {
+            await isRunning((true));
             var c = new cliente()
             {
                 usuario = Usuario.Text,
-                nombreCompleto = Nombre.Text,
+                nombreCompleto = NombreCompleto.Text,
                 password = Contrasena.Text,
                 confirmPassword = ConfirmarContrasena.Text,
                 cedula = Cedula.Text,
-                telefono = Telefono.Text,
+                celular = celular.Text,
                 email = Email.Text
             };
 
@@ -52,24 +54,28 @@ namespace rodriguez.UI.Usuario
 
                 if (response.IsSuccessStatusCode)
                 {
-                    DisplayAlert("Exito", "El usuario ha sido creado. Por favor inicie sesión", "Ok");
+                    await DisplayAlert("Exito", "El usuario ha sido creado. Por favor inicie sesión", "Ok");
 
                 }
                 else
                 {
-                    DisplayAlert("Error", "Ha ocurrido un error.  Por favor intente más tarde", "Ok");
+
+                    await DisplayAlert("Error", "Ha ocurrido un error.  Por favor intente más tarde", "Ok");
                 }
 
-                Navigation.PopModalAsync();
+                await isRunning(false);
+                await Navigation.PopModalAsync();
 
             }
+
+            await isRunning(false);
         }
 
         private bool validarCliente(cliente c)
         {
             if (string.IsNullOrEmpty(c.usuario) || string.IsNullOrEmpty(c.nombreCompleto) ||
                 string.IsNullOrEmpty(c.password) || string.IsNullOrEmpty(c.confirmPassword) ||
-                string.IsNullOrEmpty(c.cedula) || string.IsNullOrEmpty(c.telefono) ||
+                string.IsNullOrEmpty(c.cedula) || string.IsNullOrEmpty(c.celular) ||
                 string.IsNullOrEmpty(c.email))
             {
                 DisplayAlert("Error", "Debe llenar todos los campos", "Ok");
@@ -91,5 +97,14 @@ namespace rodriguez.UI.Usuario
 
             return true;
         }
+
+        private Task isRunning(bool value)
+        {
+            ActivityIndicator.IsVisible = value;
+            ActivityIndicator.IsRunning = value;
+            return Task.FromResult<object>(null);
+        }
+
+
     }
 }

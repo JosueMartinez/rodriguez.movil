@@ -35,7 +35,7 @@ namespace rodriguez.UI
 
             }
 
-            HttpClient client = new HttpClient();
+            client = new HttpClient();
             var pairs = new List<KeyValuePair<string, string>>
             {
                 new KeyValuePair<string, string>( "grant_type", "password" ),
