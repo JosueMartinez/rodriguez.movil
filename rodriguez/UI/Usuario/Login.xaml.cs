@@ -54,6 +54,14 @@ namespace rodriguez.UI
                     var clienteContent = clienteResponse.Content.ReadAsStringAsync().Result;
                     var cliente = JsonConvert.DeserializeObject<cliente>(clienteContent);
 
+                    if (cliente == null)
+                    {  //no es un cliente
+                        await DisplayAlert("Error", "Este cliente no existe", "Ok");
+                        txtUsuario.Text = ""; txtContrasena.Text = "";   //limpiando campos
+                        await isRunning(false);
+                        return;
+                    }
+
                     // Deserialize the JSON into a Dictionary<string, string>
                     Dictionary<string, string> tokenDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
                     authorizationKey = tokenDictionary["access_token"];

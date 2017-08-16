@@ -29,7 +29,7 @@
                     <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
                 </StackLayout>
                 <StackLayout VerticalOptions="CenterAndExpand">
-                    <Entry Placeholder="Correo o Usuario" x:Name="txtUsuario" HorizontalTextAlignment="Center" />
+                    <Entry Placeholder="Usuario" Keyboard="Text" x:Name="txtUsuario" HorizontalTextAlignment="Center" />
                     <Entry Placeholder="Contraseña" x:Name="txtContrasena" HorizontalTextAlignment="Center" IsPassword="true" />
                     <Label x:Name="forgottenLabel" HorizontalTextAlignment="Center" Margin="15" Text="He olvidado mi contraseña" TextColor="Gray">
                     </Label>
