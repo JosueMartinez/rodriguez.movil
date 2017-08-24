@@ -90,6 +90,7 @@ namespace rodriguez.UI
             client.BaseAddress = new Uri(Constants.baseUrl);
 
             InitializeComponent();
+
             newAccountLabel.GestureRecognizers.Add(
                 new TapGestureRecognizer()
                 {

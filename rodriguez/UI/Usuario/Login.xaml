@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="rodriguez.UI.Login" 
-    xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize">
-
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="rodriguez.UI.Login" xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize">
     <ContentPage.Content>
         <AbsoluteLayout>
-            <ActivityIndicator  HorizontalOptions="Center" VerticalOptions="Center" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" />
+            <ActivityIndicator HorizontalOptions="Center" VerticalOptions="Center" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" />
             <StackLayout Spacing="20" Padding="20" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
                 <StackLayout.Resources>
                     <ResourceDictionary>
@@ -26,7 +22,19 @@
                     </ResourceDictionary>
                 </StackLayout.Resources>
                 <StackLayout VerticalOptions="EndAndExpand">
-                    <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />
+                    <Image x:Name="logo" WidthRequest="200" HeightRequest="200" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+                        <Image.Source>
+                            <OnPlatform x:TypeArguments="ImageSource">
+                                <OnPlatform.iOS>
+                                    <FileImageSource File="logo.png" />
+                                </OnPlatform.iOS>
+                                <OnPlatform.Android>
+                                    <FileImageSource File="logo.png" />
+                                </OnPlatform.Android>
+                            </OnPlatform>
+                        </Image.Source>
+                    </Image>
+                    <!--                    <iconize:IconImage HeightRequest="100" Icon="fa-shopping-cart" Grid.ColumnSpan="3" Grid.Row="0" IconColor="Red" WidthRequest="100" HorizontalOptions="Center" />-->
                 </StackLayout>
                 <StackLayout VerticalOptions="CenterAndExpand">
                     <Entry Placeholder="Usuario" Keyboard="Text" x:Name="txtUsuario" HorizontalTextAlignment="Center" />
