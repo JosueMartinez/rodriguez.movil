@@ -12,7 +12,7 @@ namespace rodriguez.Data
         }
 
         public int id { get; set; }
-        public double monto { get; set; }
+        public double Monto { get; set; }
         public int tasaId { get; set; }
         public int clienteId { get; set; }
         public string nombreDestino { get; set; }
@@ -35,15 +35,15 @@ namespace rodriguez.Data
         }
 
         [JsonIgnoreAttribute]
-        public string Monto
+        public string MontoStr
         {
-            get { return String.Format("{0}$ {1:##,##0.00}", tasa.moneda.simbolo, monto); }
+            get { return String.Format("{0}$ {1:##,##0.00}", tasa.moneda.simbolo, Monto); }
         }
 
         [JsonIgnoreAttribute]
         public string MontoRD
         {
-            get { return String.Format("RD$ {0:##,##0.00}", monto * tasa.valor); }
+            get { return String.Format("RD$ {0:##,##0.00}", Monto * tasa.valor); }
         }
 
         [JsonIgnoreAttribute]

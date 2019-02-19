@@ -70,12 +70,12 @@ namespace rodriguez
                 //monto = int.Parse(txtMonto.Text),
                 fechaCompra = DateTime.Now
             };
-            b.clienteId = cliente.id;
+            b.clienteId = cliente.ClienteId;
 
             if (txtMonto.Text != null)
             {
                 double.TryParse(txtMonto.Text, out montoBono);
-                b.monto = montoBono;
+                b.Monto = montoBono;
             }
 
             if (monedaSeleccionada != null)
@@ -87,7 +87,7 @@ namespace rodriguez
             {
                 //var currency = monedaSeleccionada.simbolo.Equals("RD") ? "DOP" : monedaSeleccionada.simbolo.Equals("EU") ? "EUR" : monedaSeleccionada.simbolo;
                 var currency = monedaSeleccionada.simbolo.Equals("EU") ? "EUR" : monedaSeleccionada.simbolo;
-                var payment = (new PayPalItem("Bono Supermercado Rodríguez", (decimal)b.monto, currency));
+                var payment = (new PayPalItem("Bono Supermercado Rodríguez", (decimal)b.Monto, currency));
 
 
                 var result = await CrossPayPalManager.Current.Buy(payment, new Decimal(0));

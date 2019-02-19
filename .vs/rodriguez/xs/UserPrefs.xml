@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{107017ED-8432-4940-B96F-75BAA358CB3C}|Default">
+  <MonoDevelop.Ide.ItemProperties.rodriguez.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5FDB0A21-1AB1-449A-8BAA-08B490970A45" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="rodriguez/Data/Bono.cs">
+    <Files>
+      <File FileName="rodriguez/UI/Bono/AddBono.xaml" Line="54" Column="54" />
+      <File FileName="rodriguez/UI/Bono/AddBono.xaml.cs" Line="116" Column="1" />
+      <File FileName="rodriguez/Data/BonoManager.cs" Line="66" Column="1" />
+      <File FileName="rodriguez/Classes/Constants.cs" Line="8" Column="59" />
+      <File FileName="rodriguez/Data/Bono.cs" Line="38" Column="23" />
+      <File FileName="rodriguez/UI/Usuario/Login.xaml.cs" Line="71" Column="1" />
+      <File FileName="rodriguez/Data/cliente.cs" Line="6" Column="28" />
+      <File FileName="rodriguez/Data/listaCompraManager.cs" Line="45" Column="54" />
+      <File FileName="rodriguez/UI/Bono/BonosView.xaml" Line="32" Column="51" />
+      <File FileName="rodriguez/UI/Bono/BonosView.xaml.cs" Line="39" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/UI/Usuario/Register.xaml.cs" relfile="rodriguez/UI/Usuario/Register.xaml.cs" line="36" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/UI/Bono/AddBono.xaml.cs" relfile="rodriguez/UI/Bono/AddBono.xaml.cs" line="93" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/Data/BonoManager.cs" relfile="rodriguez/Data/BonoManager.cs" line="94" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/UI/Bono/AddBono.xaml.cs" relfile="rodriguez/UI/Bono/AddBono.xaml.cs" line="59" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/UI/Usuario/Login.xaml.cs" relfile="rodriguez/UI/Usuario/Login.xaml.cs" line="66" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/UI/Usuario/Login.xaml.cs" relfile="rodriguez/UI/Usuario/Login.xaml.cs" line="52" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/UI/Bono/BonosView.xaml.cs" relfile="rodriguez/UI/Bono/BonosView.xaml.cs" line="39" column="1" />
+      <Breakpoint file="/Users/josereyes/Proyects/Personales/rodriguez.movil/rodriguez/Data/BonoManager.cs" relfile="rodriguez/Data/BonoManager.cs" line="66" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.rodriguez.Droid AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

@@ -57,7 +57,7 @@ namespace rodriguez
 
                 if (client != null && cliente != null)
                 {
-                    var idCliente = cliente.id;
+                    var idCliente = cliente.ClienteId;
                     var url = String.Format("cliente/{0}/bonos", idCliente);
                     var request = new HttpRequestMessage(HttpMethod.Get, url);
                     var response = await client.SendAsync(request);

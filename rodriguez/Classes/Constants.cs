@@ -4,7 +4,8 @@ namespace rodriguez
 {
     public static class Constants
     {
-        public const string baseUrl = "http://smrodriguez.azurewebsites.net/api/";
+        //public const string baseUrl = "http://smrodriguez.azurewebsites.net/api/";
+        public const string baseUrl = "http://10.0.10.3:81/rodriguez.api/api/";
 
 
         //PayPal

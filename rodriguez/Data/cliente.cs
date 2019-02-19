@@ -3,7 +3,7 @@ namespace rodriguez.Data
     public class cliente
     {
         public string Id { get; set; }
-        public int id { get; set; }
+        public int ClienteId { get; set; }
         public string nombreCompleto { get; set; }
         public string usuario { get; set; }
         public string password { get; set; }
