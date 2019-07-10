@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using rodriguez.Data;
 using System.Collections.ObjectModel;
 using System.Linq;
+using FormsPlugin.Iconize;
 
 namespace rodriguez
 {
@@ -23,10 +24,10 @@ namespace rodriguez
 
             InitializeComponent();
             //Toolbar Items
-            ToolbarItems.Add(new ToolbarItem
+            ToolbarItems.Add(new IconToolbarItem
             {
                 Icon = "fa-plus",
-                Text = "Nueva",
+                IconColor = Color.White,
                 Command = new Command(this.addLista)
             });
 
