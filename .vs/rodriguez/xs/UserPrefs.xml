@@ -1,13 +1,14 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{939E804E-5751-4A5A-9177-FC80E137D318}|Default">
   <MonoDevelop.Ide.ItemProperties.rodriguez.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.22375E47-CEDC-48B4-874C-891E358D85F7" />
   <MonoDevelop.Ide.ItemProperties.rodriguez.UITests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="rodriguez/UI/Bono/BonosView.xaml.cs">
     <Files>
       <File FileName="rodriguez/App.xaml.cs" Line="111" Column="1" />
-      <File FileName="rodriguez/UI/Bono/BonosView.xaml" Line="17" Column="17" />
-      <File FileName="rodriguez/UI/Bono/BonosView.xaml.cs" Line="29" Column="49" />
-      <File FileName="rodriguez/UI/Compras/ComprasView.xaml.cs" Line="29" Column="34" NotebookId="1" />
-      <File FileName="rodriguez/UI/Compras/ComprasView.xaml" Line="28" Column="42" NotebookId="1" />
+      <File FileName="rodriguez/UI/Bono/BonosView.xaml" />
+      <File FileName="rodriguez/UI/Bono/BonosView.xaml.cs" Line="26" Column="35" />
+      <File FileName="rodriguez/UI/Compras/ComprasView.xaml.cs" Line="79" Column="43" NotebookId="1" />
+      <File FileName="rodriguez/UI/Compras/ComprasView.xaml" NotebookId="1" />
+      <File FileName="rodriguez/UI/Compras/AddLista.xaml.cs" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,12 +20,13 @@
               <Node name="UI" expanded="True">
                 <Node name="Bono" expanded="True">
                   <Node name="AddBono.xaml" expanded="True" />
-                  <Node name="BonosView.xaml" expanded="True" />
+                  <Node name="BonosView.xaml" expanded="True">
+                    <Node name="BonosView.xaml.cs" selected="True" />
+                  </Node>
                 </Node>
                 <Node name="Compras" expanded="True">
-                  <Node name="ComprasView.xaml" expanded="True">
-                    <Node name="ComprasView.xaml.cs" selected="True" />
-                  </Node>
+                  <Node name="AddLista.xaml" expanded="True" />
+                  <Node name="ComprasView.xaml" expanded="True" />
                 </Node>
                 <Node name="Usuario" expanded="True">
                   <Node name="Login.xaml" expanded="True" />
@@ -35,11 +37,6 @@
             </Node>
             <Node name="rodriguez.iOS" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="rodriguez" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
