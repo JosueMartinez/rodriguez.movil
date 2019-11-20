@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using rodriguez.Classes;
 using Xamarin.Forms;
 
@@ -9,44 +10,40 @@ namespace rodriguez.Data
 {
     public class ComprasViewModel : BaseFodyObservable
     {
+        public static listaCompraManager manager = new listaCompraManager();
         public ComprasViewModel()
         {
-            ListaCompraGrupos = GetListaCompraGrupos();
+            //ListaCompraGrupos = GetListaCompraGrupos();
+            GetListaCompraGrupos().ContinueWith(t =>
+            {
+                ListaCompraGrupos = t.Result;
+            });
             Delete = new Command<ProductoCompra>(HandleDelete);
             CambioComprado = new Command<ProductoCompra>(HandleCambioComprado);
         }        
 
         public ILookup<string, ProductoCompra> ListaCompraGrupos { get; set; }
         public string Title => "Lista de Compras";
-
-        private List<ProductoCompra> _listaCompra { get; set; } = new List<ProductoCompra>
+                
+        private async Task<ILookup<string, ProductoCompra>> GetListaCompraGrupos()
         {
-            new ProductoCompra {Id = 0, Nombre = "Arroz", Comprado = false},
-            new ProductoCompra {Id = 1, Nombre = "Habichuelas Rojas", Comprado = false},
-            new ProductoCompra {Id = 2, Nombre = "Carne", Comprado = true}
-        };
-
-        private ILookup<string, ProductoCompra> GetListaCompraGrupos()
-        {
-            return _listaCompra.OrderBy(t => t.Comprado).ToLookup(t => t.Comprado ? "Comprado" : "Pendiente");
+            return (await manager.GetList()).OrderBy(t => t.Comprado).ToLookup(t => t.Comprado ? "Comprado" : "Pendiente");
         }
 
         public Command<ProductoCompra> Delete { get; set; }
-        public void HandleDelete(ProductoCompra item)
+        public async void HandleDelete(ProductoCompra item)
         {
-            //Remove Item from private list
-            _listaCompra.Remove(item);
+            await manager.DeleteProducto(item);
             //update displayed list
-            ListaCompraGrupos = GetListaCompraGrupos();
+            ListaCompraGrupos = await GetListaCompraGrupos();
         }
 
         public Command<ProductoCompra> CambioComprado { get; set; }
-        public void HandleCambioComprado(ProductoCompra item)
+        public async void HandleCambioComprado(ProductoCompra item)
         {
-            //change item flag
-            item.Comprado = !item.Comprado;
+            await manager.ChangeProductoComprado(item);
             //update displayed list
-            ListaCompraGrupos = GetListaCompraGrupos();
+            ListaCompraGrupos = await GetListaCompraGrupos();
         }
     }
 }
