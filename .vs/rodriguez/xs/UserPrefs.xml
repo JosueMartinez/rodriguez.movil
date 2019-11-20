@@ -1,25 +1,14 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{939E804E-5751-4A5A-9177-FC80E137D318}|Default">
-  <MonoDevelop.Ide.ItemProperties.rodriguez.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.22375E47-CEDC-48B4-874C-891E358D85F7" />
   <MonoDevelop.Ide.ItemProperties.rodriguez.UITests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="rodriguez/UI/Bono/BonosView.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
-      <File FileName="rodriguez/UI/Bono/AddBono.xaml" Line="54" Column="54" />
-      <File FileName="rodriguez/UI/Bono/AddBono.xaml.cs" Line="93" Column="1" />
-      <File FileName="rodriguez/Data/BonoManager.cs" Line="66" Column="1" />
-      <File FileName="rodriguez/Classes/Constants.cs" Line="8" Column="59" />
-      <File FileName="rodriguez/Data/Bono.cs" Line="43" Column="30" />
-      <File FileName="rodriguez/UI/Usuario/Login.xaml.cs" Line="52" Column="1" />
-      <File FileName="rodriguez/Data/cliente.cs" Line="6" Column="28" />
-      <File FileName="rodriguez/Data/listaCompraManager.cs" Line="45" Column="54" />
-      <File FileName="rodriguez/UI/Bono/BonosView.xaml" Line="35" Column="53" />
-      <File FileName="rodriguez/UI/Bono/BonosView.xaml.cs" Line="39" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="rodriguez/App.xaml.cs" Line="111" Column="1" />
-      <File FileName="rodriguez/UI/Bono/BonosView.xaml" />
-      <File FileName="rodriguez/UI/Bono/BonosView.xaml.cs" Line="26" Column="35" />
-      <File FileName="rodriguez/UI/Compras/ComprasView.xaml.cs" Line="79" Column="43" NotebookId="1" />
-      <File FileName="rodriguez/UI/Compras/ComprasView.xaml" NotebookId="1" />
-      <File FileName="rodriguez/UI/Compras/AddLista.xaml.cs" NotebookId="1" />
+      <File FileName="rodriguez/UI/Compras/ComprasView.xaml.cs" Line="83" Column="1" />
+      <File FileName="rodriguez/Classes/ComprasViewModel.cs" Line="11" Column="9" />
+      <File FileName="rodriguez/UI/Compras/ComprasView.xaml" />
+      <File FileName="rodriguez/UI/Usuario/Login.xaml.cs" Line="16" Column="28" />
+      <File FileName="rodriguez/App.xaml.cs" Line="62" Column="1" />
+      <File FileName="rodriguez/App.xaml" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="60" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,25 +18,21 @@
               <Node name="Classes" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="UI" expanded="True">
-                <Node name="Bono" expanded="True">
-                  <Node name="AddBono.xaml" expanded="True" />
-                  <Node name="BonosView.xaml" expanded="True">
-                    <Node name="BonosView.xaml.cs" selected="True" />
-                  </Node>
-                </Node>
-                <Node name="Compras" expanded="True">
-                  <Node name="AddLista.xaml" expanded="True" />
-                  <Node name="ComprasView.xaml" expanded="True" />
-                </Node>
                 <Node name="Usuario" expanded="True">
                   <Node name="Login.xaml" expanded="True" />
-                  <Node name="Register.xaml" expanded="True" />
                 </Node>
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="rodriguez.iOS" expanded="True" />
+            <Node name="rodriguez.Droid" expanded="True">
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="rodriguez" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -56,11 +41,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/UI/Usuario/Register.xaml.cs" relfile="rodriguez/UI/Usuario/Register.xaml.cs" line="36" column="1" />
-      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/Data/BonoManager.cs" relfile="rodriguez/Data/BonoManager.cs" line="94" column="1" />
-      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/UI/Bono/BonosView.xaml.cs" relfile="rodriguez/UI/Bono/BonosView.xaml.cs" line="80" column="1" />
+      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/UI/Usuario/Login.xaml.cs" relfile="rodriguez/UI/Usuario/Login.xaml.cs" line="26" column="1" />
+      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/UI/Usuario/Login.xaml.cs" relfile="rodriguez/UI/Usuario/Login.xaml.cs" line="51" column="1" />
+      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/App.xaml.cs" relfile="rodriguez/App.xaml.cs" line="66" column="1" />
+      <Breakpoint file="/Users/user/Documents/rodriguez.movil/rodriguez/App.xaml.cs" relfile="rodriguez/App.xaml.cs" line="18" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.rodriguez.Droid AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.rodriguez.Droid AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.192.168.56.103:5555" />
 </Properties>
