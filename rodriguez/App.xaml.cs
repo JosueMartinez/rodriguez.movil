@@ -18,37 +18,6 @@ namespace rodriguez
             Current = this;
 
             InitializeComponent();
-            //tabbedPage = new IconTabbedPage
-            //{
-            //    Title = "Supermercado Rodriguez",
-            //    BarTextColor = Color.White,
-            //    BarBackgroundColor = Color.Red
-            //};
-
-
-            //tabbedPage.Children.Add(new BonosView
-            //{
-            //    Title = "Bonos",
-            //    Icon = "fa-money"
-            //});
-
-            //tabbedPage.Children.Add(new ComprasView
-            //{
-            //    Title = "Compras",
-            //    Icon = "fa-shopping-cart"
-            //});
-
-            //tabbedPage.Children.Add(new ConfigView
-            //{
-            //    Title = "Configuración",
-            //    Icon = "fa-cogs"
-            //});
-
-            //tabbedPage.Children.Add((new Login
-            //{
-            //    Title = "Login",
-            //    Icon = "fa-shopping-cart"
-            //}));
 
             var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
             var cliente = Properties.ContainsKey("cliente") ? Properties["cliente"] : null;

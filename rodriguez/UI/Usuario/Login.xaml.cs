@@ -46,37 +46,45 @@ namespace rodriguez.UI
 
             if (string.IsNullOrEmpty(authorizationKey))
             {
-                var response = await client.PostAsync(Constants.baseUrl + "token", content);
-                if (response.IsSuccessStatusCode)
+                try
                 {
-                    var result = response.Content.ReadAsStringAsync().Result;
-                    var clienteResponse = client.GetAsync(Constants.baseUrl + "clienteU/" + usuario).Result;
-                    var clienteContent = clienteResponse.Content.ReadAsStringAsync().Result;
-                    var cliente = JsonConvert.DeserializeObject<cliente>(clienteContent);
+                    var response = await client.PostAsync(Constants.baseUrl + "token", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var result = response.Content.ReadAsStringAsync().Result;
+                        var clienteResponse = client.GetAsync(Constants.baseUrl + "clienteU/" + usuario).Result;
+                        var clienteContent = clienteResponse.Content.ReadAsStringAsync().Result;
+                        var cliente = JsonConvert.DeserializeObject<cliente>(clienteContent);
 
-                    if (cliente == null)
-                    {  //no es un cliente
-                        await DisplayAlert("Error", "Este cliente no existe", "Ok");
-                        txtUsuario.Text = ""; txtContrasena.Text = "";   //limpiando campos
-                        await isRunning(false);
-                        return;
+                        if (cliente == null)
+                        {  //no es un cliente
+                            await DisplayAlert("Error", "Este cliente no existe", "Ok");
+                            txtUsuario.Text = ""; txtContrasena.Text = "";   //limpiando campos
+                            await isRunning(false);
+                            return;
+                        }
+
+                        // Deserialize the JSON into a Dictionary<string, string>
+                        Dictionary<string, string> tokenDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
+                        authorizationKey = tokenDictionary["access_token"];
+                        Application.Current.Properties["IsLoggedIn"] = true;
+                        Application.Current.Properties["token"] = authorizationKey;
+                        Application.Current.Properties["usuario"] = usuario;
+                        Application.Current.Properties["cliente"] = cliente;
+                        App.Current.ShowMainPage();
+
                     }
-
-                    // Deserialize the JSON into a Dictionary<string, string>
-                    Dictionary<string, string> tokenDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
-                    authorizationKey = tokenDictionary["access_token"];
-                    Application.Current.Properties["IsLoggedIn"] = true;
-                    Application.Current.Properties["token"] = authorizationKey;
-                    Application.Current.Properties["usuario"] = usuario;
-                    Application.Current.Properties["cliente"] = cliente;
-                    App.Current.ShowMainPage();
-
+                    else
+                    {
+                        await DisplayAlert("Error", "Usuario y/o contraseña incorrecta", "Ok");
+                        Debug.WriteLine(response.StatusCode);
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    await DisplayAlert("Error", "Usuario y/o contraseña incorrecta", "Ok");
-                    Debug.WriteLine(response.StatusCode);
+                    await DisplayAlert("Error", "Ha ocurrido un error.  Por favor intente más tarde", "Ok");
                 }
+                
 
             }
 

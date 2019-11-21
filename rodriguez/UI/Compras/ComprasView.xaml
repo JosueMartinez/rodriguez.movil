@@ -1,42 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns ="http://xamarin.com/schemas/2014/forms" 
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-	xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
-	x:Class="rodriguez.ComprasView"
-	Title="Compras">
-	
-	<ContentPage.Padding>
-	    <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
-    </ContentPage.Padding>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rodriguez.ComprasView"
+             xmlns:local="clr-namespace:rodriguez.Classes"
+             Title="{Binding Title}">
 
-	<ContentPage.Content>
-		<StackLayout>
-			<Label x:Name="ListasListMessage" IsVisible="false" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="No exixten listas para mostrar"/>
-			<ListView x:Name="ListasList" ItemsSource="{Binding}" ItemTapped="ViewDetails">
-			    <ListView.ItemTemplate>
-			      <DataTemplate>
-						<ViewCell>
-							<Grid>
-								<Grid.Padding>
-									<OnPlatform x:TypeArguments="Thickness" iOS="10,5" Android="10,5"/>
-								</Grid.Padding>
-								<Grid.RowDefinitions>
-									<RowDefinition Height="*"/>
-									<RowDefinition Height="*"/>
-								</Grid.RowDefinitions>
-								<Grid.ColumnDefinitions>
-									<ColumnDefinition Width="Auto"/>
-									<ColumnDefinition Width="*"/>
-								</Grid.ColumnDefinitions>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ChangeCompradoText x:Key="ChangeCompradoText"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-								<Label x:Name="nombre" Text="{Binding nombre}" Style="{DynamicResource TitleListBono}" Grid.Row="0" LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
-								<Label x:Name="fechaCreacion" Text="{Binding FechaCreacion}" FontSize="Small" FontAttributes="Bold" Grid.Row="1" Grid.Column="0"  HorizontalOptions="StartAndExpand"/>
-								<Label x:Name="productos" Text="{Binding CantProductos}" FontSize="Small" Grid.Row="1" Grid.Column="1"  HorizontalOptions="EndAndExpand" TextColor="Green"/>
-							</Grid>
-						</ViewCell>
-			      </DataTemplate>
-			    </ListView.ItemTemplate>
-			  </ListView>
-		</StackLayout>
-	</ContentPage.Content>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ListView ItemsSource="{Binding ListaCompraGrupos}" IsGroupingEnabled="True" GroupDisplayBinding="{Binding Key}" x:Name="ComprasDisplayList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Nombre}">
+                            <TextCell.ContextActions>
+                                <MenuItem Command="{Binding Source={x:Reference ComprasDisplayList}, Path=BindingContext.CambioComprado }" CommandParameter="{Binding .}"
+                                          Text="{Binding Comprado, Converter={StaticResource ChangeCompradoText}}" />
+                                <MenuItem Command="{Binding Source={x:Reference ComprasDisplayList}, Path=BindingContext.Delete }"   CommandParameter="{Binding .}" Text="Eliminar" IsDestructive="True"/>
+                            </TextCell.ContextActions>
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>        
+    </ContentPage.Content>
+    
 </ContentPage>
+
+
