@@ -52,12 +52,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ComprasView.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Compras\AddLista.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\Compras\ListaDetail.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\Usuario\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -82,7 +76,6 @@
     <Compile Include="Data\cliente.cs" />
     <Compile Include="Data\estadobono.cs" />
     <Compile Include="Data\historialbono.cs" />
-    <Compile Include="Data\listacompra.cs" />
     <Compile Include="UI\ConfigView.xaml.cs">
       <DependentUpon>ConfigView.xaml</DependentUpon>
     </Compile>
@@ -103,19 +96,9 @@
     <Compile Include="Data\tasa.cs" />
     <Compile Include="Data\TasaManager.cs" />
     <Compile Include="Data\listaCompraManager.cs" />
-    <Compile Include="Data\listacompraproducto.cs" />
-    <Compile Include="Data\producto.cs" />
-    <Compile Include="Data\categoria.cs" />
     <Compile Include="UI\Compras\ComprasView.xaml.cs">
       <DependentUpon>ComprasView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\Compras\AddLista.xaml.cs">
-      <DependentUpon>AddLista.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UI\Compras\ListaDetail.xaml.cs">
-      <DependentUpon>ListaDetail.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Classes\AccordionView.cs" />
     <Compile Include="Data\PayPal\PayPalClient.cs" />
     <Compile Include="Data\PayPal\PayPalGetTokenResponse.cs" />
     <Compile Include="Data\PayPal\PayPalPayment.cs" />
