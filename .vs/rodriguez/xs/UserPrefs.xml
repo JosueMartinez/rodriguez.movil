@@ -1,25 +1,33 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{939E804E-5751-4A5A-9177-FC80E137D318}|Default">
   <MonoDevelop.Ide.ItemProperties.rodriguez.UITests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FileHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rodriguez/Data/ComprasViewModel.cs">
     <Files>
-      <File FileName="rodriguez/Data/ComprasViewModel.cs" Line="28" Column="51" />
-      <File FileName="rodriguez/UI/Compras/ComprasView.xaml.cs" Line="13" Column="6" />
-      <File FileName="rodriguez/UI/Compras/ComprasView.xaml" Line="21" Column="54" />
-      <File FileName="rodriguez/Classes/ChangeCompradoText.cs" Line="12" Column="30" />
-      <File FileName="rodriguez/Data/listaCompraManager.cs" Line="13" Column="1" />
-      <File FileName="rodriguez/Data/ProductoCompra.cs" Line="10" Column="43" />
-      <File FileName="rodriguez/Data/IFileHelper.cs" Line="6" Column="50" />
-      <File FileName="Droid/FileHelper.cs" Line="11" Column="10" />
-      <File FileName="iOS/FileHelper.cs" Line="1" Column="1" />
+      <File FileName="rodriguez/UI/Compras/AgregarProducto.xaml.cs" Line="17" Column="1" IsPinned="True" />
+      <File FileName="rodriguez/Data/ComprasViewModel.cs" Line="34" Column="62" />
+      <File FileName="rodriguez/UI/Compras/ComprasView.xaml.cs" Line="40" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="rodriguez" expanded="True">
-            <Node name="rodriguez.Droid" expanded="True" />
-            <Node name="rodriguez.iOS" expanded="True">
-              <Node name="FileHelper.cs" selected="True" />
+            <Node name="rodriguez" expanded="True">
+              <Node name="Classes" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="ComprasViewModel.cs" selected="True" />
+              </Node>
+              <Node name="UI" expanded="True">
+                <Node name="Compras" expanded="True">
+                  <Node name="AgregarProducto.xaml" expanded="True" />
+                  <Node name="ComprasView.xaml" expanded="True" />
+                </Node>
+                <Node name="Usuario" expanded="True">
+                  <Node name="Login.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
+            <Node name="rodriguez.Droid" expanded="True" />
+            <Node name="rodriguez.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

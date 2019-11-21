@@ -48,7 +48,7 @@ namespace rodriguez
 
         public Task AgregarProducto(ProductoCompra item)
         {
-            throw new NotImplementedException();
+            return _db.InsertAsync(item);
         }
     }
 }

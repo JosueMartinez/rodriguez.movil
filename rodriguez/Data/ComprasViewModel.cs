@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using rodriguez.Classes;
+using rodriguez.UI.Compras;
 using Xamarin.Forms;
 
 namespace rodriguez.Data
@@ -11,8 +12,11 @@ namespace rodriguez.Data
     public class ComprasViewModel : BaseFodyObservable
     {
         public static listaCompraManager manager = new listaCompraManager();
-        public ComprasViewModel()
+        private INavigation _navigation;
+
+        public ComprasViewModel(INavigation navigation)
         {
+            _navigation = navigation;
             //ListaCompraGrupos = GetListaCompraGrupos();
             GetListaCompraGrupos().ContinueWith(t =>
             {
@@ -20,9 +24,16 @@ namespace rodriguez.Data
             });
             Delete = new Command<ProductoCompra>(HandleDelete);
             CambioComprado = new Command<ProductoCompra>(HandleCambioComprado);
+            AgregarProducto = new Command(HandleAgregarProducto);
         }        
 
         public ILookup<string, ProductoCompra> ListaCompraGrupos { get; set; }
+
+        public async Task RefrescarLista()
+        {
+            ListaCompraGrupos = await GetListaCompraGrupos();
+        }
+
         public string Title => "Lista de Compras";
                 
         private async Task<ILookup<string, ProductoCompra>> GetListaCompraGrupos()
@@ -44,6 +55,12 @@ namespace rodriguez.Data
             await manager.ChangeProductoComprado(item);
             //update displayed list
             ListaCompraGrupos = await GetListaCompraGrupos();
+        }
+
+        public Command AgregarProducto { get; set; }
+        public async void HandleAgregarProducto()
+        {
+            await _navigation.PushModalAsync(new AgregarProducto());
         }
     }
 }

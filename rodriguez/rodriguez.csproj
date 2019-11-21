@@ -67,6 +67,10 @@
     <EmbeddedResource Include="UI\Usuario\PasswordRecover.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Compras\AgregarProducto.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -131,6 +135,10 @@
     <Compile Include="Data\ComprasViewModel.cs" />
     <Compile Include="Classes\ChangeCompradoText.cs" />
     <Compile Include="Data\IFileHelper.cs" />
+    <Compile Include="UI\Compras\AgregarProducto.xaml.cs">
+      <DependentUpon>AgregarProducto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AgregarProductoViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net.Http.Extensions">

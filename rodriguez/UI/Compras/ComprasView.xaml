@@ -12,19 +12,21 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding ListaCompraGrupos}" IsGroupingEnabled="True" GroupDisplayBinding="{Binding Key}" x:Name="ComprasDisplayList">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Nombre}">
-                        <TextCell.ContextActions>
-                            <MenuItem Command="{Binding Source={x:Reference ComprasDisplayList}, Path=BindingContext.CambioComprado }" CommandParameter="{Binding .}"
-                                      Text="{Binding Comprado, Converter={StaticResource ChangeCompradoText}}" />
-                            <MenuItem Command="{Binding Source={x:Reference ComprasDisplayList}, Path=BindingContext.Delete }"   CommandParameter="{Binding .}" Text="Eliminar" IsDestructive="True"/>
-                        </TextCell.ContextActions>
-                    </TextCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackLayout Orientation="Vertical">
+            <ListView ItemsSource="{Binding ListaCompraGrupos}" IsGroupingEnabled="True" GroupDisplayBinding="{Binding Key}" x:Name="ComprasDisplayList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Nombre}">
+                            <TextCell.ContextActions>
+                                <MenuItem Command="{Binding Source={x:Reference ComprasDisplayList}, Path=BindingContext.CambioComprado }" CommandParameter="{Binding .}"
+                                          Text="{Binding Comprado, Converter={StaticResource ChangeCompradoText}}" />
+                                <MenuItem Command="{Binding Source={x:Reference ComprasDisplayList}, Path=BindingContext.Delete }"   CommandParameter="{Binding .}" Text="Eliminar" IsDestructive="True"/>
+                            </TextCell.ContextActions>
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>        
     </ContentPage.Content>
     
 </ContentPage>
