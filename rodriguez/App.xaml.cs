@@ -19,7 +19,7 @@ namespace rodriguez
 
             InitializeComponent();
 
-            var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
+            var isLoggedIn = Properties.ContainsKey("IsLoggedIn") && (bool)Properties["IsLoggedIn"];
             var cliente = Properties.ContainsKey("cliente") ? Properties["cliente"] : null;
 
             // we remember if they're logged in, and only display the login page if they're not

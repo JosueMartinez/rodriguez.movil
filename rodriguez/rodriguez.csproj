@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.props')" />
   <Import Project="..\packages\PropertyChanged.Fody.3.1.3\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.1.3\build\PropertyChanged.Fody.props')" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
@@ -12,6 +13,8 @@
     <AssemblyName>rodriguez</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,27 +33,28 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
-      <LogicalName>App.xaml</LogicalName>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <!--<LogicalName>App.xaml</LogicalName>-->
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ConfigView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>ConfigView.xaml</LogicalName>
+      <!--<LogicalName>ConfigView.xaml</LogicalName>-->
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Bono\BonosView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>BonosView.xaml</LogicalName>
+      <!--<LogicalName>BonosView.xaml</LogicalName>-->
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Bono\BonoDetail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>BonoDetail.xaml</LogicalName>
+      <!--<LogicalName>BonoDetail.xaml</LogicalName>-->
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Bono\AddBono.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>AddBono.xaml</LogicalName>
+      <!--<LogicalName>AddBono.xaml</LogicalName>-->
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Compras\ComprasView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>ComprasView.xaml</LogicalName>
+      <!--<LogicalName>ComprasView.xaml</LogicalName>-->
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Usuario\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -139,6 +143,15 @@
     <Reference Include="FormsPlugin.Iconize">
       <HintPath>..\packages\Xam.FormsPlugin.Iconize.1.0.10\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\FormsPlugin.Iconize.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.4.6.0.967\lib\netstandard1.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.4.6.0.967\lib\netstandard1.0\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.4.6.0.967\lib\netstandard1.0\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
     <Reference Include="XLabs.Core">
       <HintPath>..\packages\XLabs.Core.2.0.5782\lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1\XLabs.Core.dll</HintPath>
     </Reference>
@@ -172,15 +185,6 @@
     <Reference Include="Xamarin.Forms.OAuth">
       <HintPath>..\packages\Xamarin.Forms.OAuth.1.2.1\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\Xamarin.Forms.OAuth.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\packages\Xamarin.Forms.2.3.4.267\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform">
-      <HintPath>..\packages\Xamarin.Forms.2.3.4.267\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\packages\Xamarin.Forms.2.3.4.267\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
       <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
     </Reference>
@@ -201,21 +205,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="UI\" />
-    <Folder Include="Classes\" />
-    <Folder Include="UI\Bono\" />
-    <Folder Include="UI\Compras\" />
-    <Folder Include="Data\PayPal\" />
-    <Folder Include="UI\Usuario\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.targets')" />
-  <Import Project="..\packages\Xamarin.Forms.2.3.4.267\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.267\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
   <Import Project="..\packages\Fody.6.0.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.0.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.4.6.0.967\build\Xamarin.Forms.targets')" />
 </Project>
