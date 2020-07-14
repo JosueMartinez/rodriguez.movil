@@ -18,16 +18,11 @@ namespace rodriguez.UI.Usuario
         public Register()
         {
             InitializeComponent();
+        }
 
-            GoToLogin.GestureRecognizers.Add(
-                new TapGestureRecognizer()
-                {
-                    Command = new Command(() =>
-                    {
-                        Navigation.PopModalAsync();
-                    })
-                }
-            );
+        async void GoToLogin_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
 
         async void crearCuenta(object sender, System.EventArgs e)

@@ -99,25 +99,25 @@ namespace rodriguez.UI
 
             InitializeComponent();
 
-            newAccountLabel.GestureRecognizers.Add(
-                new TapGestureRecognizer()
-                {
-                    Command = new Command(() =>
-                    {
-                        Navigation.PushModalAsync(new Register());
-                    })
-                }
-            );
+            //newAccountLabel.GestureRecognizers.Add(
+            //    new TapGestureRecognizer()
+            //    {
+            //        Command = new Command(() =>
+            //        {
+            //            Navigation.PushModalAsync(new Register());
+            //        })
+            //    }
+            //);
 
-            forgottenLabel.GestureRecognizers.Add(
-                new TapGestureRecognizer()
-                {
-                    Command = new Command(() =>
-                    {
-                        Navigation.PushModalAsync(new PasswordRecover());
-                    })
-                }
-            );
+            //forgottenLabel.GestureRecognizers.Add(
+            //    new TapGestureRecognizer()
+            //    {
+            //        Command = new Command(() =>
+            //        {
+            //            Navigation.PushModalAsync(new PasswordRecover());
+            //        })
+            //    }
+            //);
         }
 
 
@@ -129,6 +129,14 @@ namespace rodriguez.UI
             return Task.FromResult<object>(null);
         }
 
+        private async void forgottenLabel_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new PasswordRecover());
+        }
 
+        private async void newAccountLabel_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Register());
+        }
     }
 }
